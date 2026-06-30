@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ButtonCreate" xml:space="preserve">
+    <value>_Create</value>
+    <comment>The text in a button to create a user, i.e. "Create".</comment>
+  </data>
+  <data name="HeadingCreateUserFirstTimeSetup" xml:space="preserve">
+    <value>Setup a local profile</value>
+    <comment>A heading in the create user window, i.e. "First Time Setup".</comment>
+  </data>
+  <data name="ToolTipEmail" xml:space="preserve">
+    <value>Not used for sending emails. It's an identifier for your local profile in the software and for sharing with others.</value>
+    <comment>A tool tip text explaining that entering an email is only a convient format to name or tag a user, it's not used to send emails.</comment>
+  </data>
+  <data name="WatermarkEmail" xml:space="preserve">
+    <value>Email</value>
+    <comment>The text used as watermark (slightly transparent grey) in a email entry text box, i.e. "Email".</comment>
+  </data>
+  <data name="PlaceholderLoading" xml:space="preserve">
+    <value>Loading...</value>
+    <comment>A text shown as a placeholder when loading things takes time in a window, i.e. "Loading...".</comment>
+  </data>
+  <data name="ToolTipMasterPassword" xml:space="preserve">
+    <value>Your master password. Make it strong, write it down and keep it safe.</value>
+    <comment>A tool tip text explaining briefly about the master password, that it should be strong and kept safe.</comment>
+  </data>
+  <data name="MenuAbout" xml:space="preserve">
+    <value>_About</value>
+    <comment>The text in the menu to open a window with about information, i.e. "About". (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="MenuDecrypt" xml:space="preserve">
+    <value>_Decrypt...</value>
+    <comment>The text in the menu to open a dialog to select files to decrypt, i.e. "Decrypt...". (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="MenuEncrypt" xml:space="preserve">
+    <value>_Encrypt...</value>
+    <comment>The text in the menu to open a dialog to select files to encrypt, i.e. "Encrypt...". (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="MenuExit" xml:space="preserve">
+    <value>E_xit</value>
+    <comment>The text in the menu to exit the program, i.e. "Exit". (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="MenuFile" xml:space="preserve">
+    <value>_File</value>
+    <comment>The text in the menu to open the file submenu, i.e. "File". (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="MenuHelp" xml:space="preserve">
+    <value>_Help</value>
+    <comment>The text in the menu open the help submenu, i.e. "Help". (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="MenuOpen" xml:space="preserve">
+    <value>_Open...</value>
+    <comment>The text in the menu to open a dialog to select a file to open, i.e. "Open...". (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="WatermarkPassword" xml:space="preserve">
+    <value>Password</value>
+    <comment>The text used as watermark (slightly transparent grey) in a password entry text box, i.e. "Master Password".</comment>
+  </data>
+  <data name="WatermarkConfirmPassword" xml:space="preserve">
+    <value>Confirm password</value>
+    <comment>The text used as watermark (slightly transparent grey) in a password confirmation entry text box, i.e. "Confirm Password".</comment>
+  </data>
+  <data name="ZzTitleAboutFormat" xml:space="preserve">
+    <value>About {0}</value>
+    <comment>Window title for About dialog. {0} is the full program version name, i.e. "Xecrets Ez 2.1.1337.0".</comment>
+  </data>
+  <data name="ZzLabelCliToolApiVersionFormat" xml:space="preserve">
+    <value>{0} API version:</value>
+    <comment>CLI API version label in about box, {0} is the tools display name, followed by the version, i.e. "Command Line Tools API Version:" 1.2</comment>
+  </data>
+  <data name="ZzLabelCliToolInformationFormat" xml:space="preserve">
+    <value>{0} information:</value>
+    <comment>CLI information label in about box, {0} is the tools display name, followed by some information, i.e. "Command Line Tools Information:" ...Splash from CLI.</comment>
+  </data>
+  <data name="ZzLabelCliToolPathFormat" xml:space="preserve">
+    <value>{0} path:</value>
+    <comment>CLI path label in about box, {0} is the tools display name, followed by a path, i.e. "Command Line Tools Path:" ...</comment>
+  </data>
+  <data name="ZzLabelSdkApiVersionFormat" xml:space="preserve">
+    <value>{0} version:</value>
+    <comment>The SDK API Version label in about box, {0} is the SDK API display name, i.e. "SDK API Version:" 1.3.</comment>
+  </data>
+  <data name="ZzHeadingSignInFormat" xml:space="preserve">
+    <value>Sign in to {0}</value>
+    <comment>A heading in the sign in window, {0} is the program name, i.e. "Xecrets Ez".</comment>
+  </data>
+  <data name="ZzTitleProgramVersionNameFormat" xml:space="preserve">
+    <value>{1} {0} {2}</value>
+    <comment>Program version window title format string, {0} is the actual version, i.e. "2.1.1337.0", {1} is the program name, i.e. "Xecrets Ez", {2} is the email of the signed in user, or empty.</comment>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>_Cancel</value>
+    <comment>The text in a button that causes an action to be canceled, i.e. "Cancel".</comment>
+  </data>
+  <data name="ButtonOk" xml:space="preserve">
+    <value>_Ok</value>
+    <comment>The text in a button that says 'OK', i.e. "Ok".</comment>
+  </data>
+  <data name="DialogTextAllFiles" xml:space="preserve">
+    <value>All files</value>
+    <comment>A text used in a file selection dialog for the file pattern '*'.</comment>
+  </data>
+  <data name="DialogTextDowngradedVersionWarning" xml:space="preserve">
+    <value>You seem to have downgraded to an older version. This can happen if multiple versions are installed. Do you really want to continue with this version?</value>
+    <comment>Warning shown at startup when this executable version appears older than the most recently used version, asking whether to continue.</comment>
+  </data>
+  <data name="DialogTextEncryptedFiles" xml:space="preserve">
+    <value>Encrypted files</value>
+    <comment>A text used in a file selection dialog for the file pattern '*.axx'.</comment>
+  </data>
+  <data name="DialogValidationConfirmPassword" xml:space="preserve">
+    <value>Please confirm the password again</value>
+    <comment>An error text displayed when no password confirmation was entered.</comment>
+  </data>
+  <data name="DialogValidationInvalidEmail" xml:space="preserve">
+    <value>Please enter a valid email address</value>
+    <comment>An error text displayed when validation of email format fails.</comment>
+  </data>
+  <data name="DialogValidationPasswordRequired" xml:space="preserve">
+    <value>Please enter a password</value>
+    <comment>An error text displayed when no password is entered although required.</comment>
+  </data>
+  <data name="DialogTitleSelectFilesToDecrypt" xml:space="preserve">
+    <value>Select files to decrypt</value>
+    <comment>The title of a file selection dialog for selecting files to decrypt, i.e. 'Select files to decrypt'.</comment>
+  </data>
+  <data name="DialogTitleSelectFilesToEncrypt" xml:space="preserve">
+    <value>Select files to encrypt</value>
+    <comment>The title of a file selection dialog for selecting files to encrypt, i.e. 'Select files to encrypt'.</comment>
+  </data>
+  <data name="DialogTitleSelectFileToOpen" xml:space="preserve">
+    <value>Select file to open</value>
+    <comment>The title of a file selection dialog for selecting a file to open, i.e. 'Select files to open'.</comment>
+  </data>
+  <data name="MenuClose" xml:space="preserve">
+    <value>_Close all...</value>
+    <comment>The text in the menu to close all possible currently opened files. (_ indicates the letter for a keyboard accelerator)</comment>
+  </data>
+  <data name="DialogValidationWrongPassword" xml:space="preserve">
+    <value>Wrong password!</value>
+    <comment>An error message displayed in a dialog when the users enters the wrong password.</comment>
+  </data>
+  <data name="DialogTextDropOrPasteTitle" xml:space="preserve">
+    <value>Drop or paste files here...</value>
+    <comment>Text for the middle of the window, where files can be dropped or pasted. Not all OS's support drag and drop.</comment>
+  </data>
+  <data name="DialogTextDropOrPasteToolTip" xml:space="preserve">
+    <value>Drop or paste files here to encrypt or decrypt them. Use keyboard {0} button to decrypt a single file, otherwise it opens.</value>
+    <comment>The tooltip for the paste and drag and drop area, giving a little bit more information. Not all OS's support drag and drop.</comment>
+  </data>
+  <data name="MenuEdit" xml:space="preserve">
+    <value>_Edit</value>
+    <comment>The text in a menu for the Edit operation, i.e. "Edit"</comment>
+  </data>
+  <data name="MenuPaste" xml:space="preserve">
+    <value>_Paste</value>
+    <comment>The text in a menu or context menu for the Paste operation, i.e. Paste.</comment>
+  </data>
+  <data name="MenuShow" xml:space="preserve">
+    <value>_Show</value>
+    <comment>Text for a menu entry to show the program from a minimized state.</comment>
+  </data>
+  <data name="ZzCommandBarContentFilesOpenFormat" xml:space="preserve">
+    <value>No open files|One open file...|{0} Open files...</value>
+    <comment>Status text for number of files currently open, {0} is the number of files. Singular version|Plural version</comment>
+  </data>
+  <data name="ButtonNo" xml:space="preserve">
+    <value>_No</value>
+    <comment>The text in a button that causes a 'No'-response, i.e. "No".</comment>
+  </data>
+  <data name="ButtonYes" xml:space="preserve">
+    <value>_Yes</value>
+    <comment>The text in a button that causes a 'Yes'-response, i.e. "Yes".</comment>
+  </data>
+  <data name="LicensedBlurb" xml:space="preserve">
+    <value>License for {licensee} valid to {expiration}, thank you!</value>
+    <comment>A text fragment appearing in the about window, informing that there is a currently valid license.</comment>
+  </data>
+  <data name="LicensedExpiredBlurb" xml:space="preserve">
+    <value>License for {licensee} expired at {expiration}.\nFree version, some features unavailable.\nSee https://www.axantum.com/ .</value>
+    <comment>A text fragment appearing in the about window, informing that there is a previously valid license, now expired.</comment>
+  </data>
+  <data name="LicenseNotValidForProductBlurb" xml:space="preserve">
+    <value>License '{product}' for {licensee} is not valid for this software. Free version, some features unavailable.\nSee https://www.axantum.com/ .</value>
+    <comment>A text fragment appearing in the about window, informing that the license is not valid for Ez.</comment>
+  </data>
+  <data name="UnlicensedBlurb" xml:space="preserve">
+    <value>Free version, some features are unavailable.
+
+Please buy a license. See https://www.axantum.com/ .</value>
+    <comment>A text fragment appearing in the about window, informing that there is no license.</comment>
+  </data>
+  <data name="BannerUnlicensedWarning" xml:space="preserve">
+    <value>Free version!</value>
+    <comment>The warning text displayed in the main window when the program does not have a valid license.</comment>
+  </data>
+  <data name="DialogTextTooLargeForLicense" xml:space="preserve">
+    <value>File(s) were not encrypted. Encryption limit is 1 MB. See About.</value>
+    <comment>Informing that one or more files could not be encrypted due to licensing restrictions. A list of files may be appended.</comment>
+  </data>
+  <data name="ToolTipDecreaseScaleFactor" xml:space="preserve">
+    <value>Make text and window smaller.</value>
+    <comment>A tool tip text explaining the function of the scale factor decrease button.</comment>
+  </data>
+  <data name="ToolTipIncreaseScaleFactor" xml:space="preserve">
+    <value>Make text and window bigger.</value>
+    <comment>A tool tip text explaining the function of the scale factor increase button.</comment>
+  </data>
+  <data name="InvalidLicenseIgnored" xml:space="preserve">
+    <value>License is invalid or expired.</value>
+    <comment>A text used to issue a warning to the user that an attempt was made to add an invalid or expired license.</comment>
+  </data>
+  <data name="DialogTextUnknownPassword" xml:space="preserve">
+    <value>File(s) could not be decrypted. Try adding an alternative password.</value>
+    <comment>The text shown when a decryption fails because of unknown password.</comment>
+  </data>
+  <data name="MenuAddPassword" xml:space="preserve">
+    <value>_Add decryption password...</value>
+    <comment>The menu item under to add an extra alternate password.</comment>
+  </data>
+  <data name="DialogTextAddPassword" xml:space="preserve">
+    <value>Add a decryption password</value>
+    <comment>The text displayed as heading in the dialog to enter an extra alternate password.</comment>
+  </data>
+  <data name="DialogTextOpenFailed" xml:space="preserve">
+    <value>Decrypt and open failed</value>
+    <comment>Text displayed when for some unknown and unspecified reason a file was not properly decrypted and opened.</comment>
+  </data>
+  <data name="DialogLabelCurrentDirectory" xml:space="preserve">
+    <value>Current directory:</value>
+    <comment>The About Window label for the info about the current directory.</comment>
+  </data>
+  <data name="DialogLabelStartCommand" xml:space="preserve">
+    <value>Start command:</value>
+    <comment>The About Window label for the info about the full start command.</comment>
+  </data>
+  <data name="DialogTitleSelectDestinationFolder" xml:space="preserve">
+    <value>Select destination folder</value>
+    <comment>The dialog title when selecting a destination folder.</comment>
+  </data>
+  <data name="MenuEncryptCopyFor" xml:space="preserve">
+    <value>Encrypt _copy to share...</value>
+    <comment>The text in the menu to select files to encrypt a copy of  a file to another recipient in a different destination folder, i.e. "Encrypt Copy...".</comment>
+  </data>
+  <data name="OpenFilesRemainMessage" xml:space="preserve">
+    <value>File(s) couldn't be closed and remain open!</value>
+    <comment>A warning/info message stating that an attempt to close all files did not succeed completely and at least one file remain open.</comment>
+  </data>
+  <data name="DialogTextOrphanedDocumentsFiles" xml:space="preserve">
+    <value>Unrecognized temporary files remain.</value>
+    <comment>A warning message at program exit. A new line separated list of these filesmay be appended.</comment>
+  </data>
+  <data name="DialogTitleSelectFilesToWipe" xml:space="preserve">
+    <value>Select files to wipe</value>
+    <comment>The title of a file selection dialog for selecting files to wipe, i.e. 'Select files to wipe'.</comment>
+  </data>
+  <data name="MenuWipe" xml:space="preserve">
+    <value>_Delete securely...</value>
+    <comment>The menu text to open a dialog asking for files to wipe.</comment>
+  </data>
+  <data name="MessageTextConfirmWipe" xml:space="preserve">
+    <value>This operation cannot be undone.</value>
+    <comment>A text asking a yes/no response confirmation for a dangerous irreversible operation, i.e. File Wipe.</comment>
+  </data>
+  <data name="DialogTextPasteOnlyTitle" xml:space="preserve">
+    <value>Paste files here...</value>
+    <comment>Text for the middle of the window, where files can be (only) pasted, as some OS's don't support drag and drop.</comment>
+  </data>
+  <data name="DialogTextPasteOnlyToolTip" xml:space="preserve">
+    <value>Paste files here to encrypt or decrypt them. Use keyboard {0} to decrypt a single file, otherwise it opens.</value>
+    <comment>The tooltip for the paste (only) area, giving a little bit more information. Not all OS's support drag and drop.</comment>
+  </data>
+  <data name="DialogValidationAlreadySignedIn" xml:space="preserve">
+    <value>You are already signed in. Look for the app behind another window, on another screen, among minimized apps or in the system tray and show the window from there.</value>
+    <comment>An error text displayed when an attempt is made to sign in twice with the same profile email.</comment>
+  </data>
+  <data name="HeadingCreateNewUser" xml:space="preserve">
+    <value>Create new profile</value>
+    <comment>A heading in the create new user window, i.e. "Create New User".</comment>
+  </data>
+  <data name="MenuCreateUser" xml:space="preserve">
+    <value>_Create new profile...</value>
+    <comment>The text in the menu to open a dialog to create a new user, i.e. "Create New...". (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="MenuUser" xml:space="preserve">
+    <value>_User</value>
+    <comment>The text in the menu to open the User submenu, i.e. "User". (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="MenuOpenRecent" xml:space="preserve">
+    <value>Open _recent</value>
+    <comment>The text in the menu to display a list of recent files to open, i.e. "Open Recent...". (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="ButtonGo" xml:space="preserve">
+    <value>Go!</value>
+    <comment>The button prompt for windows offering to open a web browser.</comment>
+  </data>
+  <data name="FeatureNotFreeInformation" xml:space="preserve">
+    <value>Standard encryption and decryption is of course always free!
+
+If you like the program and would like to enable all features, please support
+us by purchasing a subscription at {0}.
+
+It's not free, but it's not expensive either and totally worth it we think!</value>
+    <comment>The info text show when the user attempts to use a non-free feature.</comment>
+  </data>
+  <data name="FeatureNotFreeTitle" xml:space="preserve">
+    <value>{0} Feature not available</value>
+    <comment>The title of the text box to show when the user attempts to use a non-free feature. {0} is the program name, and should always be first in all translations.</comment>
+  </data>
+  <data name="DialogSavePasswordPermanently" xml:space="preserve">
+    <value>Save in settings</value>
+    <comment>A text next to a check box, indicating whether an added password should be saved permanently for use, or just for this session.</comment>
+  </data>
+  <data name="MenuEncryptCopy" xml:space="preserve">
+    <value>Encrypt _copy...</value>
+    <comment>The text in the menu to select files to encrypt a copy of  a file in a different destination folder, i.e. "Encrypt Copy...".</comment>
+  </data>
+  <data name="DialogTextWrongPasswordOpen" xml:space="preserve">
+    <value>The file could not be opened. Try decrypting with an alternative password first.</value>
+    <comment>Text displayed when an attempt to open a file for editing fails due to wrong password, hinting that perhaps it has to be decrypted first using an alternative password.</comment>
+  </data>
+  <data name="UpdateCheckInformation" xml:space="preserve">
+    <value>Would you like to check if there's an update available?</value>
+    <comment>The information text in the message box displayed when it's time to check for updates.</comment>
+  </data>
+  <data name="UpdateCheckTitle" xml:space="preserve">
+    <value>Update check</value>
+    <comment>The title of the message box displayed when it's time to check for updates.</comment>
+  </data>
+  <data name="MenuChangePassword" xml:space="preserve">
+    <value>Change _password...</value>
+    <comment>The text in the menu to open a dialog to change the password, i.e. "Change _Password...". (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="WatermarkCurrentPassword" xml:space="preserve">
+    <value>Current password</value>
+    <comment>The text used as watermark (slightly transparent grey) in a current password entry text box when changing password, i.e. "Current Password".</comment>
+  </data>
+  <data name="WatermarkNewPassword" xml:space="preserve">
+    <value>New password</value>
+    <comment>The text used as watermark (slightly transparent grey) in a new password entry text box when changing password, i.e. "New Password".</comment>
+  </data>
+  <data name="DialogTextFileDoesNotExist" xml:space="preserve">
+    <value>File(s) do not exist, the action was canceled.</value>
+    <comment>An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files simply were not not found and the operation is canceled. A list of files may be appended.</comment>
+  </data>
+  <data name="DialogTextInsufficientRights" xml:space="preserve">
+    <value>File(s) are read-only, the destination directory is not writeable or you do not have sufficient permissions. The action was canceled.</value>
+    <comment>An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files were read-only or the user does not have sufficient permissions and the operation is canceled. A list of files may be appended.</comment>
+  </data>
+  <data name="DialogTextSystemProtected" xml:space="preserve">
+    <value>File(s) are system protected, the action was canceled.</value>
+    <comment>A message displayed when an attempt is made to encrypt or wipe a file located in a system protected location. It may be followed by a list of affected files. This will abort the entire operation and nothing happens.</comment>
+  </data>
+  <data name="DialogTextRelatedAccess" xml:space="preserve">
+    <value>File(s) require sandbox folder access to encrypt, decrypt, wipe or rename. The action was canceled. See {0}.</value>
+    <comment>A message displayed when an attempt is made to encrypt, decrypt, rename or wipe a file where sandboxing prevents creating a related sibling file. {0} is a help page URL. It may be followed by a list of affected file names only. This will abort the entire operation and nothing happens.</comment>
+  </data>
+  <data name="MessageTextConfirmManyFilesFormat" xml:space="preserve">
+    <value>That's {0} files!</value>
+    <comment>A warning when the number of files requested for an operation is higher than a threshold. {0} will be filled with the exact number of files.</comment>
+  </data>
+  <data name="DialogTitleSelectFolder" xml:space="preserve">
+    <value>Select folder</value>
+    <comment>A title for a generic select folder picker, used for both encrypt and decrypt folder etc.</comment>
+  </data>
+  <data name="MenuDecryptFolder" xml:space="preserve">
+    <value>Decrypt f_older files...</value>
+    <comment>A menu entry for the decrypt folder operation.</comment>
+  </data>
+  <data name="MenuEncryptFolder" xml:space="preserve">
+    <value>Encrypt _folder files...</value>
+    <comment>A menu entry for the encrypt folder operation.</comment>
+  </data>
+  <data name="DialogTitleFetchLicense" xml:space="preserve">
+    <value>Get subscription license</value>
+    <comment>Dialog title of the dialog where a user can request a purchased license using an email and the last 4 digits of the card used.</comment>
+  </data>
+  <data name="LabelLast4" xml:space="preserve">
+    <value>Last 4 digits of credit card, or empty.</value>
+    <comment>A label displayed for the last 4 digits input field.</comment>
+  </data>
+  <data name="WatermarkLast4" xml:space="preserve">
+    <value>4 digits</value>
+    <comment>The watermark prompt for the last 4 digits to enter.</comment>
+  </data>
+  <data name="GetLicenseTooltip" xml:space="preserve">
+    <value>A browser window will open. Copy the license from there, return here and paste it.</value>
+    <comment>A tooltip text explaining how getting the license works.</comment>
+  </data>
+  <data name="MenuBuyNow" xml:space="preserve">
+    <value>Subscribe to _premium...</value>
+    <comment>The menu text for a link to the purchase page.</comment>
+  </data>
+  <data name="MenuDownload" xml:space="preserve">
+    <value>Check for _update...</value>
+    <comment>The menu text for a link to the download page.</comment>
+  </data>
+  <data name="MenuLicense" xml:space="preserve">
+    <value>Get your subscription premium _license...</value>
+    <comment>The menu text for the function to retrieve a purchased license.</comment>
+  </data>
+  <data name="FilesProcessedMessageFormat" xml:space="preserve">
+    <value>No files|{0} file|{0} files</value>
+    <comment>The progress finished indicator. The {0} is replaced by the number of files, 0, 1 or many.</comment>
+  </data>
+  <data name="TipMoreHelp" xml:space="preserve">
+    <value>Click for more information...</value>
+    <comment>An additional prompt informing that more information is available with a click. It may be added to help button and other tool tips at the end as a last sentence.</comment>
+  </data>
+  <data name="ToolTipAddPassword" xml:space="preserve">
+    <value>Adding a password is only for decryption, when you receive files from someone else or you have used another password previously. It does not affect encryption.</value>
+    <comment>Tooltip for the Add Password dialog, explaining a litte more.</comment>
+  </data>
+  <data name="ToolTipSignIn" xml:space="preserve">
+    <value>Signing in ensures you are using the correct password for encryption, and that you don't need to retype the password each time. This is the master password for all encryption. The sign in is only local to the app.</value>
+    <comment>Tooltip for the sign in dialog, explaining the reason.</comment>
+  </data>
+  <data name="ButtonFree" xml:space="preserve">
+    <value>Free</value>
+    <comment>The label for the hide Premium features button.</comment>
+  </data>
+  <data name="ButtonPremium" xml:space="preserve">
+    <value>Premium</value>
+    <comment>The label for the show Premium features button.</comment>
+  </data>
+  <data name="ToolTipHidePremium" xml:space="preserve">
+    <value>Hide premium features unavailable in the free version.</value>
+    <comment>A tooltip describing that a clicking a button hides the menus and buttons for premium when in free version.</comment>
+  </data>
+  <data name="ToolTipShowPremium" xml:space="preserve">
+    <value>Show all premium features.</value>
+    <comment>A tooltip describing that clicking a button shows the menus and buttons for premium even when in free version.</comment>
+  </data>
+  <data name="LabelDecryptionPasswordCountFormat" xml:space="preserve">
+    <value>There are no saved passwords to clear.|There is one saved password. Clear it?|There are {0} passwords saved. Clear them all?</value>
+    <comment>The text label describing the action for the clear passwords dialog. The {0} will be replaced by a number. This is a plural text, the first is for zero, then one, and then 2 or more separated by '|'.</comment>
+  </data>
+  <data name="MenuClearPasswords" xml:space="preserve">
+    <value>_Clear decryption passwords...</value>
+    <comment>Menu title for the clear passwords function. Also used as the title of the dialog, edited to remove "..." and accelerators</comment>
+  </data>
+  <data name="ToolTipClearPasswords" xml:space="preserve">
+    <value>Clear decryption passwords saved in settings. You can always add them back again.</value>
+    <comment>Tooltip for the clear passwords dialog.</comment>
+  </data>
+  <data name="DialogYubiKeyDisable" xml:space="preserve">
+    <value>Do you want to remove the YubiKey configuration?</value>
+    <comment>Dialog title for the YubiKey disabling setup dialog.</comment>
+  </data>
+  <data name="DialogYubiKeyEnable" xml:space="preserve">
+    <value>Do you want to enable this YubiKey for signing in?</value>
+    <comment>Dialog title for the YubiKey enabling setup dialog.</comment>
+  </data>
+  <data name="DialogYubiKeyLooking" xml:space="preserve">
+    <value>Waiting for YubiKey...</value>
+    <comment>Dialog title displayed when we're checking for a YubiKey during setup</comment>
+  </data>
+  <data name="DialogYubiKeyNotConnected" xml:space="preserve">
+    <value>There is no YubiKey connected!</value>
+    <comment>Dialog title for the YubiKey setup dialog when there is no yubikey connected and no configuration.</comment>
+  </data>
+  <data name="MenuYubiKey" xml:space="preserve">
+    <value>_YubiKey configuration...</value>
+    <comment>Menu title for configuration of a YubiKey.</comment>
+  </data>
+  <data name="ToolTipYubiKeySetup" xml:space="preserve">
+    <value>Enable or disable the use of a YubiKey for sign in. Use the Yubico Authenticator or other utilities to reset, change and inspect the YubiKey PIV configuration in more detail.</value>
+    <comment>The tool tip for the help button in the YubiKey setup dialog.</comment>
+  </data>
+  <data name="DialogInputValidationError" xml:space="preserve">
+    <value>The value is not in the correct format!</value>
+    <comment>An error message when an input value is not in the expected format.</comment>
+  </data>
+  <data name="DialogYubiKeyEnterKeyTitle" xml:space="preserve">
+    <value>Please enter YubiKey PIV hex management key:</value>
+    <comment>A dialog title used when asking for PIV management key authentication</comment>
+  </data>
+  <data name="DialogYubiKeyEnterPinTitle" xml:space="preserve">
+    <value>Please enter YubiKey PIV PIN:</value>
+    <comment>A dialog title used when asking for the PIN</comment>
+  </data>
+  <data name="DialogYubiKeyManagementKeyDefault" xml:space="preserve">
+    <value>The PIV management key has it's default value 3 x 0102030405060708, it should be changed!</value>
+    <comment>A warning message stating that the PIV management key still has it's default value.</comment>
+  </data>
+  <data name="DialogYubiKeyMissingFeatures" xml:space="preserve">
+    <value>Required features are missing from this YubiKey.</value>
+    <comment>An error message displayed when a non-conforming YubiKey is connected.</comment>
+  </data>
+  <data name="DialogYubiKeyNotInitialized" xml:space="preserve">
+    <value>This YubiKey is not yet initialized for use.</value>
+    <comment>An informational message displayed when the connected YubiKey is not initialized.</comment>
+  </data>
+  <data name="DialogYubiKeyNotSupported" xml:space="preserve">
+    <value>This YubiKey is not supported!</value>
+    <comment>A title dialog text displayed when a YubiKey is detected, but it doesn't have sufficient capabilities.</comment>
+  </data>
+  <data name="DialogYubiKeyOnlyTouch" xml:space="preserve">
+    <value>Only this YubiKey and a touch is required to sign in.</value>
+    <comment>An info message stating that it's enough to touch the YubiKey to sign in.</comment>
+  </data>
+  <data name="DialogYubiKeyPinDefault" xml:space="preserve">
+    <value>The PIV PIN has it's default value 123456, it should be changed!</value>
+    <comment>A warning message saying that the PIV PIN still has it's default value.</comment>
+  </data>
+  <data name="DialogYubiKeyPinRequired" xml:space="preserve">
+    <value>This YubiKey and the PIN is required to sign in.</value>
+    <comment>An info message stating that the PIN is required to sign in.</comment>
+  </data>
+  <data name="DialogYubiKeyPivSlotUsedFormat" xml:space="preserve">
+    <value>PIV slot {0} is currently used or possible to use.</value>
+    <comment>An informational message displayed about what slot will be used. '{0}' will be filled with the actual slot in question.</comment>
+  </data>
+  <data name="DialogYubiKeyTouchPrompt" xml:space="preserve">
+    <value>Please touch the YubiKey...</value>
+    <comment>A modal disappearing prompt to touch the YubiKey when required.</comment>
+  </data>
+  <data name="DialogYubiKeyOpenSecurity" xml:space="preserve">
+    <value>Only this YubiKey is required to sign in.</value>
+    <comment>A description of how the Open security mode works.</comment>
+  </data>
+  <data name="DialogYubiKeySelectMode" xml:space="preserve">
+    <value>Select how you want to use your YubiKey.</value>
+    <comment>A sub-title in the dialog above a list of radio buttons where a choice of the security mode is made.</comment>
+  </data>
+  <data name="DialogYubiKeyPukDefault" xml:space="preserve">
+    <value>The PIV PUK has it's default value 12345678, it should be changed!</value>
+    <comment>A warning message stating that the PIV PUK still has it's default value.</comment>
+  </data>
+  <data name="DialogYubiKeyEnabledFailed" xml:space="preserve">
+    <value>It is not possible to use this YubiKey. There may not be any slots available.</value>
+    <comment>Error message when enabling fails, typically because there are no slots.</comment>
+  </data>
+  <data name="DialogLabelAppSettingsDirectory" xml:space="preserve">
+    <value>Settings directory:</value>
+    <comment>A label in the about box for the directory where all settings are stored.</comment>
+  </data>
+  <data name="MenuRandomRename" xml:space="preserve">
+    <value>_Rename randomly....</value>
+    <comment>The menu text for the random renaming of files.</comment>
+  </data>
+  <data name="ExpirationCheckWarning" xml:space="preserve">
+    <value>Your license has expired. Do you want to download an updated license?</value>
+    <comment>The text in a message box informing the user that the license is expired, and asking if the user wants to download an update.</comment>
+  </data>
+  <data name="ToolTipGetLicense" xml:space="preserve">
+    <value>When your subscription license has expired, or you are using a new device, you must fetch a license from the server. Provide the information here and follow the instructions.</value>
+    <comment>A tool tip for the get license dialog which using the user name and the last 4 digits, will open a browser page with the license if found.</comment>
+  </data>
+  <data name="DownloadFreeTrialQuestion" xml:space="preserve">
+    <value>Would you like to try premium free for 3 days? No credit card required.</value>
+    <comment>A dialog box text, asking the user if (s)he wants to download a free premium trial license.</comment>
+  </data>
+  <data name="MenuTrialDownload" xml:space="preserve">
+    <value>Get your 3 day _free premium license...</value>
+    <comment>A menu entry to request a temporary trial license.</comment>
+  </data>
+  <data name="ButtonRetry" xml:space="preserve">
+    <value>_Retry</value>
+    <comment>A button to retry something.</comment>
+  </data>
+  <data name="MenuSuggestPassword" xml:space="preserve">
+    <value>_Suggest password...</value>
+    <comment>Menu entry that opens a dialog box with suggestions for passwords</comment>
+  </data>
+  <data name="ButtonCopy" xml:space="preserve">
+    <value>_Copy</value>
+    <comment>A button to copy something to the clipboard</comment>
+  </data>
+  <data name="ToolTipCopySuggested" xml:space="preserve">
+    <value>Copy the suggested password and close the dialog.</value>
+    <comment>A tool tip shown when hovering over the copy button in the suggest password dialog.</comment>
+  </data>
+  <data name="ToolTipSuggestMasterPassword" xml:space="preserve">
+    <value>Suggest a password.</value>
+    <comment>A tool tip for the suggest a password for create new user or change password.</comment>
+  </data>
+  <data name="ToolTipShowPassword" xml:space="preserve">
+    <value>Show password.</value>
+    <comment>A tooltip for the show password button in password dialogs</comment>
+  </data>
+  <data name="ToolTipHidePassword" xml:space="preserve">
+    <value>Hide password.</value>
+    <comment>A tooltip for the hide password buton in password dialogs</comment>
+  </data>
+  <data name="ButtonReset" xml:space="preserve">
+    <value>Reset!</value>
+    <comment>A button to initiate an emergency password reset.</comment>
+  </data>
+  <data name="ToolTipEmergencyReset" xml:space="preserve">
+    <value>Set a new master password. Warning! The old password is still needed to decrypt previously encrypted files!</value>
+    <comment>A tool tip for the emergency reset, warning that old files still need the old password.</comment>
+  </data>
+  <data name="HeadingEmergencyReset" xml:space="preserve">
+    <value>Reset password!</value>
+    <comment>The heading for the emergency reset password dialog</comment>
+  </data>
+  <data name="MenuClearRecent" xml:space="preserve">
+    <value>_Clear recent list...</value>
+    <comment>The  menu item to clear the recent files list</comment>
+  </data>
+  <data name="MenuEncryptDecryptText" xml:space="preserve">
+    <value>Encrypt or decrypt _text...</value>
+    <comment>The menu item to encrypt or decrypt text</comment>
+  </data>
+  <data name="ToolTipEncryptDecryptText" xml:space="preserve">
+    <value>Write or copy/paste text to encrypt or decrypt. The password will be used to encrypt or decrypt the text, and should be shared in a separate channel between the sender and recipient. Always include the BEGIN header and the END footer with the encrypted text.</value>
+    <comment>A tooltip for the text encryption feature</comment>
+  </data>
+  <data name="MessageFileFormatError" xml:space="preserve">
+    <value>The encrypted data is not correctly formatted.</value>
+    <comment>Error message when decryption fails due to broken data.</comment>
+  </data>
+  <data name="WatermarkPasswordShare" xml:space="preserve">
+    <value>Password to share</value>
+    <comment>A watermark for entering sharing passwords</comment>
+  </data>
+  <data name="DialogTextCliApiVersionError" xml:space="preserve">
+    <value>Incompatible Xecrets Cli found at '{0}' with API version {1}, but version {2}.[&gt;={3}] is required.\n\nUpdate Xecrets Cli, or remove it and use the one included in the app.</value>
+    <comment>Error message for incompatible Cli API. {0} is the full path to the Cli Tool, {1} is the Cli Tool API version, {2} is the SDK API Major version, and {3} is the minor version.</comment>
+  </data>
+  <data name="ExpirationCheckPurchaseWarning" xml:space="preserve">
+    <value>Your free trial license has expired. Do you want to view the subscription information web page?</value>
+    <comment>A warning message displayed when a free, non-purchased, license has expired.</comment>
+  </data>
+  <data name="MessageTextForgotPassword" xml:space="preserve">
+    <value>Forgot your password?</value>
+    <comment>A short text shown as a hyperlink in the sign in dialog.</comment>
+  </data>
+  <data name="DialogTitleSelectFilesToReEncrypt" xml:space="preserve">
+    <value>Select files to re-encrypt</value>
+    <comment>This is the title for the open dialog to select files to re-encrypt</comment>
+  </data>
+  <data name="MenuReEncryptFiles" xml:space="preserve">
+    <value>_Re-encrypt...</value>
+    <comment>Menu entry for re-encrypting already encrypted files.</comment>
+  </data>
+  <data name="MenuReEncryptFolder" xml:space="preserve">
+    <value>_Re-encrypt folder files</value>
+    <comment>The menu entry to select a folder and re-encrypt all files in it and subfolders</comment>
+  </data>
+  <data name="FilesCanceledMessage" xml:space="preserve">
+    <value>Canceled</value>
+    <comment>A message displayed as user feedback when an operation was canceled.</comment>
+  </data>
+  <data name="OperationCanceledFormat" xml:space="preserve">
+    <value>Operation was canceled during processing of '{0}'. Check and verify!</value>
+    <comment>A message displayed when a multi-file operation was canceled, {0} is the full name of the file that was interrupted.</comment>
+  </data>
+  <data name="ToolTipGetLicenseNoCard" xml:space="preserve">
+    <value>Leave the last 4 digits empty if you didn't use a card or don't recall them.</value>
+    <comment>An additional tooltip part, that explains that if no card was entered, getting the license this way won't work so easily.</comment>
+  </data>
+  <data name="MenuPreferences" xml:space="preserve">
+    <value>_Preferences...</value>
+    <comment>A menu entry to further options to change preferences.</comment>
+  </data>
+  <data name="MenuTheme" xml:space="preserve">
+    <value>_Theme...</value>
+    <comment>A menu entry to further options to change the visual theme, i.e. dark or light.</comment>
+  </data>
+  <data name="ThemeDark" xml:space="preserve">
+    <value>_Dark</value>
+    <comment>A menu entry or label to select a dark visual theme.</comment>
+  </data>
+  <data name="ThemeLight" xml:space="preserve">
+    <value>_Light</value>
+    <comment>A menu entry or label to select a light visual theme.</comment>
+  </data>
+  <data name="ThemeSystem" xml:space="preserve">
+    <value>_System</value>
+    <comment>A menu entry or lablel to select the visual theme to match the system theme.</comment>
+  </data>
+  <data name="MenuInactivityExit" xml:space="preserve">
+    <value>_Exit after inactivity...</value>
+    <comment>A menu entry for selecting an inactivty timeout exit</comment>
+  </data>
+  <data name="MenuInactivityNever" xml:space="preserve">
+    <value>Never</value>
+    <comment>A menu entry for selecting 'Never' as the choice for inactivity timeout</comment>
+  </data>
+  <data name="MenuInactivityTimeoutValueFormat" xml:space="preserve">
+    <value>{0} minutes</value>
+    <comment>The format for a timeout selection menu entry.</comment>
+  </data>
+  <data name="ButtonLicense" xml:space="preserve">
+    <value>License</value>
+    <comment>A label for a button to paste the license</comment>
+  </data>
+  <data name="MenuClipboardLicense" xml:space="preserve">
+    <value>Paste license from _clipboard</value>
+    <comment>A menu text, also used as tooltip for license paste button</comment>
+  </data>
+  <data name="DecryptionPasswordsAboutFormat" xml:space="preserve">
+    <value>Extra decryption passwords: {0}.</value>
+    <comment>A text in the about box, telling how many decryption passwords are known.</comment>
+  </data>
+  <data name="DialogTextPrivateKeysImported" xml:space="preserve">
+    <value>We found and imported account keys from AxCrypt. You may still need to provide the original password a file was encrypted with if the AxCrypt password was reset, changed or is different from the Xecrets Ez password.</value>
+    <comment>A pop-up message displayed after importing AxCrypt account keys.</comment>
+  </data>
+  <data name="PrivateKeysAboutFormat" xml:space="preserve">
+    <value>Extra private keys: {0} of {1} total.</value>
+    <comment>A text in the about box, telling how many private keys there are available. It will not be displayed if there are none at all.</comment>
+  </data>
+  <data name="MenuCustomerPortal" xml:space="preserve">
+    <value>Customer _portal...</value>
+    <comment>The menu to open the customer portal</comment>
+  </data>
+  <data name="MenuHelpVideos" xml:space="preserve">
+    <value>_Video guides...</value>
+    <comment>The menu to open a gallery of video instructions</comment>
+  </data>
+  <data name="MessageTextBadLicenseString" xml:space="preserve">
+    <value>The license key is not in the correct format.</value>
+    <comment>Error message when an improperly formatted license string is attempted to be used.</comment>
+  </data>
+  <data name="MessageTextConfirmPasteDirectory" xml:space="preserve">
+    <value>That includes a directory.</value>
+    <comment>A confirmation message prompt when pasting a directory.</comment>
+  </data>
+  <data name="ConfirmationQuestion" xml:space="preserve">
+    <value>Are you sure?</value>
+    <comment>Appeneded after a statement, in a confirmation dialog.</comment>
+  </data>
+  <data name="DontShowAgain" xml:space="preserve">
+    <value>Don't show this again</value>
+    <comment>Label for a checkbox to optionally hide a specific warning or other message.</comment>
+  </data>
+  <data name="MenuClearDontShowAgain" xml:space="preserve">
+    <value>Show all _messages again</value>
+    <comment>A menu entry to clear previously hidden warnings</comment>
+  </data>
+  <data name="MenuChangeEmail" xml:space="preserve">
+    <value>Change _email...</value>
+    <comment>The text used as a title in the change email dialog and the menu</comment>
+  </data>
+  <data name="MixedFilesWarning" xml:space="preserve">
+    <value>Both encrypted and plain files are included. The plain files will be encrypted, and the already encrypted will be unchanged.</value>
+    <comment>A warning message displayed when an operation includes both encrypted an unencrypted files.</comment>
+  </data>
+  <data name="MessageNotEncrypted" xml:space="preserve">
+    <value>The initial 16 bytes are wrong, it is probably some other kind of data or severely damaged.</value>
+    <comment>A message when decrypting a file that does not start with the magic guid.</comment>
+  </data>
+  <data name="MessageZeroLength" xml:space="preserve">
+    <value>The data is damaged, the length is zero bytes.</value>
+    <comment>A message when decrypting a file or text with exactly zero bytes. It is followed by one or more file names.</comment>
+  </data>
+  <data name="DialogLabelRealStartFolder" xml:space="preserve">
+    <value>Original start folder:</value>
+    <comment>A label in the about box, for the real user-visible start folder, before the OS maybe moved it.</comment>
+  </data>
+  <data name="DialogTextExpiresSoonInfoFormat" xml:space="preserve">
+    <value>Your premium license will expire on {0}. To keep using premium features, please renew your license in the app after it expires.</value>
+    <comment>An informational message when a license is about to expire.</comment>
+  </data>
+  <data name="DialogTextRemovableDriveFirstWarning" xml:space="preserve">
+    <value>Settings and temp files will be stored on a removable drive, not your main drive. Continue?</value>
+    <comment>A warning text when a removable drive is first used, information that all settings etc will be stored on it.</comment>
+  </data>
+  <data name="DialogTextRemovableDriveUnplugWarning" xml:space="preserve">
+    <value>Before unplugging it, make sure to exit the app and eject the drive safely to avoid data loss.</value>
+    <comment>A warning text informing that a removable drive must be unplugged safely when running from it.</comment>
+  </data>
+  <data name="DialogTitleRemovableDrive" xml:space="preserve">
+    <value>Running from removable drive!</value>
+    <comment>A title for dialogs warning about the situation where we're running from a removable drive.</comment>
+  </data>
+  <data name="ZeroLengthWarning" xml:space="preserve">
+    <value>One or more selected files are empty. They might be damaged.</value>
+    <comment>A warning text, stating that one or more files are zero length, asking if the user is sure. The text should be followed by ConfirmationQuestion. It's followed by a list of the files that are detected as zero length.</comment>
+  </data>
+  <data name="DialogYubiKeyChangeConfiguration" xml:space="preserve">
+    <value>To change the YubiKey configuration, you must first remove the existing configuration.</value>
+    <comment>An information message giving a hint that to change the configuration, you first need to remove the current configuration.</comment>
+  </data>
+  <data name="DialogYubiKeyDefaultChangeInfo" xml:space="preserve">
+    <value>To change the PIN, PUK, or Management Key, get the Yubico Authenticator app and go to Certificates settings. For details, click the help icon.</value>
+    <comment>An information message giving hints on how to change YubiKey defaults, and referring to help for more info where actual links etc are.</comment>
+  </data>
+  <data name="ButtonCopyAll" xml:space="preserve">
+    <value>Copy All</value>
+    <comment>Button text for a "Copy All" button.</comment>
+  </data>
+  <data name="ButtonSaveAs" xml:space="preserve">
+    <value>Save As...</value>
+    <comment>Button text for a "Save As..." button.</comment>
+  </data>
+  <data name="ErrorCombiningShares" xml:space="preserve">
+    <value>The shares could not be combined. Please check the shares and try again.</value>
+    <comment>An error text when shares can't be combined either because they are mismatched, or in the wrong format.</comment>
+  </data>
+  <data name="ErrorDuplicatesRemoved" xml:space="preserve">
+    <value>Duplicate shares were removed.</value>
+    <comment>An error text when duplicate shares were entered and removed.</comment>
+  </data>
+  <data name="LabelTheSecret" xml:space="preserve">
+    <value>The secret</value>
+    <comment>A label for the textbox where a recovered secret is displayed.</comment>
+  </data>
+  <data name="MenuCombineShares" xml:space="preserve">
+    <value>C_ombine secret shares...</value>
+    <comment>Menu text for combining secret shares to recover the secret.</comment>
+  </data>
+  <data name="MenuCreateShares" xml:space="preserve">
+    <value>_Create secret shares...</value>
+    <comment>Menu text for creating secret shares.</comment>
+  </data>
+  <data name="MenuLoadShares" xml:space="preserve">
+    <value>_View secret shares...</value>
+    <comment>Menu text for loading/viewing secret shares.</comment>
+  </data>
+  <data name="PromptEnterFirstShare" xml:space="preserve">
+    <value>Enter a share</value>
+    <comment>A prompt to enter a share (the first share) to combine.</comment>
+  </data>
+  <data name="PromptEnterRemainingShares" xml:space="preserve">
+    <value>Enter the remaining required shares</value>
+    <comment>A prompt to enter the remaining shares to combine.</comment>
+  </data>
+  <data name="PromptRequiredShares" xml:space="preserve">
+    <value>Required shares</value>
+    <comment>Prompt for the required shares.</comment>
+  </data>
+  <data name="PromptTotalShares" xml:space="preserve">
+    <value>Total shares</value>
+    <comment>Prompt for the total number of shares.</comment>
+  </data>
+  <data name="SelectShareAny" xml:space="preserve">
+    <value>Share any secret</value>
+    <comment>Radio button text to share any arbitrary secret.</comment>
+  </data>
+  <data name="SelectShareSignIn" xml:space="preserve">
+    <value>Share sign in password</value>
+    <comment>Radio button text to share the sign in password.</comment>
+  </data>
+  <data name="ToolTipCombineShares" xml:space="preserve">
+    <value>Enter the required number of shares to combine them and view the secret.</value>
+    <comment>Help tool tip for the combine shares dialog. It should be followed by a "Click for more info...." prompt, leading to a help page.</comment>
+  </data>
+  <data name="ToolTipCreateShares" xml:space="preserve">
+    <value>Split a secret into shares, specifying how many shares and how many are required to recover the secret.</value>
+    <comment>Help tool tip for the create shares dialog. It should be followed by a "Click for more info.." prompt, leading to a help page.</comment>
+  </data>
+  <data name="ToolTipViewShares" xml:space="preserve">
+    <value>View previously created shares, and send or save them to different places.</value>
+    <comment>Tooltip for the view shares dialog. Should be followed by a "Click for more info..." prompt, leading to the help page.</comment>
+  </data>
+  <data name="ViewSharesDescriptionFormat" xml:space="preserve">
+    <value>Save or distribute these shares to different people or places. At least {0} shares are required to recover the secret.</value>
+    <comment>The explanatory text in the view shares dialog. {0} refers to the threshold, or number of shares required.</comment>
+  </data>
+  <data name="WatermarkPasswordSecret" xml:space="preserve">
+    <value>Enter any password or secret…</value>
+    <comment>Watermark text for password or secret entry to share.</comment>
+  </data>
+  <data name="FeatureNotFreeShortInformation" xml:space="preserve">
+    <value>Sorry, this premium feature is not available in the free version.</value>
+    <comment>The first short text specifying a feature is not free.</comment>
+  </data>
+  <data name="FeatureNotFreeHideQuestion" xml:space="preserve">
+    <value>Do you want to hide all premium features?</value>
+    <comment>The question asked when an attempt is made to use a premium feature in the free version.</comment>
+  </data>
+  <data name="ReleaseNotesInformation" xml:space="preserve">
+    <value>You're running a new version! Would you like to see the release notes?</value>
+    <comment>An information question yes/no dialog text asking if the user wants to see the release notes.</comment>
+  </data>
+  <data name="RequestReviewQuestion" xml:space="preserve">
+    <value>Please help us by reviewing and rating the app!</value>
+    <comment>A pop-up asking for reviews. It should have OK and Cancel, and OK leads to a web page being opened.</comment>
+  </data>
+  <data name="DialogTextEnterLicense" xml:space="preserve">
+    <value>Activate Premium license</value>
+    <comment>The title of the dialog to enter or paste a license string</comment>
+  </data>
+  <data name="WatermarkEnterLicenseHere" xml:space="preserve">
+    <value>The license key goes here: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...</value>
+    <comment>A watermark helping guide users where to paste the license string</comment>
+  </data>
+  <data name="MenuEnterLicense" xml:space="preserve">
+    <value>Activate _Premium...</value>
+    <comment>The menu entry for opening a window where the license can be pasted.</comment>
+  </data>
+  <data name="DialogInstructionEnterLicenseFormat" xml:space="preserve">
+    <value>Copy the license key from our license page (the link looks like {1}/license?s=2Rl7q1Gr…), then return here. If you already have the link, open it in your browser now. Otherwise, visit {0} and follow the instructions to get the correct link.</value>
+    <comment>A longer explanation of how to get and enter a license. {0} is replaced by the URL of the customer portal page.</comment>
+  </data>
+  <data name="DialogYubiKeyServiceUnsupported" xml:space="preserve">
+    <value>This app can’t use a YubiKey on this operating system.</value>
+  </data>
+  <data name="DialogYubiKeyPcscMissing" xml:space="preserve">
+    <value>Please ensure that pcscd / pcsc-lite is installed and the daemon is running. Click the help icon for more information about YubiKey and Linux.</value>
+  </data>
+  <data name="DialogYubiKeyRedistributableMissing" xml:space="preserve">
+    <value>To use YubiKey, the Microsoft Visual C++ Redistributable must be installed. Download it from {0}, run the installer, and restart the application.</value>
+    <comment>A warning message stating that the VC++ redistributable is missing, and providing a link to download it.</comment>
+  </data>
+  <data name="CliVersionMismatchWarning" xml:space="preserve">
+    <value>Warning! Version {0} of Xecrets Cli found at '{1}' does not match the version {2} of Xecrets Ez. This is not recommended since it may cause problems.
+
+Would you like to view a help page with more information?</value>
+    <comment>A warning shown when the discovered Cli version does not exactly match Ez. {0} is Cli version, {1} is full Cli path, {2} is Ez version.</comment>
+  </data>
+</root>

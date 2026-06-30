@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../../../xecrets-localization/src/Xecrets.Localization/Xecrets.Localization.csproj" />
+  <Project Path="Xecrets.Texts.csproj" />
+</Solution>

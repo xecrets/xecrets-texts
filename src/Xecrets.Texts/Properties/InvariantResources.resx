@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayNameCliTools" xml:space="preserve">
+    <value>Xecrets Cli</value>
+    <comment>DO NOT TRANSLATE - The command line tools' display name in texts, i.e. "Xecrets Cli".</comment>
+  </data>
+  <data name="DisplayNameProgram" xml:space="preserve">
+    <value>Xecrets Ez</value>
+    <comment>DO NOT TRANSLATE - The program name, i.e. "Xecrets Ez".</comment>
+  </data>
+  <data name="DisplayNameSdkApi" xml:space="preserve">
+    <value>SDK API</value>
+    <comment>DO NOT TRANSLATE - The SDK API display name, i.e. "SDK API".</comment>
+  </data>
+  <data name="EzFeaturesUrl" xml:space="preserve">
+    <value>https://www.axantum.com/ez-features</value>
+    <comment>DO NOT TRANSLATE - The URL for the Ez Features overview page</comment>
+  </data>
+  <data name="GetLicenseUrlFormat" xml:space="preserve">
+    <value>https://www.axantum.com/license?m={0}&amp;l={1}</value>
+    <comment>DO NOT TRANSLATE - The URL for getting a license. {0} is email, {1} is last 4 digits.</comment>
+  </data>
+  <data name="GetTrialUrlFormat" xml:space="preserve">
+    <value>https://www.axantum.com/license?d={0}&amp;g={1}</value>
+    <comment>DO NOT TRANSLATE - The URL for getting a trial license. {0} is obfuscated email, {1} is digest.</comment>
+  </data>
+  <data name="GetXecretsUrl" xml:space="preserve">
+    <value>https://www.axantum.com/pricing</value>
+    <comment>DO NOT TRANSLATE - The URL for the purchase page.</comment>
+  </data>
+  <data name="MenuEnglish" xml:space="preserve">
+    <value>English [English]</value>
+    <comment>DO NOT TRANSLATE - A dual language culture selector</comment>
+  </data>
+  <data name="MenuFrench" xml:space="preserve">
+    <value>Français [French]</value>
+    <comment>DO NOT TRANSLATE - A dual language culture selector</comment>
+  </data>
+  <data name="MenuGerman" xml:space="preserve">
+    <value>Deutsch [German]</value>
+    <comment>DO NOT TRANSLATE - A dual language culture selector</comment>
+  </data>
+  <data name="MenuItalian" xml:space="preserve">
+    <value>Italiano [Italian]</value>
+    <comment>DO NOT TRANSLATE - A dual language culture selector</comment>
+  </data>
+  <data name="MenuPortugueseBrasil" xml:space="preserve">
+    <value>Português (Brasil) [Portuguese (Brazil)]</value>
+    <comment>DO NOT TRANSLATE - A dual language culture selector</comment>
+  </data>
+  <data name="MenuSpanish" xml:space="preserve">
+    <value>Español [Spanish]</value>
+    <comment>DO NOT TRANSLATE - A dual language culture selector</comment>
+  </data>
+  <data name="MenuSwedish" xml:space="preserve">
+    <value>Svenska [Swedish]</value>
+    <comment>DO NOT TRANSLATE - A dual language culture selector</comment>
+  </data>
+  <data name="UrlDownloadXecretsFormat" xml:space="preserve">
+    <value>https://www.axantum.com/download?ezv={0}&amp;rid={1}</value>
+    <comment>DO NOT TRANSLATE - The URL for the page where Xecrets is downloaded.</comment>
+  </data>
+  <data name="XecretsHelpUrl" xml:space="preserve">
+    <value>https://www.axantum.com/help</value>
+    <comment>DO NOT TRANSLATE - The URL for the help page</comment>
+  </data>
+  <data name="PasswordResetId" xml:space="preserve">
+    <value>#reset</value>
+    <comment>DO NOT TRANSLATE - The anchor in page for the password reset item on that page.</comment>
+  </data>
+  <data name="LicenseHelpId" xml:space="preserve">
+    <value>#license</value>
+    <comment>DO NOT TRANSLATE - The page id of the section describing license download.</comment>
+  </data>
+  <data name="MenuDebug" xml:space="preserve">
+    <value>Debug</value>
+    <comment>DO NOT TRANSLATE - The menu for debug options</comment>
+  </data>
+  <data name="TurnDebugOff" xml:space="preserve">
+    <value>Turn Cli Debug OFF</value>
+    <comment>DO NOT TRANSLATE - The menu option to turn cli debug off</comment>
+  </data>
+  <data name="TurnDebugOn" xml:space="preserve">
+    <value>Turn Cli Debug ON</value>
+    <comment>DO NOT TRANSLATE - The menu option to turn cli debug on</comment>
+  </data>
+  <data name="CustomerPortalUrl" xml:space="preserve">
+    <value>https://www.axantum.com/customer-portal</value>
+    <comment>DO NOT TRANSLATE - The URL for the customer portal</comment>
+  </data>
+  <data name="YouTubeVideosUrl" xml:space="preserve">
+    <value>https://www.youtube.com/@xecrets</value>
+    <comment>DO NOT TRANSLATE - The URL for the help videos</comment>
+  </data>
+  <data name="ShamirsSecretSharing" xml:space="preserve">
+    <value>Shamir's Secret Sharing</value>
+    <comment>DO NOT TRANSLATE - This is the language-independent name</comment>
+  </data>
+  <data name="ReleaseNotesUrl" xml:space="preserve">
+    <value>https://www.axantum.com/release-notes</value>
+    <comment>DO NOT TRANSLATE - The URL for the release notes</comment>
+  </data>
+  <data name="RequestReviewUrl" xml:space="preserve">
+    <value>https://www.axantum.com/review-us</value>
+    <comment>DO NOT TRANSLATE - The URL for the review request page</comment>
+  </data>
+  <data name="CliVersionMismatchHelpId" xml:space="preserve">
+    <value>#build-matching</value>
+    <comment>DO NOT TRANSLATE - The page id of the section describing why Ez and Cli versions should match exactly.</comment>
+  </data>
+  <data name="SiteUrl" xml:space="preserve">
+    <value>https://www.axantum.com</value>
+    <comment>DO NOT TRANSLATE - This is the main web site URL</comment>
+  </data>
+  <data name="MenuPolish" xml:space="preserve">
+    <value>Polski [Polish]</value>
+    <comment>DO NOT TRANSLATE - A dual language culture selector</comment>
+  </data>
+</root>

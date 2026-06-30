@@ -1,0 +1,1624 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Xecrets Ez\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-08 08:19+0200\n"
+"PO-Revision-Date: 2026-06-07 17:47+0200\n"
+"Last-Translator: Svante Seleborg\n"
+"Language-Team: Polish (Poland)\n"
+"Language: pl-PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en-US\n"
+"X-Loco-Project-Id: 158107\n"
+"X-Loco-Lookup: id\n"
+"X-Loco-Api-Version: 1.0.29 20260518-1"
+
+#. The warning text displayed in the main window when the program does not have a valid license. [BannerUnlicensedWarning]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3c2
+#| msgid "Free version!"
+msgid "BannerUnlicensedWarning"
+msgstr "Wersja darmowa!"
+
+#. The text in a button that causes an action to be canceled, i.e. "Cancel". [ButtonCancel]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3c3
+#| msgid "_Cancel"
+msgid "ButtonCancel"
+msgstr "_Anuluj"
+
+#. A button to copy something to the clipboard [ButtonCopy]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3c4
+#| msgid "_Copy"
+msgid "ButtonCopy"
+msgstr "_Kopiuj"
+
+#. Button text for a "Copy All" button. [ButtonCopyAll]
+#: Resources.resx loco:68396d06ff6b3f753f0e72d2
+#| msgid "Copy All"
+msgid "ButtonCopyAll"
+msgstr "Kopiuj wszystko"
+
+#. The text in a button to create a user, i.e. "Create". [ButtonCreate]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3c5
+#| msgid "_Create"
+msgid "ButtonCreate"
+msgstr "_Utwórz"
+
+#. The label for the hide Premium features button. [ButtonFree]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3c6
+#| msgid "Free"
+msgid "ButtonFree"
+msgstr "Darmowa"
+
+#. The button prompt for windows offering to open a web browser. [ButtonGo]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3c7
+#| msgid "Go!"
+msgid "ButtonGo"
+msgstr "Przejdź!"
+
+#. A label for a button to paste the license [ButtonLicense]
+#: Resources.resx loco:6745a304c4fd5b3bae0bcef2
+#| msgid "License"
+msgid "ButtonLicense"
+msgstr "Licencja"
+
+#. The text in a button that causes a 'No'-response, i.e. "No". [ButtonNo]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3c8
+#| msgid "_No"
+msgid "ButtonNo"
+msgstr "_Nie"
+
+#. The text in a button that says 'OK', i.e. "Ok". [ButtonOk]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3c9
+#| msgid "_Ok"
+msgid "ButtonOk"
+msgstr "_Ok"
+
+#. The label for the show Premium features button. [ButtonPremium]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3ca
+#| msgid "Premium"
+msgid "ButtonPremium"
+msgstr "Premium"
+
+#. A button to initiate an emergency password reset. [ButtonReset]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3cb
+#| msgid "Reset!"
+msgid "ButtonReset"
+msgstr "Zresetuj!"
+
+#. A button to retry something. [ButtonRetry]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3cc
+#| msgid "_Retry"
+msgid "ButtonRetry"
+msgstr "_Ponów"
+
+#. Button text for a "Save As..." button. [ButtonSaveAs]
+#: Resources.resx loco:68396d06ff6b3f753f0e72d3
+#| msgid "Save As..."
+msgid "ButtonSaveAs"
+msgstr "Zapisz jako..."
+
+#. The text in a button that causes a 'Yes'-response, i.e. "Yes". [ButtonYes]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3cd
+#| msgid "_Yes"
+msgid "ButtonYes"
+msgstr "_Tak"
+
+#. A warning shown when the discovered Cli version does not exactly match Ez. {0} is Cli version, {1} is full Cli path, {2} is Ez version. [CliVersionMismatchWarning]
+#: Resources.resx loco:69f7310c4779aa23dc088c42
+#, icu-format
+#| msgid ""
+#| "Warning! Version {0} of Xecrets Cli found at '{1}' does not match the "
+#| "version {2} of Xecrets Ez. This is not recommended since it may cause "
+#| "problems.\n"
+#| "\n"
+#| "Would you like to view a help page with more information?"
+msgid "CliVersionMismatchWarning"
+msgstr ""
+"Ostrzeżenie! Wersja {0} Xecrets Cli znaleziona w '{1}' nie jest zgodna z "
+"wersją {2} Xecrets Ez. Nie jest to zalecane, ponieważ może powodować "
+"problemy.\n"
+"\n"
+"Czy chcesz wyświetlić stronę pomocy z dodatkowymi informacjami?"
+
+#. Appeneded after a statement, in a confirmation dialog. [ConfirmationQuestion]
+#: Resources.resx loco:67572ea92257d74f5c003652
+#| msgid "Are you sure?"
+msgid "ConfirmationQuestion"
+msgstr "Jesteś pewien?"
+
+#. A text in the about box, telling how many decryption passwords are known. [DecryptionPasswordsAboutFormat]
+#: Resources.resx loco:6745a304c4fd5b3bae0bcef3
+#, icu-format
+#| msgid "Extra decryption passwords: {0}."
+msgid "DecryptionPasswordsAboutFormat"
+msgstr "Dodatkowe hasła deszyfrujące: {0}."
+
+#. An error message when an input value is not in the expected format. [DialogInputValidationError]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3ce
+#| msgid "The value is not in the correct format!"
+msgid "DialogInputValidationError"
+msgstr "Wartość nie ma prawidłowego formatu!"
+
+#. A longer explanation of how to get and enter a license. {0} is replaced by the URL of the customer portal page. [DialogInstructionEnterLicenseFormat]
+#: Resources.resx loco:68c58fbe8a59c0d4460a2602
+#, icu-format
+#| msgid ""
+#| "Copy the license key from our license page (the link looks like {1}"
+#| "/license?s=2Rl7q1Gr…), then return here. If you already have the link, "
+#| "open it in your browser now. Otherwise, visit {0} and follow the "
+#| "instructions to get the correct link."
+msgid "DialogInstructionEnterLicenseFormat"
+msgstr ""
+"Skopiuj klucz licencyjny z naszej strony z licencjami (link wygląda tak: {1}"
+"/license?s=2Rl7q1Gr…), a następnie wróć tutaj. Jeśli masz już link, otwórz "
+"go teraz w przeglądarce. W przeciwnym razie odwiedź {0} i postępuj zgodnie z "
+"instrukcjami, aby uzyskać poprawny link."
+
+#. A label in the about box for the directory where all settings are stored. [DialogLabelAppSettingsDirectory]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3cf
+#| msgid "Settings directory:"
+msgid "DialogLabelAppSettingsDirectory"
+msgstr "Ścieżka do katalogu z ustawieniami programu:"
+
+#. The About Window label for the info about the current directory. [DialogLabelCurrentDirectory]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3d0
+#| msgid "Current directory:"
+msgid "DialogLabelCurrentDirectory"
+msgstr "Ścieżka do katalogu instalacyjnego programu:"
+
+#. A label in the about box, for the real user-visible start folder, before the OS maybe moved it. [DialogLabelRealStartFolder]
+#: Resources.resx loco:682199e78d3ada6cc1059402
+#| msgid "Original start folder:"
+msgid "DialogLabelRealStartFolder"
+msgstr "Oryginalny folder startowy:"
+
+#. The About Window label for the info about the full start command. [DialogLabelStartCommand]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3d1
+#| msgid "Start command:"
+msgid "DialogLabelStartCommand"
+msgstr "Ścieżka do katalogu z plikiem wykonawczym programu:"
+
+#. A text next to a check box, indicating whether an added password should be saved permanently for use, or just for this session. [DialogSavePasswordPermanently]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3d2
+#| msgid "Save in settings"
+msgid "DialogSavePasswordPermanently"
+msgstr "Zapisz w ustawieniach"
+
+#. The text displayed as heading in the dialog to enter an extra alternate password. [DialogTextAddPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3d3
+#| msgid "Add a decryption password"
+msgid "DialogTextAddPassword"
+msgstr "Dodaj hasło deszyfrujące"
+
+#. A text used in a file selection dialog for the file pattern '*'. [DialogTextAllFiles]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3d4
+#| msgid "All files"
+msgid "DialogTextAllFiles"
+msgstr "Wszystkie pliki"
+
+#. Error message for incompatible Cli API. {0} is the full path to the Cli Tool, {1} is the Cli Tool API version, {2} is the SDK API Major version, and {3} is the minor version. [DialogTextCliApiVersionError]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3d5
+#, icu-format
+#| msgid ""
+#| "Incompatible Xecrets Cli found at '{0}' with API version {1}, but version "
+#| "{2}.[>={3}] is required.\\n\\nUpdate Xecrets Cli, or remove it and use "
+#| "the one included in the app."
+msgid "DialogTextCliApiVersionError"
+msgstr ""
+"Znaleziono niezgodny interfejs wiersza poleceń Xecrets '{0}' w wersji {1} "
+"API, a  wersją {2}. Wymagany jest [>={3}].\\n\\nZaktualizuj interfejs "
+"wiersza poleceń Xecrets lub usuń go i użyj interfejsu dołączonego do "
+"aplikacji."
+
+#. Warning shown at startup when this executable version appears older than the most recently used version, asking whether to continue. [DialogTextDowngradedVersionWarning]
+#: Resources.resx loco:6a11e94a21b5c894ec094902
+#| msgid ""
+#| "You seem to have downgraded to an older version. This can happen if "
+#| "multiple versions are installed. Do you really want to continue with this "
+#| "version?"
+msgid "DialogTextDowngradedVersionWarning"
+msgstr ""
+"Wygląda na to, że nastąpiło przejście do starszej wersji. Może się tak "
+"zdarzyć, jeśli zainstalowano wiele wersji. Czy na pewno chcesz kontynuować z "
+"tą wersją?"
+
+#. Text for the middle of the window, where files can be dropped or pasted. Not all OS's support drag and drop. [DialogTextDropOrPasteTitle]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3d6
+#| msgid "Drop or paste files here..."
+msgid "DialogTextDropOrPasteTitle"
+msgstr "Upuść lub wklej tutaj pliki..."
+
+#. The tooltip for the paste and drag and drop area, giving a little bit more information. Not all OS's support drag and drop. [DialogTextDropOrPasteToolTip]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3d7
+#, icu-format
+#| msgid ""
+#| "Drop or paste files here to encrypt or decrypt them. Use keyboard {0} "
+#| "button to decrypt a single file, otherwise it opens."
+msgid "DialogTextDropOrPasteToolTip"
+msgstr ""
+"Upuść lub wklej w to miejsce pliki do zaszyfrowania lub deszyfracji. Użyj "
+"przycisku {0} na klawiaturze, aby deszyfrować pojedynczy plik, w przeciwnym "
+"razie zostanie on tylko otwarty."
+
+#. A text used in a file selection dialog for the file pattern '*.axx'. [DialogTextEncryptedFiles]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3d8
+#| msgid "Encrypted files"
+msgid "DialogTextEncryptedFiles"
+msgstr "Zaszyfrowane pliki"
+
+#. The title of the dialog to enter or paste a license string [DialogTextEnterLicense]
+#: Resources.resx loco:68c58fbe8a59c0d4460a2603
+#| msgid "Activate Premium license"
+msgid "DialogTextEnterLicense"
+msgstr "Aktywuj licencję Premium"
+
+#. An informational message when a license is about to expire. [DialogTextExpiresSoonInfoFormat]
+#: Resources.resx loco:6822e2b30e5cfb56550bc502
+#, icu-format
+#| msgid ""
+#| "Your premium license will expire on {0}. To keep using premium features, "
+#| "please renew your license in the app after it expires."
+msgid "DialogTextExpiresSoonInfoFormat"
+msgstr ""
+"Twoja licencja premium wygaśnie {0}. Aby nadal korzystać z funkcji premium, "
+"odnów licencję w aplikacji po jej wygaśnięciu."
+
+#. An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files simply were not not found and the operation is canceled. A list of files may be appended. [DialogTextFileDoesNotExist]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3d9
+#| msgid "File(s) do not exist, the action was canceled."
+msgid "DialogTextFileDoesNotExist"
+msgstr "Plik(i) nie istnieje(ą), akcja została anulowana."
+
+#. An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files were read-only or the user does not have sufficient permissions and the operation is canceled. A list of files may be appended. [DialogTextInsufficientRights]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3da
+#| msgid ""
+#| "File(s) are read-only, the destination directory is not writeable or you "
+#| "do not have sufficient permissions. The action was canceled."
+msgid "DialogTextInsufficientRights"
+msgstr ""
+"Plik(i) jest(są) 'tylko do odczytu', katalog docelowy nie jest dostępny do "
+"zapisu lub nie masz wystarczających uprawnień. Akcja została anulowana."
+
+#. Text displayed when for some unknown and unspecified reason a file was not properly decrypted and opened. [DialogTextOpenFailed]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3db
+#| msgid "Decrypt and open failed"
+msgid "DialogTextOpenFailed"
+msgstr "Odszyfrowanie i otwarcie nie powiodło się"
+
+#. A warning message at program exit. A new line separated list of these filesmay be appended. [DialogTextOrphanedDocumentsFiles]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3dc
+#| msgid "Unrecognized temporary files remain."
+msgid "DialogTextOrphanedDocumentsFiles"
+msgstr "Pozostają nierozpoznane pliki tymczasowe."
+
+#. Text for the middle of the window, where files can be (only) pasted, as some OS's don't support drag and drop. [DialogTextPasteOnlyTitle]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3dd
+#| msgid "Paste files here..."
+msgid "DialogTextPasteOnlyTitle"
+msgstr "Wklej tutaj pliki..."
+
+#. The tooltip for the paste (only) area, giving a little bit more information. Not all OS's support drag and drop. [DialogTextPasteOnlyToolTip]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3de
+#, icu-format
+#| msgid ""
+#| "Paste files here to encrypt or decrypt them. Use keyboard {0} to decrypt "
+#| "a single file, otherwise it opens."
+msgid "DialogTextPasteOnlyToolTip"
+msgstr ""
+"Wklej tutaj pliki, aby je zaszyfrować lub deszyfrować. Użyj {0} klawiatury, "
+"aby odszyfrować pojedynczy plik, w przeciwnym razie zostanie on otwarty."
+
+#. A pop-up message displayed after importing AxCrypt account keys. [DialogTextPrivateKeysImported]
+#: Resources.resx loco:6745a304c4fd5b3bae0bcef4
+#| msgid ""
+#| "We found and imported account keys from AxCrypt. You may still need to "
+#| "provide the original password a file was encrypted with if the AxCrypt "
+#| "password was reset, changed or is different from the Xecrets Ez password."
+msgid "DialogTextPrivateKeysImported"
+msgstr ""
+"Znaleźliśmy i zaimportowaliśmy klucze kont z AxCrypt. Nadal może być "
+"konieczne podanie oryginalnego hasła, którym zaszyfrowano plik, jeśli hasło "
+"AxCrypt zostało zresetowane, zmienione lub różni się od hasła Xecrets Ez."
+
+#. A message displayed when an attempt is made to encrypt, decrypt, rename or wipe a file where sandboxing prevents creating a related sibling file. {0} is a help page URL. It may be followed by a list of affected file names only. This will abort the entire operation and nothing happens. [DialogTextRelatedAccess]
+#: Resources.resx loco:6a2591b58d8a3eb6db0f80b2
+#, icu-format
+#| msgid ""
+#| "File(s) require sandbox folder access to encrypt, decrypt, wipe or rename."
+#| " The action was canceled. See {0}."
+msgid "DialogTextRelatedAccess"
+msgstr ""
+"Plik(i) wymagają dostępu do folderu piaskownicy, aby zaszyfrować, "
+"odszyfrować, bezpiecznie usunąć lub zmienić nazwę. Operacja została "
+"anulowana. Zobacz {0}."
+
+#. A warning text when a removable drive is first used, information that all settings etc will be stored on it. [DialogTextRemovableDriveFirstWarning]
+#: Resources.resx loco:681f897716bfcd2acb006662
+#| msgid ""
+#| "Settings and temp files will be stored on a removable drive, not your "
+#| "main drive. Continue?"
+msgid "DialogTextRemovableDriveFirstWarning"
+msgstr ""
+"Ustawienia i pliki tymczasowe będą przechowywane na dysku wymiennym, a nie "
+"na dysku głównym. Kontynuować?"
+
+#. A warning text informing that a removable drive must be unplugged safely when running from it. [DialogTextRemovableDriveUnplugWarning]
+#: Resources.resx loco:681f897716bfcd2acb006663
+#| msgid ""
+#| "Before unplugging it, make sure to exit the app and eject the drive "
+#| "safely to avoid data loss."
+msgid "DialogTextRemovableDriveUnplugWarning"
+msgstr ""
+"Przed odłączeniem upewnij się, że zamknąłeś aplikację i bezpiecznie "
+"wysunąłeś dysk, aby uniknąć utraty danych."
+
+#. A message displayed when an attempt is made to encrypt or wipe a file located in a system protected location. It may be followed by a list of affected files. This will abort the entire operation and nothing happens. [DialogTextSystemProtected]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3df
+#| msgid "File(s) are system protected, the action was canceled."
+msgid "DialogTextSystemProtected"
+msgstr "Plik(i) jest(są) chronione przez system. Akcja została anulowana."
+
+#. Informing that one or more files could not be encrypted due to licensing restrictions. A list of files may be appended. [DialogTextTooLargeForLicense]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3e0
+#| msgid "File(s) were not encrypted. Encryption limit is 1 MB. See About."
+msgid "DialogTextTooLargeForLicense"
+msgstr ""
+"Plik(i) nie został(y) zaszyfrowany(e). Limit szyfrowania wynosi 1 MB. Zobacz "
+"informacje."
+
+#. The text shown when a decryption fails because of unknown password. [DialogTextUnknownPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3e1
+#| msgid "File(s) could not be decrypted. Try adding an alternative password."
+msgid "DialogTextUnknownPassword"
+msgstr "Nie udało się odszyfrować pliku(ów). Spróbuj dodać alternatywne hasło."
+
+#. Text displayed when an attempt to open a file for editing fails due to wrong password, hinting that perhaps it has to be decrypted first using an alternative password. [DialogTextWrongPasswordOpen]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3e2
+#| msgid ""
+#| "The file could not be opened. Try decrypting with an alternative password "
+#| "first."
+msgid "DialogTextWrongPasswordOpen"
+msgstr ""
+"Nie udało się otworzyć pliku. Spróbuj najpierw deszyfrować go przy użyciu "
+"innego hasła."
+
+#. Dialog title of the dialog where a user can request a purchased license using an email and the last 4 digits of the card used. [DialogTitleFetchLicense]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3e3
+#| msgid "Get subscription license"
+msgid "DialogTitleFetchLicense"
+msgstr "Uzyskaj licencję subskrypcyjną"
+
+#. A title for dialogs warning about the situation where we're running from a removable drive. [DialogTitleRemovableDrive]
+#: Resources.resx loco:681f897716bfcd2acb006664
+#| msgid "Running from removable drive!"
+msgid "DialogTitleRemovableDrive"
+msgstr "Uruchamianie z dysku wymiennego!"
+
+#. The dialog title when selecting a destination folder. [DialogTitleSelectDestinationFolder]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3e4
+#| msgid "Select destination folder"
+msgid "DialogTitleSelectDestinationFolder"
+msgstr "Wybierz folder docelowy"
+
+#. The title of a file selection dialog for selecting a file to open, i.e. 'Select files to open'. [DialogTitleSelectFileToOpen]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3e5
+#| msgid "Select file to open"
+msgid "DialogTitleSelectFileToOpen"
+msgstr "Wybierz plik do otwarcia"
+
+#. The title of a file selection dialog for selecting files to decrypt, i.e. 'Select files to decrypt'. [DialogTitleSelectFilesToDecrypt]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3e6
+#| msgid "Select files to decrypt"
+msgid "DialogTitleSelectFilesToDecrypt"
+msgstr "Wybierz pliki do deszyfracji"
+
+#. The title of a file selection dialog for selecting files to encrypt, i.e. 'Select files to encrypt'. [DialogTitleSelectFilesToEncrypt]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3e7
+#| msgid "Select files to encrypt"
+msgid "DialogTitleSelectFilesToEncrypt"
+msgstr "Wybierz pliki do zaszyfrowania"
+
+#. This is the title for the open dialog to select files to re-encrypt [DialogTitleSelectFilesToReEncrypt]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3e8
+#| msgid "Select files to re-encrypt"
+msgid "DialogTitleSelectFilesToReEncrypt"
+msgstr "Wybierz pliki do ponownego zaszyfrowania"
+
+#. The title of a file selection dialog for selecting files to wipe, i.e. 'Select files to wipe'. [DialogTitleSelectFilesToWipe]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3e9
+#| msgid "Select files to wipe"
+msgid "DialogTitleSelectFilesToWipe"
+msgstr "Wybierz pliki do wyczyszczenia"
+
+#. A title for a generic select folder picker, used for both encrypt and decrypt folder etc. [DialogTitleSelectFolder]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3ea
+#| msgid "Select folder"
+msgid "DialogTitleSelectFolder"
+msgstr "Wybierz folder"
+
+#. An error text displayed when an attempt is made to sign in twice with the same profile email. [DialogValidationAlreadySignedIn]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3eb
+#| msgid ""
+#| "You are already signed in. Look for the app behind another window, on "
+#| "another screen, among minimized apps or in the system tray and show the "
+#| "window from there."
+msgid "DialogValidationAlreadySignedIn"
+msgstr ""
+"Jesteś już zalogowany. Poszukaj aplikacji w innym oknie, na innym ekranie, "
+"wśród zminimalizowanych aplikacji lub w zasobniku systemowym i wyświetl okno "
+"z tego miejsca."
+
+#. An error text displayed when no password confirmation was entered. [DialogValidationConfirmPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3ec
+#| msgid "Please confirm the password again"
+msgid "DialogValidationConfirmPassword"
+msgstr "Proszę potwierdzić ponownie hasło"
+
+#. An error text displayed when validation of email format fails. [DialogValidationInvalidEmail]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3ed
+#| msgid "Please enter a valid email address"
+msgid "DialogValidationInvalidEmail"
+msgstr "Proszę podać prawidłowy adres e-mail"
+
+#. An error text displayed when no password is entered although required. [DialogValidationPasswordRequired]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3ee
+#| msgid "Please enter a password"
+msgid "DialogValidationPasswordRequired"
+msgstr "Proszę podać hasło"
+
+#. An error message displayed in a dialog when the users enters the wrong password. [DialogValidationWrongPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3ef
+#| msgid "Wrong password!"
+msgid "DialogValidationWrongPassword"
+msgstr "Złe hasło!"
+
+#. An information message giving a hint that to change the configuration, you first need to remove the current configuration. [DialogYubiKeyChangeConfiguration]
+#: Resources.resx loco:682308272f4e99990a0fc732
+#| msgid ""
+#| "To change the YubiKey configuration, you must first remove the existing "
+#| "configuration."
+msgid "DialogYubiKeyChangeConfiguration"
+msgstr ""
+"Aby zmienić konfigurację YubiKey, musisz najpierw usunąć istniejącą "
+"konfigurację."
+
+#. An information message giving hints on how to change YubiKey defaults, and referring to help for more info where actual links etc are. [DialogYubiKeyDefaultChangeInfo]
+#: Resources.resx loco:682308272f4e99990a0fc733
+#| msgid ""
+#| "To change the PIN, PUK, or Management Key, get the Yubico Authenticator "
+#| "app and go to Certificates settings. For details, click the help icon."
+msgid "DialogYubiKeyDefaultChangeInfo"
+msgstr ""
+"Aby zmienić kod PIN, PUK lub Klucz Zarządzania, pobierz aplikację 'Yubico "
+"Authenticator' i przejdź do ustawień certyfikatów. Aby uzyskać szczegółowe "
+"informacje, kliknij ikonę pomocy."
+
+#. Dialog title for the YubiKey disabling setup dialog. [DialogYubiKeyDisable]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3f0
+#| msgid "Do you want to remove the YubiKey configuration?"
+msgid "DialogYubiKeyDisable"
+msgstr "Czy chcesz usunąć konfigurację YubiKey?"
+
+#. Dialog title for the YubiKey enabling setup dialog. [DialogYubiKeyEnable]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3f1
+#| msgid "Do you want to enable this YubiKey for signing in?"
+msgid "DialogYubiKeyEnable"
+msgstr "Czy chcesz włączyć ten YubiKey do logowania?"
+
+#. Error message when enabling fails, typically because there are no slots. [DialogYubiKeyEnabledFailed]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3f2
+#| msgid ""
+#| "It is not possible to use this YubiKey. There may not be any slots "
+#| "available."
+msgid "DialogYubiKeyEnabledFailed"
+msgstr "Nie można użyć tego YubiKey. Możliwe, że nie ma wolnych slotów."
+
+#. A dialog title used when asking for PIV management key authentication [DialogYubiKeyEnterKeyTitle]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3f3
+#| msgid "Please enter YubiKey PIV hex management key:"
+msgid "DialogYubiKeyEnterKeyTitle"
+msgstr "Proszę wprowadzić szesnastkowy klucz zarządzania YubiKey PIV:"
+
+#. A dialog title used when asking for the PIN [DialogYubiKeyEnterPinTitle]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3f4
+#| msgid "Please enter YubiKey PIV PIN:"
+msgid "DialogYubiKeyEnterPinTitle"
+msgstr "Proszę wprowadzić kod PIN YubiKey PIV:"
+
+#. Dialog title displayed when we're checking for a YubiKey during setup [DialogYubiKeyLooking]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3f5
+#| msgid "Waiting for YubiKey..."
+msgid "DialogYubiKeyLooking"
+msgstr "Oczekiwanie na YubiKey..."
+
+#. A warning message stating that the PIV management key still has it's default value. [DialogYubiKeyManagementKeyDefault]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3f6
+#| msgid ""
+#| "The PIV management key has it's default value 3 x 0102030405060708, it "
+#| "should be changed!"
+msgid "DialogYubiKeyManagementKeyDefault"
+msgstr ""
+"Klucz zarządzania PIV ma domyślną wartość 3 x 0102030405060708, należy ją "
+"zmienić!"
+
+#. An error message displayed when a non-conforming YubiKey is connected. [DialogYubiKeyMissingFeatures]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3f7
+#| msgid "Required features are missing from this YubiKey."
+msgid "DialogYubiKeyMissingFeatures"
+msgstr "W tym YubiKey brakuje wymaganych funkcji."
+
+#. Dialog title for the YubiKey setup dialog when there is no yubikey connected and no configuration. [DialogYubiKeyNotConnected]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3f8
+#| msgid "There is no YubiKey connected!"
+msgid "DialogYubiKeyNotConnected"
+msgstr "Nie podłączono żadnego YubiKey!"
+
+#. An informational message displayed when the connected YubiKey is not initialized. [DialogYubiKeyNotInitialized]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3f9
+#| msgid "This YubiKey is not yet initialized for use."
+msgid "DialogYubiKeyNotInitialized"
+msgstr "Ten YubiKey nie został jeszcze zainicjowany do użycia."
+
+#. A title dialog text displayed when a YubiKey is detected, but it doesn't have sufficient capabilities. [DialogYubiKeyNotSupported]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3fa
+#| msgid "This YubiKey is not supported!"
+msgid "DialogYubiKeyNotSupported"
+msgstr "Ten YubiKey nie jest obsługiwany!"
+
+#. An info message stating that it's enough to touch the YubiKey to sign in. [DialogYubiKeyOnlyTouch]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3fb
+#| msgid "Only this YubiKey and a touch is required to sign in."
+msgid "DialogYubiKeyOnlyTouch"
+msgstr "Do zalogowania potrzebny jest tylko YubiKey i dotknięcie."
+
+#. A description of how the Open security mode works. [DialogYubiKeyOpenSecurity]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3fc
+#| msgid "Only this YubiKey is required to sign in."
+msgid "DialogYubiKeyOpenSecurity"
+msgstr "Do zalogowania potrzebny jest tylko YubiKey."
+
+#. [DialogYubiKeyPcscMissing]
+#: Resources.resx loco:693f231ccf5d7131280ef9f2
+#, icu-format
+#| msgid ""
+#| "Please ensure that pcscd / pcsc-lite is installed and the daemon is "
+#| "running. Click the help icon for more information about YubiKey and Linux."
+msgid "DialogYubiKeyPcscMissing"
+msgstr ""
+"Upewnij się, że pcscd / pcsc-lite jest zainstalowany, a daemon jest "
+"uruchomiony. Kliknij ikonę pomocy, aby uzyskać więcej informacji o YubiKey i "
+"Linux."
+
+#. A warning message saying that the PIV PIN still has it's default value. [DialogYubiKeyPinDefault]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3fd
+#| msgid "The PIV PIN has it's default value 123456, it should be changed!"
+msgid "DialogYubiKeyPinDefault"
+msgstr "PIN PIV ma domyślną wartość 123456, należy ją zmienić!"
+
+#. An info message stating that the PIN is required to sign in. [DialogYubiKeyPinRequired]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3fe
+#| msgid "This YubiKey and the PIN is required to sign in."
+msgid "DialogYubiKeyPinRequired"
+msgstr "Do zalogowania potrzebny jest YubiKey i kod PIN."
+
+#. An informational message displayed about what slot will be used. '{0}' will be filled with the actual slot in question. [DialogYubiKeyPivSlotUsedFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb3ff
+#, icu-format
+#| msgid "PIV slot {0} is currently used or possible to use."
+msgid "DialogYubiKeyPivSlotUsedFormat"
+msgstr "Slot PIV {0} jest aktualnie używany lub możliwy do użycia."
+
+#. A warning message stating that the PIV PUK still has it's default value. [DialogYubiKeyPukDefault]
+#: Resources.resx loco:670e1cf615d80a27bc0eb400
+#| msgid "The PIV PUK has it's default value 12345678, it should be changed!"
+msgid "DialogYubiKeyPukDefault"
+msgstr "Kod PUK PIV ma domyślną wartość 12345678, należy ją zmienić!"
+
+#. A warning message stating that the VC++ redistributable is missing, and providing a link to download it. [DialogYubiKeyRedistributableMissing]
+#: Resources.resx loco:696293af0117ae82f0008ff2
+#, icu-format
+#| msgid ""
+#| "To use YubiKey, the Microsoft Visual C++ Redistributable must be "
+#| "installed. Download it from {0}, run the installer, and restart the "
+#| "application."
+msgid "DialogYubiKeyRedistributableMissing"
+msgstr ""
+"Aby korzystać z YubiKey, należy zainstalować pakiet redystrybucyjny "
+"'Microsoft Visual C++'. Pobierz go ze strony {0}, uruchom instalator i "
+"ponownie uruchom aplikację."
+
+#. A sub-title in the dialog above a list of radio buttons where a choice of the security mode is made. [DialogYubiKeySelectMode]
+#: Resources.resx loco:670e1cf615d80a27bc0eb401
+#| msgid "Select how you want to use your YubiKey."
+msgid "DialogYubiKeySelectMode"
+msgstr "Wybierz, w jaki sposób chcesz używać swojego YubiKey."
+
+#. [DialogYubiKeyServiceUnsupported]
+#: Resources.resx loco:690477ad184eb7fbf00ca4b2
+#| msgid "This app can’t use a YubiKey on this operating system."
+msgid "DialogYubiKeyServiceUnsupported"
+msgstr "Ta aplikacja nie może używać YubiKey w tym systemie operacyjnym."
+
+#. A modal disappearing prompt to touch the YubiKey when required. [DialogYubiKeyTouchPrompt]
+#: Resources.resx loco:670e1cf615d80a27bc0eb402
+#| msgid "Please touch the YubiKey..."
+msgid "DialogYubiKeyTouchPrompt"
+msgstr "Proszę dotknąć YubiKey..."
+
+#. Label for a checkbox to optionally hide a specific warning or other message. [DontShowAgain]
+#: Resources.resx loco:6789570564500fc900019cc2
+#| msgid "Don't show this again"
+msgid "DontShowAgain"
+msgstr "Nie pokazuj ponownie tego komunikatu"
+
+#. A dialog box text, asking the user if (s)he wants to download a free premium trial license. [DownloadFreeTrialQuestion]
+#: Resources.resx loco:670e1cf615d80a27bc0eb403
+#| msgid ""
+#| "Would you like to try premium free for 3 days? No credit card required."
+msgid "DownloadFreeTrialQuestion"
+msgstr ""
+"Chcesz wypróbować wersję premium za darmo przez 3 dni? Nie wymagamy karty "
+"kredytowej."
+
+#. An error text when shares can't be combined either because they are mismatched, or in the wrong format. [ErrorCombiningShares]
+#: Resources.resx loco:68396d06ff6b3f753f0e72d4
+#| msgid ""
+#| "The shares could not be combined. Please check the shares and try again."
+msgid "ErrorCombiningShares"
+msgstr "Nie udało się połączyć udziałów. Sprawdź udziały i spróbuj ponownie."
+
+#. An error text when duplicate shares were entered and removed. [ErrorDuplicatesRemoved]
+#: Resources.resx loco:68396d06ff6b3f753f0e72d5
+#| msgid "Duplicate shares were removed."
+msgid "ErrorDuplicatesRemoved"
+msgstr "Usunięto zduplikowane udziały."
+
+#. A warning message displayed when a free, non-purchased, license has expired. [ExpirationCheckPurchaseWarning]
+#: Resources.resx loco:670e1cf615d80a27bc0eb404
+#| msgid ""
+#| "Your free trial license has expired. Do you want to view the subscription "
+#| "information web page?"
+msgid "ExpirationCheckPurchaseWarning"
+msgstr ""
+"Twoja darmowa licencja próbna wygasła. Czy chcesz wyświetlić stronę z "
+"informacjami o subskrypcji?"
+
+#. The text in a message box informing the user that the license is expired, and asking if the user wants to download an update. [ExpirationCheckWarning]
+#: Resources.resx loco:670e1cf615d80a27bc0eb405
+#| msgid ""
+#| "Your license has expired. Do you want to download an updated license?"
+msgid "ExpirationCheckWarning"
+msgstr "Twoja licencja wygasła. Czy chcesz pobrać zaktualizowaną licencję?"
+
+#. The question asked when an attempt is made to use a premium feature in the free version. [FeatureNotFreeHideQuestion]
+#: Resources.resx loco:689206499d45383ddb09dcf2
+#| msgid "Do you want to hide all premium features?"
+msgid "FeatureNotFreeHideQuestion"
+msgstr "Czy chcesz ukryć wszystkie funkcje premium?"
+
+#. The info text show when the user attempts to use a non-free feature. [FeatureNotFreeInformation]
+#: Resources.resx loco:670e1cf615d80a27bc0eb406
+#, icu-format
+#| msgid ""
+#| "Standard encryption and decryption is of course always free!\n"
+#| "\n"
+#| "If you like the program and would like to enable all features, please "
+#| "support\n"
+#| "us by purchasing a subscription at {0}.\n"
+#| "\n"
+#| "It's not free, but it's not expensive either and totally worth it we "
+#| "think!"
+msgid "FeatureNotFreeInformation"
+msgstr ""
+"Standardowe szyfrowanie i deszyfrowanie jest oczywiście zawsze darmowe!\n"
+"\n"
+"Jeśli podoba Ci się program i chcesz włączyć wszystkie jego funkcje, "
+"wesprzyj nas, kupując subskrypcję na {0}.\n"
+"\n"
+"To nie jest darmowe, ale też niedrogie i naszym zdaniem całkowicie warte "
+"swojej ceny!"
+
+#. The first short text specifying a feature is not free. [FeatureNotFreeShortInformation]
+#: Resources.resx loco:689206499d45383ddb09dcf3
+#| msgid "Sorry, this premium feature is not available in the free version."
+msgid "FeatureNotFreeShortInformation"
+msgstr "Przepraszamy, ta funkcja premium nie jest dostępna w wersji darmowej."
+
+#. The title of the text box to show when the user attempts to use a non-free feature. {0} is the program name, and should always be first in all translations. [FeatureNotFreeTitle]
+#: Resources.resx loco:670e1cf615d80a27bc0eb407
+#, icu-format
+#| msgid "{0} Feature not available"
+msgid "FeatureNotFreeTitle"
+msgstr "Funkcja {0} niedostępna"
+
+#. A message displayed as user feedback when an operation was canceled. [FilesCanceledMessage]
+#: Resources.resx loco:670e1cf615d80a27bc0eb408
+#| msgid "Canceled"
+msgid "FilesCanceledMessage"
+msgstr "Anulowano"
+
+#. The progress finished indicator. The {0} is replaced by the number of files, 0, 1 or many. [FilesProcessedMessageFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb409
+#, icu-format
+#| msgid "No files|{0} file|{0} files"
+msgid "FilesProcessedMessageFormat"
+msgstr "Brak plików|{0} plik|{0} pliki"
+
+#. A tooltip text explaining how getting the license works. [GetLicenseTooltip]
+#: Resources.resx loco:670e1cf615d80a27bc0eb40a
+#| msgid ""
+#| "A browser window will open. Copy the license from there, return here and "
+#| "paste it."
+msgid "GetLicenseTooltip"
+msgstr ""
+"Otworzy się okno przeglądarki. Skopiuj stamtąd licencję, wróć tutaj i wklej "
+"ją."
+
+#. A heading in the create new user window, i.e. "Create New User". [HeadingCreateNewUser]
+#: Resources.resx loco:670e1cf615d80a27bc0eb40b
+#| msgid "Create new profile"
+msgid "HeadingCreateNewUser"
+msgstr "Tworzenie nowego profilu"
+
+#. A heading in the create user window, i.e. "First Time Setup". [HeadingCreateUserFirstTimeSetup]
+#: Resources.resx loco:670e1cf615d80a27bc0eb40c
+#| msgid "Setup a local profile"
+msgid "HeadingCreateUserFirstTimeSetup"
+msgstr "Skonfiguruj profil lokalny"
+
+#. The heading for the emergency reset password dialog [HeadingEmergencyReset]
+#: Resources.resx loco:670e1cf615d80a27bc0eb40d
+#| msgid "Reset password!"
+msgid "HeadingEmergencyReset"
+msgstr "Zresetuj hasło!"
+
+#. A text used to issue a warning to the user that an attempt was made to add an invalid or expired license. [InvalidLicenseIgnored]
+#: Resources.resx loco:670e1cf615d80a27bc0eb40e
+#| msgid "License is invalid or expired."
+msgid "InvalidLicenseIgnored"
+msgstr "Licencja jest nieważna lub wygasła."
+
+#. The text label describing the action for the clear passwords dialog. The {0} will be replaced by a number. This is a plural text, the first is for zero, then one, and then 2 or more separated by '|'. [LabelDecryptionPasswordCountFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb40f
+#, icu-format
+#| msgid ""
+#| "There are no saved passwords to clear.|There is one saved password. Clear "
+#| "it?|There are {0} passwords saved. Clear them all?"
+msgid "LabelDecryptionPasswordCountFormat"
+msgstr ""
+"Brak zapisanych haseł do wyczyszczenia.|Jest jedno zapisane hasło. Wyczyścić "
+"je?|Jest {0} zapisanych haseł. Wyczyścić je wszystkie?"
+
+#. A label displayed for the last 4 digits input field. [LabelLast4]
+#: Resources.resx loco:670e1cf615d80a27bc0eb410
+#| msgid "Last 4 digits of credit card, or empty."
+msgid "LabelLast4"
+msgstr "Ostatnie 4 cyfry numeru karty kredytowej lub puste pole."
+
+#. A label for the textbox where a recovered secret is displayed. [LabelTheSecret]
+#: Resources.resx loco:68396d06ff6b3f753f0e72d6
+#| msgid "The secret"
+msgid "LabelTheSecret"
+msgstr "Tajny klucz"
+
+#. A text fragment appearing in the about window, informing that the license is not valid for Ez. [LicenseNotValidForProductBlurb]
+#: Resources.resx loco:670e1cf615d80a27bc0eb411
+#, icu-format
+#| msgid ""
+#| "License '{product}' for {licensee} is not valid for this software. Free "
+#| "version, some features unavailable.\\nSee https://www.axantum.com/ ."
+msgid "LicenseNotValidForProductBlurb"
+msgstr ""
+"Licencja '{product}' dla {licenseee} nie jest ważna dla tego oprogramowania. "
+"Wersja darmowa, niektóre funkcje niedostępne.\\nZobacz https://www.axantum."
+"com/."
+
+#. A text fragment appearing in the about window, informing that there is a currently valid license. [LicensedBlurb]
+#: Resources.resx loco:670e1cf615d80a27bc0eb412
+#, icu-format
+#| msgid "License for {licensee} valid to {expiration}, thank you!"
+msgid "LicensedBlurb"
+msgstr "Licencja dla {licensee} ważna do {expiration}, dziękujemy!"
+
+#. A text fragment appearing in the about window, informing that there is a previously valid license, now expired. [LicensedExpiredBlurb]
+#: Resources.resx loco:670e1cf615d80a27bc0eb413
+#, icu-format
+#| msgid ""
+#| "License for {licensee} expired at {expiration}.\\nFree version, some "
+#| "features unavailable.\\nSee https://www.axantum.com/ ."
+msgid "LicensedExpiredBlurb"
+msgstr ""
+"Licencja dla {licenseee} wygasła {expiration}.\\nWersja darmowa, niektóre "
+"funkcje są niedostępne.\\nZobacz https://www.axantum.com/ ."
+
+#. The text in the menu to open a window with about information, i.e. "About". (_ indicates keyboard accelerator) [MenuAbout]
+#: Resources.resx loco:670e1cf615d80a27bc0eb414
+#| msgid "_About"
+msgid "MenuAbout"
+msgstr "_O programie..."
+
+#. The menu item under to add an extra alternate password. [MenuAddPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb415
+#| msgid "_Add decryption password..."
+msgid "MenuAddPassword"
+msgstr "_Dodaj hasło deszyfrujące..."
+
+#. The menu text for a link to the purchase page. [MenuBuyNow]
+#: Resources.resx loco:670e1cf615d80a27bc0eb416
+#| msgid "Subscribe to _premium..."
+msgid "MenuBuyNow"
+msgstr "Subskrybuj wersję _premium..."
+
+#. The text used as a title in the change email dialog and the menu [MenuChangeEmail]
+#: Resources.resx loco:6789570564500fc900019cc3
+#| msgid "Change _email..."
+msgid "MenuChangeEmail"
+msgstr "Zmień e-mail..."
+
+#. The text in the menu to open a dialog to change the password, i.e. "Change _Password...". (_ indicates keyboard accelerator) [MenuChangePassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb417
+#| msgid "Change _password..."
+msgid "MenuChangePassword"
+msgstr "Zmień hasło..."
+
+#. A menu entry to clear previously hidden warnings [MenuClearDontShowAgain]
+#: Resources.resx loco:6789570564500fc900019cc4
+#| msgid "Show all _messages again"
+msgid "MenuClearDontShowAgain"
+msgstr "Pokaż ponownie wszystkie okna _komunikatów"
+
+#. Menu title for the clear passwords function. Also used as the title of the dialog, edited to remove "..." and accelerators [MenuClearPasswords]
+#: Resources.resx loco:670e1cf615d80a27bc0eb418
+#| msgid "_Clear decryption passwords..."
+msgid "MenuClearPasswords"
+msgstr "_Wyczyść hasła deszyfrujące..."
+
+#. The  menu item to clear the recent files list [MenuClearRecent]
+#: Resources.resx loco:670e1cf615d80a27bc0eb419
+#| msgid "_Clear recent list..."
+msgid "MenuClearRecent"
+msgstr "_Wyczyść listę otwieranych..."
+
+#. A menu text, also used as tooltip for license paste button [MenuClipboardLicense]
+#: Resources.resx loco:6745a304c4fd5b3bae0bcef5
+#| msgid "Paste license from _clipboard"
+msgid "MenuClipboardLicense"
+msgstr "Wklej licencję ze _schowka"
+
+#. The text in the menu to close all possible currently opened files. (_ indicates the letter for a keyboard accelerator) [MenuClose]
+#: Resources.resx loco:670e1cf615d80a27bc0eb41a
+#| msgid "_Close all..."
+msgid "MenuClose"
+msgstr "_Zamknij wszystko..."
+
+#. Menu text for combining secret shares to recover the secret. [MenuCombineShares]
+#: Resources.resx loco:68396d06ff6b3f753f0e72d7
+#| msgid "C_ombine secret shares..."
+msgid "MenuCombineShares"
+msgstr "P_ołącz utajnione udziały..."
+
+#. Menu text for creating secret shares. [MenuCreateShares]
+#: Resources.resx loco:68396d06ff6b3f753f0e72d8
+#| msgid "_Create secret shares..."
+msgid "MenuCreateShares"
+msgstr "_Utwórz utajnione udziały..."
+
+#. The text in the menu to open a dialog to create a new user, i.e. "Create New...". (_ indicates keyboard accelerator) [MenuCreateUser]
+#: Resources.resx loco:670e1cf615d80a27bc0eb41b
+#| msgid "_Create new profile..."
+msgid "MenuCreateUser"
+msgstr "_Utwórz nowy profil..."
+
+#. The menu to open the customer portal [MenuCustomerPortal]
+#: Resources.resx loco:6745a304c4fd5b3bae0bcef6
+#| msgid "Customer _portal..."
+msgid "MenuCustomerPortal"
+msgstr "Portal _klienta..."
+
+#. The text in the menu to open a dialog to select files to decrypt, i.e. "Decrypt...". (_ indicates keyboard accelerator) [MenuDecrypt]
+#: Resources.resx loco:670e1cf615d80a27bc0eb41c
+#| msgid "_Decrypt..."
+msgid "MenuDecrypt"
+msgstr "_Deszyfruj..."
+
+#. A menu entry for the decrypt folder operation. [MenuDecryptFolder]
+#: Resources.resx loco:670e1cf615d80a27bc0eb41d
+#| msgid "Decrypt f_older files..."
+msgid "MenuDecryptFolder"
+msgstr "Deszyfruj pliki f_olderu..."
+
+#. The menu text for a link to the download page. [MenuDownload]
+#: Resources.resx loco:670e1cf615d80a27bc0eb41e
+#| msgid "Check for _update..."
+msgid "MenuDownload"
+msgstr "Sprawdź _aktualizację..."
+
+#. The text in a menu for the Edit operation, i.e. "Edit" [MenuEdit]
+#: Resources.resx loco:670e1cf615d80a27bc0eb41f
+#| msgid "_Edit"
+msgid "MenuEdit"
+msgstr "_Edytuj"
+
+#. The text in the menu to open a dialog to select files to encrypt, i.e. "Encrypt...". (_ indicates keyboard accelerator) [MenuEncrypt]
+#: Resources.resx loco:670e1cf615d80a27bc0eb420
+#| msgid "_Encrypt..."
+msgid "MenuEncrypt"
+msgstr "_Zaszyfruj..."
+
+#. The text in the menu to select files to encrypt a copy of  a file in a different destination folder, i.e. "Encrypt Copy...". [MenuEncryptCopy]
+#: Resources.resx loco:670e1cf615d80a27bc0eb421
+#| msgid "Encrypt _copy..."
+msgid "MenuEncryptCopy"
+msgstr "Zaszyfruj _kopię..."
+
+#. The text in the menu to select files to encrypt a copy of  a file to another recipient in a different destination folder, i.e. "Encrypt Copy...". [MenuEncryptCopyFor]
+#: Resources.resx loco:670e1cf615d80a27bc0eb422
+#| msgid "Encrypt _copy to share..."
+msgid "MenuEncryptCopyFor"
+msgstr "Zaszyfruj _kopię do udostępnienia..."
+
+#. The menu item to encrypt or decrypt text [MenuEncryptDecryptText]
+#: Resources.resx loco:670e1cf615d80a27bc0eb423
+#| msgid "Encrypt or decrypt _text..."
+msgid "MenuEncryptDecryptText"
+msgstr "Szyfruj lub deszyfruj _tekst..."
+
+#. A menu entry for the encrypt folder operation. [MenuEncryptFolder]
+#: Resources.resx loco:670e1cf615d80a27bc0eb424
+#| msgid "Encrypt _folder files..."
+msgid "MenuEncryptFolder"
+msgstr "Zaszyfruj pliki _folderu..."
+
+#. The menu entry for opening a window where the license can be pasted. [MenuEnterLicense]
+#: Resources.resx loco:68c58fbe8a59c0d4460a2604
+#| msgid "Activate _Premium..."
+msgid "MenuEnterLicense"
+msgstr "Aktywuj _Premium..."
+
+#. The text in the menu to exit the program, i.e. "Exit". (_ indicates keyboard accelerator) [MenuExit]
+#: Resources.resx loco:670e1cf615d80a27bc0eb425
+#| msgid "E_xit"
+msgid "MenuExit"
+msgstr "W_yjście"
+
+#. The text in the menu to open the file submenu, i.e. "File". (_ indicates keyboard accelerator) [MenuFile]
+#: Resources.resx loco:670e1cf615d80a27bc0eb426
+#| msgid "_File"
+msgid "MenuFile"
+msgstr "_Plik"
+
+#. The text in the menu open the help submenu, i.e. "Help". (_ indicates keyboard accelerator) [MenuHelp]
+#: Resources.resx loco:670e1cf615d80a27bc0eb427
+#| msgid "_Help"
+msgid "MenuHelp"
+msgstr "_Pomoc"
+
+#. The menu to open a gallery of video instructions [MenuHelpVideos]
+#: Resources.resx loco:6745a304c4fd5b3bae0bcef7
+#| msgid "_Video guides..."
+msgid "MenuHelpVideos"
+msgstr "_Przewodniki Video po programie..."
+
+#. A menu entry for selecting an inactivty timeout exit [MenuInactivityExit]
+#: Resources.resx loco:671258cbbd9b193153086462
+#| msgid "_Exit after inactivity..."
+msgid "MenuInactivityExit"
+msgstr "_Wyjdź po okresie bezczynności..."
+
+#. A menu entry for selecting 'Never' as the choice for inactivity timeout [MenuInactivityNever]
+#: Resources.resx loco:671258cbbd9b193153086463
+#| msgid "Never"
+msgid "MenuInactivityNever"
+msgstr "Nigdy"
+
+#. The format for a timeout selection menu entry. [MenuInactivityTimeoutValueFormat]
+#: Resources.resx loco:671258cbbd9b193153086464
+#, icu-format
+#| msgid "{0} minutes"
+msgid "MenuInactivityTimeoutValueFormat"
+msgstr "po {0} minutach"
+
+#. The menu text for the function to retrieve a purchased license. [MenuLicense]
+#: Resources.resx loco:670e1cf615d80a27bc0eb428
+#| msgid "Get your subscription premium _license..."
+msgid "MenuLicense"
+msgstr "Uzyskaj _licencję premium w ramach subskrypcji..."
+
+#. Menu text for loading/viewing secret shares. [MenuLoadShares]
+#: Resources.resx loco:68396d06ff6b3f753f0e72d9
+#| msgid "_View secret shares..."
+msgid "MenuLoadShares"
+msgstr "_Zobacz utajnione udziały..."
+
+#. The text in the menu to open a dialog to select a file to open, i.e. "Open...". (_ indicates keyboard accelerator) [MenuOpen]
+#: Resources.resx loco:670e1cf615d80a27bc0eb429
+#| msgid "_Open..."
+msgid "MenuOpen"
+msgstr "_Otwórz..."
+
+#. The text in the menu to display a list of recent files to open, i.e. "Open Recent...". (_ indicates keyboard accelerator) [MenuOpenRecent]
+#: Resources.resx loco:670e1cf615d80a27bc0eb42a
+#| msgid "Open _recent"
+msgid "MenuOpenRecent"
+msgstr "Ostatnio _otwierane pliki"
+
+#. The text in a menu or context menu for the Paste operation, i.e. Paste. [MenuPaste]
+#: Resources.resx loco:670e1cf615d80a27bc0eb42b
+#| msgid "_Paste"
+msgid "MenuPaste"
+msgstr "_Wklej"
+
+#. A menu entry to further options to change preferences. [MenuPreferences]
+#: Resources.resx loco:670e1cf615d80a27bc0eb42c
+#| msgid "_Preferences..."
+msgid "MenuPreferences"
+msgstr "_Preferencje..."
+
+#. The menu text for the random renaming of files. [MenuRandomRename]
+#: Resources.resx loco:670e1cf615d80a27bc0eb42d
+#| msgid "_Rename randomly...."
+msgid "MenuRandomRename"
+msgstr "_Zmień nazwę losowo...."
+
+#. Menu entry for re-encrypting already encrypted files. [MenuReEncryptFiles]
+#: Resources.resx loco:670e1cf615d80a27bc0eb42e
+#| msgid "_Re-encrypt..."
+msgid "MenuReEncryptFiles"
+msgstr "_Ponowne szyfrowanie..."
+
+#. The menu entry to select a folder and re-encrypt all files in it and subfolders [MenuReEncryptFolder]
+#: Resources.resx loco:670e1cf615d80a27bc0eb42f
+#| msgid "_Re-encrypt folder files"
+msgid "MenuReEncryptFolder"
+msgstr "_Ponowne szyfrowanie plików folderów"
+
+#. Text for a menu entry to show the program from a minimized state. [MenuShow]
+#: Resources.resx loco:670e1cf615d80a27bc0eb430
+#| msgid "_Show"
+msgid "MenuShow"
+msgstr "_Pokaż"
+
+#. Menu entry that opens a dialog box with suggestions for passwords [MenuSuggestPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb431
+#| msgid "_Suggest password..."
+msgid "MenuSuggestPassword"
+msgstr "_Propozycja hasła..."
+
+#. A menu entry to further options to change the visual theme, i.e. dark or light. [MenuTheme]
+#: Resources.resx loco:670e1cf615d80a27bc0eb432
+#| msgid "_Theme..."
+msgid "MenuTheme"
+msgstr "_Motyw..."
+
+#. A menu entry to request a temporary trial license. [MenuTrialDownload]
+#: Resources.resx loco:670e1cf615d80a27bc0eb433
+#| msgid "Get your 3 day _free premium license..."
+msgid "MenuTrialDownload"
+msgstr "Zdobądź swoją 3-dniową darmową licencję premium..."
+
+#. The text in the menu to open the User submenu, i.e. "User". (_ indicates keyboard accelerator) [MenuUser]
+#: Resources.resx loco:670e1cf615d80a27bc0eb434
+#| msgid "_User"
+msgid "MenuUser"
+msgstr "_Użytkownik"
+
+#. The menu text to open a dialog asking for files to wipe. [MenuWipe]
+#: Resources.resx loco:670e1cf615d80a27bc0eb435
+#| msgid "_Delete securely..."
+msgid "MenuWipe"
+msgstr "_Bezpieczne usuwanie..."
+
+#. Menu title for configuration of a YubiKey. [MenuYubiKey]
+#: Resources.resx loco:670e1cf615d80a27bc0eb436
+#| msgid "_YubiKey configuration..."
+msgid "MenuYubiKey"
+msgstr "_Konfiguracja YubiKey..."
+
+#. Error message when decryption fails due to broken data. [MessageFileFormatError]
+#: Resources.resx loco:670e1cf615d80a27bc0eb437
+#| msgid "The encrypted data is not correctly formatted."
+msgid "MessageFileFormatError"
+msgstr "Zaszyfrowane dane nie mają prawidłowego formatu."
+
+#. A message when decrypting a file that does not start with the magic guid. [MessageNotEncrypted]
+#: Resources.resx loco:680b8a0748ff58b5370e39d2
+#| msgid ""
+#| "The initial 16 bytes are wrong, it is probably some other kind of data or "
+#| "severely damaged."
+msgid "MessageNotEncrypted"
+msgstr ""
+"Początkowe 16 bajtów jest błędnych, prawdopodobnie są to jakieś inne dane "
+"lub są poważnie uszkodzone."
+
+#. Error message when an improperly formatted license string is attempted to be used. [MessageTextBadLicenseString]
+#: Resources.resx loco:6745a304c4fd5b3bae0bcef8
+#| msgid "The license key is not in the correct format."
+msgid "MessageTextBadLicenseString"
+msgstr "Klucz licencyjny ma nieprawidłowy format."
+
+#. A warning when the number of files requested for an operation is higher than a threshold. {0} will be filled with the exact number of files. [MessageTextConfirmManyFilesFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb438
+#, icu-format
+#| msgid "That's {0} files!"
+msgid "MessageTextConfirmManyFilesFormat"
+msgstr "Jest {0} plików!"
+
+#. A confirmation message prompt when pasting a directory. [MessageTextConfirmPasteDirectory]
+#: Resources.resx loco:67572ea92257d74f5c003653
+#| msgid "That includes a directory."
+msgid "MessageTextConfirmPasteDirectory"
+msgstr "Obejmuje to katalog."
+
+#. A text asking a yes/no response confirmation for a dangerous irreversible operation, i.e. File Wipe. [MessageTextConfirmWipe]
+#: Resources.resx loco:670e1cf615d80a27bc0eb439
+#| msgid "This operation cannot be undone."
+msgid "MessageTextConfirmWipe"
+msgstr "Tej operacji nie można cofnąć."
+
+#. A short text shown as a hyperlink in the sign in dialog. [MessageTextForgotPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb43a
+#| msgid "Forgot your password?"
+msgid "MessageTextForgotPassword"
+msgstr "Zapomniałeś hasła?"
+
+#. A message when decrypting a file or text with exactly zero bytes. It is followed by one or more file names. [MessageZeroLength]
+#: Resources.resx loco:680b8a0748ff58b5370e39d3
+#| msgid "The data is damaged, the length is zero bytes."
+msgid "MessageZeroLength"
+msgstr "Dane są uszkodzone, ich długość wynosi zero bajtów."
+
+#. A warning message displayed when an operation includes both encrypted an unencrypted files. [MixedFilesWarning]
+#: Resources.resx loco:678bf611545b8ded0e016fc2
+#| msgid ""
+#| "Both encrypted and plain files are included. The plain files will be "
+#| "encrypted, and the already encrypted will be unchanged."
+msgid "MixedFilesWarning"
+msgstr ""
+"Dołączone są zarówno pliki zaszyfrowane, jak i zwykłe. Zwykłe pliki zostaną "
+"zaszyfrowane, a te już zaszyfrowane pozostaną niezmienione."
+
+#. A warning/info message stating that an attempt to close all files did not succeed completely and at least one file remain open. [OpenFilesRemainMessage]
+#: Resources.resx loco:670e1cf615d80a27bc0eb43b
+#| msgid "File(s) couldn't be closed and remain open!"
+msgid "OpenFilesRemainMessage"
+msgstr "Nie można zamknąć pliku(ów) i pozostawić go(ich) otwartym(i)!"
+
+#. A message displayed when a multi-file operation was canceled, {0} is the full name of the file that was interrupted. [OperationCanceledFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb43c
+#, icu-format
+#| msgid "Operation was canceled during processing of '{0}'. Check and verify!"
+msgid "OperationCanceledFormat"
+msgstr ""
+"Operacja została anulowana podczas przetwarzania '{0}'. Sprawdź i zweryfikuj!"
+
+#. A text shown as a placeholder when loading things takes time in a window, i.e. "Loading...". [PlaceholderLoading]
+#: Resources.resx loco:670e1cf615d80a27bc0eb43d
+#| msgid "Loading..."
+msgid "PlaceholderLoading"
+msgstr "Ładowanie..."
+
+#. A text in the about box, telling how many private keys there are available. It will not be displayed if there are none at all. [PrivateKeysAboutFormat]
+#: Resources.resx loco:6745a304c4fd5b3bae0bcef9
+#, icu-format
+#| msgid "Extra private keys: {0} of {1} total."
+msgid "PrivateKeysAboutFormat"
+msgstr "Dodatkowe klucze prywatne: razem {0} z {1}."
+
+#. A prompt to enter a share (the first share) to combine. [PromptEnterFirstShare]
+#: Resources.resx loco:68396d06ff6b3f753f0e72da
+#| msgid "Enter a share"
+msgid "PromptEnterFirstShare"
+msgstr "Wprowadź udział"
+
+#. A prompt to enter the remaining shares to combine. [PromptEnterRemainingShares]
+#: Resources.resx loco:68396d06ff6b3f753f0e72db
+#| msgid "Enter the remaining required shares"
+msgid "PromptEnterRemainingShares"
+msgstr "Wprowadź pozostałe wymagane udziały"
+
+#. Prompt for the required shares. [PromptRequiredShares]
+#: Resources.resx loco:68396d06ff6b3f753f0e72dc
+#| msgid "Required shares"
+msgid "PromptRequiredShares"
+msgstr "Wymagane udziały"
+
+#. Prompt for the total number of shares. [PromptTotalShares]
+#: Resources.resx loco:68396d06ff6b3f753f0e72dd
+#| msgid "Total shares"
+msgid "PromptTotalShares"
+msgstr "Łączna liczba udziałów"
+
+#. An information question yes/no dialog text asking if the user wants to see the release notes. [ReleaseNotesInformation]
+#: Resources.resx loco:68938b4aabe7a1f7370aed72
+#| msgid ""
+#| "You're running a new version! Would you like to see the release notes?"
+msgid "ReleaseNotesInformation"
+msgstr ""
+"Używasz najnowszej wersji programu! Chcesz zobaczyć informacje o tym wydaniu?"
+
+#. A pop-up asking for reviews. It should have OK and Cancel, and OK leads to a web page being opened. [RequestReviewQuestion]
+#: Resources.resx loco:68b0150e351d8f49b20c34f2
+#| msgid "Please help us by reviewing and rating the app!"
+msgid "RequestReviewQuestion"
+msgstr "Pomóż nam, przeglądając i oceniając aplikację!"
+
+#. Radio button text to share any arbitrary secret. [SelectShareAny]
+#: Resources.resx loco:68396d06ff6b3f753f0e72de
+#| msgid "Share any secret"
+msgid "SelectShareAny"
+msgstr "Udostępnij tajny klucz"
+
+#. Radio button text to share the sign in password. [SelectShareSignIn]
+#: Resources.resx loco:68396d06ff6b3f753f0e72df
+#| msgid "Share sign in password"
+msgid "SelectShareSignIn"
+msgstr "Udostępnij hasło do logowania"
+
+#. A menu entry or label to select a dark visual theme. [ThemeDark]
+#: Resources.resx loco:670e1cf615d80a27bc0eb43e
+#| msgid "_Dark"
+msgid "ThemeDark"
+msgstr "_Ciemny"
+
+#. A menu entry or label to select a light visual theme. [ThemeLight]
+#: Resources.resx loco:670e1cf615d80a27bc0eb43f
+#| msgid "_Light"
+msgid "ThemeLight"
+msgstr "_Jasny"
+
+#. A menu entry or lablel to select the visual theme to match the system theme. [ThemeSystem]
+#: Resources.resx loco:670e1cf615d80a27bc0eb440
+#| msgid "_System"
+msgid "ThemeSystem"
+msgstr "_Systemowy"
+
+#. An additional prompt informing that more information is available with a click. It may be added to help button and other tool tips at the end as a last sentence. [TipMoreHelp]
+#: Resources.resx loco:670e1cf615d80a27bc0eb441
+#| msgid "Click for more information..."
+msgid "TipMoreHelp"
+msgstr "Kliknij w ikonę '?', aby uzyskać więcej informacji..."
+
+#. Tooltip for the Add Password dialog, explaining a litte more. [ToolTipAddPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb442
+#| msgid ""
+#| "Adding a password is only for decryption, when you receive files from "
+#| "someone else or you have used another password previously. It does not "
+#| "affect encryption."
+msgid "ToolTipAddPassword"
+msgstr ""
+"Dodanie hasła służy wyłącznie do deszyfrowania plików, gdy otrzymujesz je od "
+"kogoś innego lub używałeś wcześniej innego hasła. Nie ma to wpływu na "
+"szyfrowanie."
+
+#. Tooltip for the clear passwords dialog. [ToolTipClearPasswords]
+#: Resources.resx loco:670e1cf615d80a27bc0eb443
+#| msgid ""
+#| "Clear decryption passwords saved in settings. You can always add them "
+#| "back again."
+msgid "ToolTipClearPasswords"
+msgstr ""
+"Wyczyść hasła deszyfrujące zapisane w ustawieniach. Zawsze możesz je dodać "
+"ponownie."
+
+#. Help tool tip for the combine shares dialog. It should be followed by a "Click for more info...." prompt, leading to a help page. [ToolTipCombineShares]
+#: Resources.resx loco:68396d06ff6b3f753f0e72e0
+#| msgid ""
+#| "Enter the required number of shares to combine them and view the secret."
+msgid "ToolTipCombineShares"
+msgstr ""
+"Wprowadź wymaganą liczbę udziałów, aby je połączyć i wyświetlić tajny klucz."
+
+#. A tool tip shown when hovering over the copy button in the suggest password dialog. [ToolTipCopySuggested]
+#: Resources.resx loco:670e1cf615d80a27bc0eb444
+#| msgid "Copy the suggested password and close the dialog."
+msgid "ToolTipCopySuggested"
+msgstr "Skopiuj proponowane hasło i zamknij okno dialogowe."
+
+#. Help tool tip for the create shares dialog. It should be followed by a "Click for more info.." prompt, leading to a help page. [ToolTipCreateShares]
+#: Resources.resx loco:68396d06ff6b3f753f0e72e1
+#| msgid ""
+#| "Split a secret into shares, specifying how many shares and how many are "
+#| "required to recover the secret."
+msgid "ToolTipCreateShares"
+msgstr ""
+"Podziel tajny klucz na udziały, określając liczbę udziałów i liczbę udziałów "
+"wymaganą do odzyskania tajnego klucza."
+
+#. A tool tip text explaining the function of the scale factor decrease button. [ToolTipDecreaseScaleFactor]
+#: Resources.resx loco:670e1cf615d80a27bc0eb445
+#| msgid "Make text and window smaller."
+msgid "ToolTipDecreaseScaleFactor"
+msgstr "Zmniejsz tekst i okno."
+
+#. A tool tip text explaining that entering an email is only a convient format to name or tag a user, it's not used to send emails. [ToolTipEmail]
+#: Resources.resx loco:670e1cf615d80a27bc0eb446
+#| msgid ""
+#| "Not used for sending emails. It's an identifier for your local profile in "
+#| "the software and for sharing with others."
+msgid "ToolTipEmail"
+msgstr ""
+"Nie służy do wysyłania wiadomości e-mail. To identyfikator Twojego profilu "
+"lokalnego w oprogramowaniu i do udostępniania innym osobom."
+
+#. A tool tip for the emergency reset, warning that old files still need the old password. [ToolTipEmergencyReset]
+#: Resources.resx loco:670e1cf615d80a27bc0eb447
+#| msgid ""
+#| "Set a new master password. Warning! The old password is still needed to "
+#| "decrypt previously encrypted files!"
+msgid "ToolTipEmergencyReset"
+msgstr ""
+"Ustaw nowe hasło główne. Ostrzeżenie! do deszyfracji wcześniej "
+"zaszyfrowanych plików nadal potrzebne jest poprzednie hasło!"
+
+#. A tooltip for the text encryption feature [ToolTipEncryptDecryptText]
+#: Resources.resx loco:670e1cf615d80a27bc0eb448
+#| msgid ""
+#| "Write or copy/paste text to encrypt or decrypt. The password will be used "
+#| "to encrypt or decrypt the text, and should be shared in a separate "
+#| "channel between the sender and recipient. Always include the BEGIN header "
+#| "and the END footer with the encrypted text."
+msgid "ToolTipEncryptDecryptText"
+msgstr ""
+"Napisz lub skopiuj/wklej tekst, aby go zaszyfrować lub deszyfrować. Hasło "
+"zostanie użyte do zaszyfrowania lub deszyfrowania tekstu i powinno zostać "
+"przekazane w oddzielnym kanale między nadawcą a odbiorcą. Zawsze dołączaj "
+"nagłówek POCZĄTEK i stopkę KONIEC do zaszyfrowanego tekstu."
+
+#. A tool tip for the get license dialog which using the user name and the last 4 digits, will open a browser page with the license if found. [ToolTipGetLicense]
+#: Resources.resx loco:670e1cf615d80a27bc0eb449
+#| msgid ""
+#| "When your subscription license has expired, or you are using a new device,"
+#| " you must fetch a license from the server. Provide the information here "
+#| "and follow the instructions."
+msgid "ToolTipGetLicense"
+msgstr ""
+"Po wygaśnięciu licencji subskrypcyjnej lub po użyciu nowego urządzenia "
+"należy pobrać licencję z serwera. Podaj tutaj informacje i postępuj zgodnie "
+"z instrukcjami."
+
+#. An additional tooltip part, that explains that if no card was entered, getting the license this way won't work so easily. [ToolTipGetLicenseNoCard]
+#: Resources.resx loco:670e1cf615d80a27bc0eb44a
+#| msgid ""
+#| "Leave the last 4 digits empty if you didn't use a card or don't recall "
+#| "them."
+msgid "ToolTipGetLicenseNoCard"
+msgstr ""
+"Jeśli nie używasz karty lub nie pamiętasz ostatnich 4 cyfr, to pozostaw "
+"puste pole."
+
+#. A tooltip for the hide password buton in password dialogs [ToolTipHidePassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb44b
+#| msgid "Hide password."
+msgid "ToolTipHidePassword"
+msgstr "Ukryj hasło."
+
+#. A tooltip describing that a clicking a button hides the menus and buttons for premium when in free version. [ToolTipHidePremium]
+#: Resources.resx loco:670e1cf615d80a27bc0eb44c
+#| msgid "Hide premium features unavailable in the free version."
+msgid "ToolTipHidePremium"
+msgstr "Ukryj funkcje premium niedostępne w wersji darmowej."
+
+#. A tool tip text explaining the function of the scale factor increase button. [ToolTipIncreaseScaleFactor]
+#: Resources.resx loco:670e1cf615d80a27bc0eb44d
+#| msgid "Make text and window bigger."
+msgid "ToolTipIncreaseScaleFactor"
+msgstr "Powiększ tekst i okno."
+
+#. A tool tip text explaining briefly about the master password, that it should be strong and kept safe. [ToolTipMasterPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb44e
+#| msgid ""
+#| "Your master password. Make it strong, write it down and keep it safe."
+msgid "ToolTipMasterPassword"
+msgstr ""
+"Twoje hasło główne. Uczyń je silnym, zapisz je i trzymaj w bezpiecznym "
+"miejscu."
+
+#. A tooltip for the show password button in password dialogs [ToolTipShowPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb44f
+#| msgid "Show password."
+msgid "ToolTipShowPassword"
+msgstr "Pokaż hasło."
+
+#. A tooltip describing that clicking a button shows the menus and buttons for premium even when in free version. [ToolTipShowPremium]
+#: Resources.resx loco:670e1cf615d80a27bc0eb450
+#| msgid "Show all premium features."
+msgid "ToolTipShowPremium"
+msgstr "Pokaż wszystkie funkcje premium."
+
+#. Tooltip for the sign in dialog, explaining the reason. [ToolTipSignIn]
+#: Resources.resx loco:670e1cf615d80a27bc0eb451
+#| msgid ""
+#| "Signing in ensures you are using the correct password for encryption, and "
+#| "that you don't need to retype the password each time. This is the master "
+#| "password for all encryption. The sign in is only local to the app."
+msgid "ToolTipSignIn"
+msgstr ""
+"Zalogowanie się gwarantuje, że używasz prawidłowego hasła do szyfrowania i "
+"nie musisz go wpisywać za każdym razem. To jest hasło główne do wszystkich "
+"szyfrowań. Logowanie jest lokalne tylko dla aplikacji."
+
+#. A tool tip for the suggest a password for create new user or change password. [ToolTipSuggestMasterPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb452
+#| msgid "Suggest a password."
+msgid "ToolTipSuggestMasterPassword"
+msgstr "Proponowane hasło."
+
+#. Tooltip for the view shares dialog. Should be followed by a "Click for more info..." prompt, leading to the help page. [ToolTipViewShares]
+#: Resources.resx loco:68396d06ff6b3f753f0e72e2
+#| msgid ""
+#| "View previously created shares, and send or save them to different places."
+msgid "ToolTipViewShares"
+msgstr ""
+"Przeglądaj wcześniej utworzone udziały i wysyłaj je lub zapisuj w różnych "
+"miejscach."
+
+#. The tool tip for the help button in the YubiKey setup dialog. [ToolTipYubiKeySetup]
+#: Resources.resx loco:670e1cf615d80a27bc0eb453
+#| msgid ""
+#| "Enable or disable the use of a YubiKey for sign in. Use the Yubico "
+#| "Authenticator or other utilities to reset, change and inspect the YubiKey "
+#| "PIV configuration in more detail."
+msgid "ToolTipYubiKeySetup"
+msgstr ""
+"Włącz lub wyłącz używanie YubiKey do logowania. Użyj aplikacji 'Yubico "
+"Authenticator' lub innych narzędzi, aby zresetować, zmienić i dokładniej "
+"sprawdzić konfigurację YubiKey PIV."
+
+#. A text fragment appearing in the about window, informing that there is no license. [UnlicensedBlurb]
+#: Resources.resx loco:670e1cf615d80a27bc0eb454
+#| msgid ""
+#| "Free version, some features are unavailable.\n"
+#| "\n"
+#| "Please buy a license. See https://www.axantum.com/ ."
+msgid "UnlicensedBlurb"
+msgstr ""
+"Wersja darmowa, niektóre funkcje są niedostępne.\n"
+"\n"
+"Proszę kupić licencję. Zobacz https://www.axantum.com/."
+
+#. The information text in the message box displayed when it's time to check for updates. [UpdateCheckInformation]
+#: Resources.resx loco:670e1cf615d80a27bc0eb455
+#| msgid "Would you like to check if there's an update available?"
+msgid "UpdateCheckInformation"
+msgstr "Chcesz sprawdzić, czy jest dostępna aktualizacja?"
+
+#. The title of the message box displayed when it's time to check for updates. [UpdateCheckTitle]
+#: Resources.resx loco:670e1cf615d80a27bc0eb456
+#| msgid "Update check"
+msgid "UpdateCheckTitle"
+msgstr "Sprawdź aktualizację"
+
+#. The explanatory text in the view shares dialog. {0} refers to the threshold, or number of shares required. [ViewSharesDescriptionFormat]
+#: Resources.resx loco:68396d06ff6b3f753f0e72e3
+#, icu-format
+#| msgid ""
+#| "Save or distribute these shares to different people or places. At least "
+#| "{0} shares are required to recover the secret."
+msgid "ViewSharesDescriptionFormat"
+msgstr ""
+"Zapisz lub przekaż te udziały różnym osobom lub miejscom. Do odzyskania "
+"tajnego klucza wymagane jest co najmniej {0} udziałów."
+
+#. The text used as watermark (slightly transparent grey) in a password confirmation entry text box, i.e. "Confirm Password". [WatermarkConfirmPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb457
+#| msgid "Confirm password"
+msgid "WatermarkConfirmPassword"
+msgstr "Potwierdź hasło"
+
+#. The text used as watermark (slightly transparent grey) in a current password entry text box when changing password, i.e. "Current Password". [WatermarkCurrentPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb458
+#| msgid "Current password"
+msgid "WatermarkCurrentPassword"
+msgstr "Aktualne hasło"
+
+#. The text used as watermark (slightly transparent grey) in a email entry text box, i.e. "Email". [WatermarkEmail]
+#: Resources.resx loco:670e1cf615d80a27bc0eb459
+#| msgid "Email"
+msgid "WatermarkEmail"
+msgstr "E-mail"
+
+#. A watermark helping guide users where to paste the license string [WatermarkEnterLicenseHere]
+#: Resources.resx loco:68c58fbe8a59c0d4460a2605
+#| msgid ""
+#| "The license key goes here: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ..."
+msgid "WatermarkEnterLicenseHere"
+msgstr ""
+"Klucz licencyjny znajdziesz tutaj: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ.."
+"."
+
+#. The watermark prompt for the last 4 digits to enter. [WatermarkLast4]
+#: Resources.resx loco:670e1cf615d80a27bc0eb45a
+#| msgid "4 digits"
+msgid "WatermarkLast4"
+msgstr "4 cyfry"
+
+#. The text used as watermark (slightly transparent grey) in a new password entry text box when changing password, i.e. "New Password". [WatermarkNewPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb45b
+#| msgid "New password"
+msgid "WatermarkNewPassword"
+msgstr "Nowe hasło"
+
+#. The text used as watermark (slightly transparent grey) in a password entry text box, i.e. "Master Password". [WatermarkPassword]
+#: Resources.resx loco:670e1cf615d80a27bc0eb45c
+#| msgid "Password"
+msgid "WatermarkPassword"
+msgstr "Hasło"
+
+#. Watermark text for password or secret entry to share. [WatermarkPasswordSecret]
+#: Resources.resx loco:68396d06ff6b3f753f0e72e4
+#| msgid "Enter any password or secret…"
+msgid "WatermarkPasswordSecret"
+msgstr "Wprowadź dowolne hasło lub tajny klucz…"
+
+#. A watermark for entering sharing passwords [WatermarkPasswordShare]
+#: Resources.resx loco:670e1cf615d80a27bc0eb45d
+#| msgid "Password to share"
+msgid "WatermarkPasswordShare"
+msgstr "Hasło do udostępnienia"
+
+#. A warning text, stating that one or more files are zero length, asking if the user is sure. The text should be followed by ConfirmationQuestion. It's followed by a list of the files that are detected as zero length. [ZeroLengthWarning]
+#: Resources.resx loco:68224b6ec1aa19265801d812
+#| msgid "One or more selected files are empty. They might be damaged."
+msgid "ZeroLengthWarning"
+msgstr "Jeden lub więcej wybranych plików jest pustych. Mogą być uszkodzone."
+
+#. Status text for number of files currently open, {0} is the number of files. Singular version|Plural version [ZzCommandBarContentFilesOpenFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb45e
+#, icu-format
+#| msgid "No open files|One open file...|{0} Open files..."
+msgid "ZzCommandBarContentFilesOpenFormat"
+msgstr "Brak otwartych plików|Jeden plik otwarty...|{0} otwarte pliki..."
+
+#. A heading in the sign in window, {0} is the program name, i.e. "Xecrets Ez". [ZzHeadingSignInFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb45f
+#, icu-format
+#| msgid "Sign in to {0}"
+msgid "ZzHeadingSignInFormat"
+msgstr "Zaloguj się do {0}"
+
+#. CLI API version label in about box, {0} is the tools display name, followed by the version, i.e. "Command Line Tools API Version:" 1.2 [ZzLabelCliToolApiVersionFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb460
+#, icu-format
+#| msgid "{0} API version:"
+msgid "ZzLabelCliToolApiVersionFormat"
+msgstr "Wersja API {0}:"
+
+#. CLI information label in about box, {0} is the tools display name, followed by some information, i.e. "Command Line Tools Information:" ...Splash from CLI. [ZzLabelCliToolInformationFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb461
+#, icu-format
+#| msgid "{0} information:"
+msgid "ZzLabelCliToolInformationFormat"
+msgstr "Informacje o {0}:"
+
+#. CLI path label in about box, {0} is the tools display name, followed by a path, i.e. "Command Line Tools Path:" ... [ZzLabelCliToolPathFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb462
+#, icu-format
+#| msgid "{0} path:"
+msgid "ZzLabelCliToolPathFormat"
+msgstr "Ścieżka do {0}:"
+
+#. The SDK API Version label in about box, {0} is the SDK API display name, i.e. "SDK API Version:" 1.3. [ZzLabelSdkApiVersionFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb463
+#, icu-format
+#| msgid "{0} version:"
+msgid "ZzLabelSdkApiVersionFormat"
+msgstr "{0} wersja:"
+
+#. Window title for About dialog. {0} is the full program version name, i.e. "Xecrets Ez 2.1.1337.0". [ZzTitleAboutFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb464
+#, icu-format
+#| msgid "About {0}"
+msgid "ZzTitleAboutFormat"
+msgstr "Więcej o {0}"
+
+#. Program version window title format string, {0} is the actual version, i.e. "2.1.1337.0", {1} is the program name, i.e. "Xecrets Ez", {2} is the email of the signed in user, or empty. [ZzTitleProgramVersionNameFormat]
+#: Resources.resx loco:670e1cf615d80a27bc0eb465
+#, icu-format
+#| msgid "{1} {0} {2}"
+msgid "ZzTitleProgramVersionNameFormat"
+msgstr "{1} {0} {2}"

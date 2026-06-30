@@ -1,0 +1,1455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-07 05:41+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. The warning text displayed in the main window when the program does not have a valid license. [BannerUnlicensedWarning]
+#: Resources.resx
+#, new
+msgid "BannerUnlicensedWarning"
+msgstr "Free version!"
+
+#. The text in a button that causes an action to be canceled, i.e. "Cancel". [ButtonCancel]
+#: Resources.resx
+#, new
+msgid "ButtonCancel"
+msgstr "_Cancel"
+
+#. A button to copy something to the clipboard [ButtonCopy]
+#: Resources.resx
+#, new
+msgid "ButtonCopy"
+msgstr "_Copy"
+
+#. Button text for a "Copy All" button. [ButtonCopyAll]
+#: Resources.resx
+#, new
+msgid "ButtonCopyAll"
+msgstr "Copy All"
+
+#. The text in a button to create a user, i.e. "Create". [ButtonCreate]
+#: Resources.resx
+#, new
+msgid "ButtonCreate"
+msgstr "_Create"
+
+#. The label for the hide Premium features button. [ButtonFree]
+#: Resources.resx
+#, new
+msgid "ButtonFree"
+msgstr "Free"
+
+#. The button prompt for windows offering to open a web browser. [ButtonGo]
+#: Resources.resx
+#, new
+msgid "ButtonGo"
+msgstr "Go!"
+
+#. A label for a button to paste the license [ButtonLicense]
+#: Resources.resx
+#, new
+msgid "ButtonLicense"
+msgstr "License"
+
+#. The text in a button that causes a 'No'-response, i.e. "No". [ButtonNo]
+#: Resources.resx
+#, new
+msgid "ButtonNo"
+msgstr "_No"
+
+#. The text in a button that says 'OK', i.e. "Ok". [ButtonOk]
+#: Resources.resx
+#, new
+msgid "ButtonOk"
+msgstr "_Ok"
+
+#. The label for the show Premium features button. [ButtonPremium]
+#: Resources.resx
+#, new
+msgid "ButtonPremium"
+msgstr "Premium"
+
+#. A button to initiate an emergency password reset. [ButtonReset]
+#: Resources.resx
+#, new
+msgid "ButtonReset"
+msgstr "Reset!"
+
+#. A button to retry something. [ButtonRetry]
+#: Resources.resx
+#, new
+msgid "ButtonRetry"
+msgstr "_Retry"
+
+#. Button text for a "Save As..." button. [ButtonSaveAs]
+#: Resources.resx
+#, new
+msgid "ButtonSaveAs"
+msgstr "Save As..."
+
+#. The text in a button that causes a 'Yes'-response, i.e. "Yes". [ButtonYes]
+#: Resources.resx
+#, new
+msgid "ButtonYes"
+msgstr "_Yes"
+
+#. A warning shown when the discovered Cli version does not exactly match Ez. {0} is Cli version, {1} is full Cli path, {2} is Ez version. [CliVersionMismatchWarning]
+#: Resources.resx
+#, new
+msgid "CliVersionMismatchWarning"
+msgstr ""
+"Warning! Version {0} of Xecrets Cli found at '{1}' does not match the version "
+"{2} of Xecrets Ez. This is not recommended since it may cause "
+"problems.\n"
+"\n"
+"Would you like to view a help page with more information?"
+
+#. Appeneded after a statement, in a confirmation dialog. [ConfirmationQuestion]
+#: Resources.resx
+#, new
+msgid "ConfirmationQuestion"
+msgstr "Are you sure?"
+
+#. A text in the about box, telling how many decryption passwords are known. [DecryptionPasswordsAboutFormat]
+#: Resources.resx
+#, new
+msgid "DecryptionPasswordsAboutFormat"
+msgstr "Extra decryption passwords: {0}."
+
+#. An error message when an input value is not in the expected format. [DialogInputValidationError]
+#: Resources.resx
+#, new
+msgid "DialogInputValidationError"
+msgstr "The value is not in the correct format!"
+
+#. A longer explanation of how to get and enter a license. {0} is replaced by the URL of the customer portal page. [DialogInstructionEnterLicenseFormat]
+#: Resources.resx
+#, new
+msgid "DialogInstructionEnterLicenseFormat"
+msgstr ""
+"Copy the license key from our license page (the link looks like "
+"{1}/license?s=2Rl7q1Gr…), then return here. If you already have the link, "
+"open it in your browser now. Otherwise, visit {0} and follow the instructions "
+"to get the correct link."
+
+#. A label in the about box for the directory where all settings are stored. [DialogLabelAppSettingsDirectory]
+#: Resources.resx
+#, new
+msgid "DialogLabelAppSettingsDirectory"
+msgstr "Settings directory:"
+
+#. The About Window label for the info about the current directory. [DialogLabelCurrentDirectory]
+#: Resources.resx
+#, new
+msgid "DialogLabelCurrentDirectory"
+msgstr "Current directory:"
+
+#. A label in the about box, for the real user-visible start folder, before the OS maybe moved it. [DialogLabelRealStartFolder]
+#: Resources.resx
+#, new
+msgid "DialogLabelRealStartFolder"
+msgstr "Original start folder:"
+
+#. The About Window label for the info about the full start command. [DialogLabelStartCommand]
+#: Resources.resx
+#, new
+msgid "DialogLabelStartCommand"
+msgstr "Start command:"
+
+#. A text next to a check box, indicating whether an added password should be saved permanently for use, or just for this session. [DialogSavePasswordPermanently]
+#: Resources.resx
+#, new
+msgid "DialogSavePasswordPermanently"
+msgstr "Save in settings"
+
+#. The text displayed as heading in the dialog to enter an extra alternate password. [DialogTextAddPassword]
+#: Resources.resx
+#, new
+msgid "DialogTextAddPassword"
+msgstr "Add a decryption password"
+
+#. A text used in a file selection dialog for the file pattern '*'. [DialogTextAllFiles]
+#: Resources.resx
+#, new
+msgid "DialogTextAllFiles"
+msgstr "All files"
+
+#. Error message for incompatible Cli API. {0} is the full path to the Cli Tool, {1} is the Cli Tool API version, {2} is the SDK API Major version, and {3} is the minor version. [DialogTextCliApiVersionError]
+#: Resources.resx
+#, new
+msgid "DialogTextCliApiVersionError"
+msgstr ""
+"Incompatible Xecrets Cli found at '{0}' with API version {1}, but version "
+"{2}.[>={3}] is required.\\n\\nUpdate Xecrets Cli, or remove it and use the "
+"one included in the app."
+
+#. Warning shown at startup when this executable version appears older than the most recently used version, asking whether to continue. [DialogTextDowngradedVersionWarning]
+#: Resources.resx
+#, new
+msgid "DialogTextDowngradedVersionWarning"
+msgstr ""
+"You seem to have downgraded to an older version. This can happen if multiple "
+"versions are installed. Do you really want to continue with this version?"
+
+#. Text for the middle of the window, where files can be dropped or pasted. Not all OS's support drag and drop. [DialogTextDropOrPasteTitle]
+#: Resources.resx
+#, new
+msgid "DialogTextDropOrPasteTitle"
+msgstr "Drop or paste files here..."
+
+#. The tooltip for the paste and drag and drop area, giving a little bit more information. Not all OS's support drag and drop. [DialogTextDropOrPasteToolTip]
+#: Resources.resx
+#, new
+msgid "DialogTextDropOrPasteToolTip"
+msgstr ""
+"Drop or paste files here to encrypt or decrypt them. Use keyboard {0} button "
+"to decrypt a single file, otherwise it opens."
+
+#. A text used in a file selection dialog for the file pattern '*.axx'. [DialogTextEncryptedFiles]
+#: Resources.resx
+#, new
+msgid "DialogTextEncryptedFiles"
+msgstr "Encrypted files"
+
+#. The title of the dialog to enter or paste a license string [DialogTextEnterLicense]
+#: Resources.resx
+#, new
+msgid "DialogTextEnterLicense"
+msgstr "Activate Premium license"
+
+#. An informational message when a license is about to expire. [DialogTextExpiresSoonInfoFormat]
+#: Resources.resx
+#, new
+msgid "DialogTextExpiresSoonInfoFormat"
+msgstr ""
+"Your premium license will expire on {0}. To keep using premium features, "
+"please renew your license in the app after it expires."
+
+#. An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files simply were not not found and the operation is canceled. A list of files may be appended. [DialogTextFileDoesNotExist]
+#: Resources.resx
+#, new
+msgid "DialogTextFileDoesNotExist"
+msgstr "File(s) do not exist, the action was canceled."
+
+#. An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files were read-only or the user does not have sufficient permissions and the operation is canceled. A list of files may be appended. [DialogTextInsufficientRights]
+#: Resources.resx
+#, new
+msgid "DialogTextInsufficientRights"
+msgstr ""
+"File(s) are read-only, the destination directory is not writeable or you do "
+"not have sufficient permissions. The action was canceled."
+
+#. Text displayed when for some unknown and unspecified reason a file was not properly decrypted and opened. [DialogTextOpenFailed]
+#: Resources.resx
+#, new
+msgid "DialogTextOpenFailed"
+msgstr "Decrypt and open failed"
+
+#. A warning message at program exit. A new line separated list of these filesmay be appended. [DialogTextOrphanedDocumentsFiles]
+#: Resources.resx
+#, new
+msgid "DialogTextOrphanedDocumentsFiles"
+msgstr "Unrecognized temporary files remain."
+
+#. Text for the middle of the window, where files can be (only) pasted, as some OS's don't support drag and drop. [DialogTextPasteOnlyTitle]
+#: Resources.resx
+#, new
+msgid "DialogTextPasteOnlyTitle"
+msgstr "Paste files here..."
+
+#. The tooltip for the paste (only) area, giving a little bit more information. Not all OS's support drag and drop. [DialogTextPasteOnlyToolTip]
+#: Resources.resx
+#, new
+msgid "DialogTextPasteOnlyToolTip"
+msgstr ""
+"Paste files here to encrypt or decrypt them. Use keyboard {0} to decrypt a "
+"single file, otherwise it opens."
+
+#. A pop-up message displayed after importing AxCrypt account keys. [DialogTextPrivateKeysImported]
+#: Resources.resx
+#, new
+msgid "DialogTextPrivateKeysImported"
+msgstr ""
+"We found and imported account keys from AxCrypt. You may still need to "
+"provide the original password a file was encrypted with if the AxCrypt "
+"password was reset, changed or is different from the Xecrets Ez password."
+
+#. A message displayed when an attempt is made to encrypt, decrypt, rename or wipe a file where sandboxing prevents creating a related sibling file. {0} is a help page URL. It may be followed by a list of affected file names only. This will abort the entire operation and nothing happens. [DialogTextRelatedAccess]
+#: Resources.resx
+#, new
+msgid "DialogTextRelatedAccess"
+msgstr ""
+"File(s) require sandbox folder access to encrypt, decrypt, wipe or rename. "
+"The action was canceled. See {0}."
+
+#. A warning text when a removable drive is first used, information that all settings etc will be stored on it. [DialogTextRemovableDriveFirstWarning]
+#: Resources.resx
+#, new
+msgid "DialogTextRemovableDriveFirstWarning"
+msgstr ""
+"Settings and temp files will be stored on a removable drive, not your main "
+"drive. Continue?"
+
+#. A warning text informing that a removable drive must be unplugged safely when running from it. [DialogTextRemovableDriveUnplugWarning]
+#: Resources.resx
+#, new
+msgid "DialogTextRemovableDriveUnplugWarning"
+msgstr ""
+"Before unplugging it, make sure to exit the app and eject the drive safely to "
+"avoid data loss."
+
+#. A message displayed when an attempt is made to encrypt or wipe a file located in a system protected location. It may be followed by a list of affected files. This will abort the entire operation and nothing happens. [DialogTextSystemProtected]
+#: Resources.resx
+#, new
+msgid "DialogTextSystemProtected"
+msgstr "File(s) are system protected, the action was canceled."
+
+#. Informing that one or more files could not be encrypted due to licensing restrictions. A list of files may be appended. [DialogTextTooLargeForLicense]
+#: Resources.resx
+#, new
+msgid "DialogTextTooLargeForLicense"
+msgstr "File(s) were not encrypted. Encryption limit is 1 MB. See About."
+
+#. The text shown when a decryption fails because of unknown password. [DialogTextUnknownPassword]
+#: Resources.resx
+#, new
+msgid "DialogTextUnknownPassword"
+msgstr "File(s) could not be decrypted. Try adding an alternative password."
+
+#. Text displayed when an attempt to open a file for editing fails due to wrong password, hinting that perhaps it has to be decrypted first using an alternative password. [DialogTextWrongPasswordOpen]
+#: Resources.resx
+#, new
+msgid "DialogTextWrongPasswordOpen"
+msgstr ""
+"The file could not be opened. Try decrypting with an alternative password "
+"first."
+
+#. Dialog title of the dialog where a user can request a purchased license using an email and the last 4 digits of the card used. [DialogTitleFetchLicense]
+#: Resources.resx
+#, new
+msgid "DialogTitleFetchLicense"
+msgstr "Get subscription license"
+
+#. A title for dialogs warning about the situation where we're running from a removable drive. [DialogTitleRemovableDrive]
+#: Resources.resx
+#, new
+msgid "DialogTitleRemovableDrive"
+msgstr "Running from removable drive!"
+
+#. The dialog title when selecting a destination folder. [DialogTitleSelectDestinationFolder]
+#: Resources.resx
+#, new
+msgid "DialogTitleSelectDestinationFolder"
+msgstr "Select destination folder"
+
+#. The title of a file selection dialog for selecting a file to open, i.e. 'Select files to open'. [DialogTitleSelectFileToOpen]
+#: Resources.resx
+#, new
+msgid "DialogTitleSelectFileToOpen"
+msgstr "Select file to open"
+
+#. The title of a file selection dialog for selecting files to decrypt, i.e. 'Select files to decrypt'. [DialogTitleSelectFilesToDecrypt]
+#: Resources.resx
+#, new
+msgid "DialogTitleSelectFilesToDecrypt"
+msgstr "Select files to decrypt"
+
+#. The title of a file selection dialog for selecting files to encrypt, i.e. 'Select files to encrypt'. [DialogTitleSelectFilesToEncrypt]
+#: Resources.resx
+#, new
+msgid "DialogTitleSelectFilesToEncrypt"
+msgstr "Select files to encrypt"
+
+#. This is the title for the open dialog to select files to re-encrypt [DialogTitleSelectFilesToReEncrypt]
+#: Resources.resx
+#, new
+msgid "DialogTitleSelectFilesToReEncrypt"
+msgstr "Select files to re-encrypt"
+
+#. The title of a file selection dialog for selecting files to wipe, i.e. 'Select files to wipe'. [DialogTitleSelectFilesToWipe]
+#: Resources.resx
+#, new
+msgid "DialogTitleSelectFilesToWipe"
+msgstr "Select files to wipe"
+
+#. A title for a generic select folder picker, used for both encrypt and decrypt folder etc. [DialogTitleSelectFolder]
+#: Resources.resx
+#, new
+msgid "DialogTitleSelectFolder"
+msgstr "Select folder"
+
+#. An error text displayed when an attempt is made to sign in twice with the same profile email. [DialogValidationAlreadySignedIn]
+#: Resources.resx
+#, new
+msgid "DialogValidationAlreadySignedIn"
+msgstr ""
+"You are already signed in. Look for the app behind another window, on another "
+"screen, among minimized apps or in the system tray and show the window from "
+"there."
+
+#. An error text displayed when no password confirmation was entered. [DialogValidationConfirmPassword]
+#: Resources.resx
+#, new
+msgid "DialogValidationConfirmPassword"
+msgstr "Please confirm the password again"
+
+#. An error text displayed when validation of email format fails. [DialogValidationInvalidEmail]
+#: Resources.resx
+#, new
+msgid "DialogValidationInvalidEmail"
+msgstr "Please enter a valid email address"
+
+#. An error text displayed when no password is entered although required. [DialogValidationPasswordRequired]
+#: Resources.resx
+#, new
+msgid "DialogValidationPasswordRequired"
+msgstr "Please enter a password"
+
+#. An error message displayed in a dialog when the users enters the wrong password. [DialogValidationWrongPassword]
+#: Resources.resx
+#, new
+msgid "DialogValidationWrongPassword"
+msgstr "Wrong password!"
+
+#. An information message giving a hint that to change the configuration, you first need to remove the current configuration. [DialogYubiKeyChangeConfiguration]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyChangeConfiguration"
+msgstr ""
+"To change the YubiKey configuration, you must first remove the existing "
+"configuration."
+
+#. An information message giving hints on how to change YubiKey defaults, and referring to help for more info where actual links etc are. [DialogYubiKeyDefaultChangeInfo]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyDefaultChangeInfo"
+msgstr ""
+"To change the PIN, PUK, or Management Key, get the Yubico Authenticator app "
+"and go to Certificates settings. For details, click the help icon."
+
+#. Dialog title for the YubiKey disabling setup dialog. [DialogYubiKeyDisable]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyDisable"
+msgstr "Do you want to remove the YubiKey configuration?"
+
+#. Dialog title for the YubiKey enabling setup dialog. [DialogYubiKeyEnable]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyEnable"
+msgstr "Do you want to enable this YubiKey for signing in?"
+
+#. Error message when enabling fails, typically because there are no slots. [DialogYubiKeyEnabledFailed]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyEnabledFailed"
+msgstr ""
+"It is not possible to use this YubiKey. There may not be any slots available."
+
+#. A dialog title used when asking for PIV management key authentication [DialogYubiKeyEnterKeyTitle]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyEnterKeyTitle"
+msgstr "Please enter YubiKey PIV hex management key:"
+
+#. A dialog title used when asking for the PIN [DialogYubiKeyEnterPinTitle]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyEnterPinTitle"
+msgstr "Please enter YubiKey PIV PIN:"
+
+#. Dialog title displayed when we're checking for a YubiKey during setup [DialogYubiKeyLooking]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyLooking"
+msgstr "Waiting for YubiKey..."
+
+#. A warning message stating that the PIV management key still has it's default value. [DialogYubiKeyManagementKeyDefault]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyManagementKeyDefault"
+msgstr ""
+"The PIV management key has it's default value 3 x 0102030405060708, it should "
+"be changed!"
+
+#. An error message displayed when a non-conforming YubiKey is connected. [DialogYubiKeyMissingFeatures]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyMissingFeatures"
+msgstr "Required features are missing from this YubiKey."
+
+#. Dialog title for the YubiKey setup dialog when there is no yubikey connected and no configuration. [DialogYubiKeyNotConnected]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyNotConnected"
+msgstr "There is no YubiKey connected!"
+
+#. An informational message displayed when the connected YubiKey is not initialized. [DialogYubiKeyNotInitialized]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyNotInitialized"
+msgstr "This YubiKey is not yet initialized for use."
+
+#. A title dialog text displayed when a YubiKey is detected, but it doesn't have sufficient capabilities. [DialogYubiKeyNotSupported]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyNotSupported"
+msgstr "This YubiKey is not supported!"
+
+#. An info message stating that it's enough to touch the YubiKey to sign in. [DialogYubiKeyOnlyTouch]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyOnlyTouch"
+msgstr "Only this YubiKey and a touch is required to sign in."
+
+#. A description of how the Open security mode works. [DialogYubiKeyOpenSecurity]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyOpenSecurity"
+msgstr "Only this YubiKey is required to sign in."
+
+#. [DialogYubiKeyPcscMissing]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyPcscMissing"
+msgstr ""
+"Please ensure that pcscd / pcsc-lite is installed and the daemon is running. "
+"Click the help icon for more information about YubiKey and Linux."
+
+#. A warning message saying that the PIV PIN still has it's default value. [DialogYubiKeyPinDefault]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyPinDefault"
+msgstr "The PIV PIN has it's default value 123456, it should be changed!"
+
+#. An info message stating that the PIN is required to sign in. [DialogYubiKeyPinRequired]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyPinRequired"
+msgstr "This YubiKey and the PIN is required to sign in."
+
+#. An informational message displayed about what slot will be used. '{0}' will be filled with the actual slot in question. [DialogYubiKeyPivSlotUsedFormat]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyPivSlotUsedFormat"
+msgstr "PIV slot {0} is currently used or possible to use."
+
+#. A warning message stating that the PIV PUK still has it's default value. [DialogYubiKeyPukDefault]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyPukDefault"
+msgstr "The PIV PUK has it's default value 12345678, it should be changed!"
+
+#. A warning message stating that the VC++ redistributable is missing, and providing a link to download it. [DialogYubiKeyRedistributableMissing]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyRedistributableMissing"
+msgstr ""
+"To use YubiKey, the Microsoft Visual C++ Redistributable must be installed. "
+"Download it from {0}, run the installer, and restart the application."
+
+#. A sub-title in the dialog above a list of radio buttons where a choice of the security mode is made. [DialogYubiKeySelectMode]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeySelectMode"
+msgstr "Select how you want to use your YubiKey."
+
+#. [DialogYubiKeyServiceUnsupported]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyServiceUnsupported"
+msgstr "This app can’t use a YubiKey on this operating system."
+
+#. A modal disappearing prompt to touch the YubiKey when required. [DialogYubiKeyTouchPrompt]
+#: Resources.resx
+#, new
+msgid "DialogYubiKeyTouchPrompt"
+msgstr "Please touch the YubiKey..."
+
+#. Label for a checkbox to optionally hide a specific warning or other message. [DontShowAgain]
+#: Resources.resx
+#, new
+msgid "DontShowAgain"
+msgstr "Don't show this again"
+
+#. A dialog box text, asking the user if (s)he wants to download a free premium trial license. [DownloadFreeTrialQuestion]
+#: Resources.resx
+#, new
+msgid "DownloadFreeTrialQuestion"
+msgstr "Would you like to try premium free for 3 days? No credit card required."
+
+#. An error text when shares can't be combined either because they are mismatched, or in the wrong format. [ErrorCombiningShares]
+#: Resources.resx
+#, new
+msgid "ErrorCombiningShares"
+msgstr ""
+"The shares could not be combined. Please check the shares and try again."
+
+#. An error text when duplicate shares were entered and removed. [ErrorDuplicatesRemoved]
+#: Resources.resx
+#, new
+msgid "ErrorDuplicatesRemoved"
+msgstr "Duplicate shares were removed."
+
+#. A warning message displayed when a free, non-purchased, license has expired. [ExpirationCheckPurchaseWarning]
+#: Resources.resx
+#, new
+msgid "ExpirationCheckPurchaseWarning"
+msgstr ""
+"Your free trial license has expired. Do you want to view the subscription "
+"information web page?"
+
+#. The text in a message box informing the user that the license is expired, and asking if the user wants to download an update. [ExpirationCheckWarning]
+#: Resources.resx
+#, new
+msgid "ExpirationCheckWarning"
+msgstr "Your license has expired. Do you want to download an updated license?"
+
+#. The question asked when an attempt is made to use a premium feature in the free version. [FeatureNotFreeHideQuestion]
+#: Resources.resx
+#, new
+msgid "FeatureNotFreeHideQuestion"
+msgstr "Do you want to hide all premium features?"
+
+#. The info text show when the user attempts to use a non-free feature. [FeatureNotFreeInformation]
+#: Resources.resx
+#, new
+msgid "FeatureNotFreeInformation"
+msgstr ""
+"Standard encryption and decryption is of course always free!\n"
+"\n"
+"If you like the program and would like to enable all features, please "
+"support\n"
+"us by purchasing a subscription at {0}.\n"
+"\n"
+"It's not free, but it's not expensive either and totally worth it we think!"
+
+#. The first short text specifying a feature is not free. [FeatureNotFreeShortInformation]
+#: Resources.resx
+#, new
+msgid "FeatureNotFreeShortInformation"
+msgstr "Sorry, this premium feature is not available in the free version."
+
+#. The title of the text box to show when the user attempts to use a non-free feature. {0} is the program name, and should always be first in all translations. [FeatureNotFreeTitle]
+#: Resources.resx
+#, new
+msgid "FeatureNotFreeTitle"
+msgstr "{0} Feature not available"
+
+#. A message displayed as user feedback when an operation was canceled. [FilesCanceledMessage]
+#: Resources.resx
+#, new
+msgid "FilesCanceledMessage"
+msgstr "Canceled"
+
+#. The progress finished indicator. The {0} is replaced by the number of files, 0, 1 or many. [FilesProcessedMessageFormat]
+#: Resources.resx
+#, new
+msgid "FilesProcessedMessageFormat"
+msgstr "No files|{0} file|{0} files"
+
+#. A tooltip text explaining how getting the license works. [GetLicenseTooltip]
+#: Resources.resx
+#, new
+msgid "GetLicenseTooltip"
+msgstr ""
+"A browser window will open. Copy the license from there, return here and "
+"paste it."
+
+#. A heading in the create new user window, i.e. "Create New User". [HeadingCreateNewUser]
+#: Resources.resx
+#, new
+msgid "HeadingCreateNewUser"
+msgstr "Create new profile"
+
+#. A heading in the create user window, i.e. "First Time Setup". [HeadingCreateUserFirstTimeSetup]
+#: Resources.resx
+#, new
+msgid "HeadingCreateUserFirstTimeSetup"
+msgstr "Setup a local profile"
+
+#. The heading for the emergency reset password dialog [HeadingEmergencyReset]
+#: Resources.resx
+#, new
+msgid "HeadingEmergencyReset"
+msgstr "Reset password!"
+
+#. A text used to issue a warning to the user that an attempt was made to add an invalid or expired license. [InvalidLicenseIgnored]
+#: Resources.resx
+#, new
+msgid "InvalidLicenseIgnored"
+msgstr "License is invalid or expired."
+
+#. The text label describing the action for the clear passwords dialog. The {0} will be replaced by a number. This is a plural text, the first is for zero, then one, and then 2 or more separated by '|'. [LabelDecryptionPasswordCountFormat]
+#: Resources.resx
+#, new
+msgid "LabelDecryptionPasswordCountFormat"
+msgstr ""
+"There are no saved passwords to clear.|There is one saved password. Clear "
+"it?|There are {0} passwords saved. Clear them all?"
+
+#. A label displayed for the last 4 digits input field. [LabelLast4]
+#: Resources.resx
+#, new
+msgid "LabelLast4"
+msgstr "Last 4 digits of credit card, or empty."
+
+#. A label for the textbox where a recovered secret is displayed. [LabelTheSecret]
+#: Resources.resx
+#, new
+msgid "LabelTheSecret"
+msgstr "The secret"
+
+#. A text fragment appearing in the about window, informing that the license is not valid for Ez. [LicenseNotValidForProductBlurb]
+#: Resources.resx
+#, new
+msgid "LicenseNotValidForProductBlurb"
+msgstr ""
+"License '{product}' for {licensee} is not valid for this software. Free "
+"version, some features unavailable.\\nSee https://www.axantum.com/ ."
+
+#. A text fragment appearing in the about window, informing that there is a currently valid license. [LicensedBlurb]
+#: Resources.resx
+#, new
+msgid "LicensedBlurb"
+msgstr "License for {licensee} valid to {expiration}, thank you!"
+
+#. A text fragment appearing in the about window, informing that there is a previously valid license, now expired. [LicensedExpiredBlurb]
+#: Resources.resx
+#, new
+msgid "LicensedExpiredBlurb"
+msgstr ""
+"License for {licensee} expired at {expiration}.\\nFree version, some features "
+"unavailable.\\nSee https://www.axantum.com/ ."
+
+#. The text in the menu to open a window with about information, i.e. "About". (_ indicates keyboard accelerator) [MenuAbout]
+#: Resources.resx
+#, new
+msgid "MenuAbout"
+msgstr "_About"
+
+#. The menu item under to add an extra alternate password. [MenuAddPassword]
+#: Resources.resx
+#, new
+msgid "MenuAddPassword"
+msgstr "_Add decryption password..."
+
+#. The menu text for a link to the purchase page. [MenuBuyNow]
+#: Resources.resx
+#, new
+msgid "MenuBuyNow"
+msgstr "Subscribe to _premium..."
+
+#. The text used as a title in the change email dialog and the menu [MenuChangeEmail]
+#: Resources.resx
+#, new
+msgid "MenuChangeEmail"
+msgstr "Change _email..."
+
+#. The text in the menu to open a dialog to change the password, i.e. "Change _Password...". (_ indicates keyboard accelerator) [MenuChangePassword]
+#: Resources.resx
+#, new
+msgid "MenuChangePassword"
+msgstr "Change _password..."
+
+#. A menu entry to clear previously hidden warnings [MenuClearDontShowAgain]
+#: Resources.resx
+#, new
+msgid "MenuClearDontShowAgain"
+msgstr "Show all _messages again"
+
+#. Menu title for the clear passwords function. Also used as the title of the dialog, edited to remove "..." and accelerators [MenuClearPasswords]
+#: Resources.resx
+#, new
+msgid "MenuClearPasswords"
+msgstr "_Clear decryption passwords..."
+
+#. The  menu item to clear the recent files list [MenuClearRecent]
+#: Resources.resx
+#, new
+msgid "MenuClearRecent"
+msgstr "_Clear recent list..."
+
+#. A menu text, also used as tooltip for license paste button [MenuClipboardLicense]
+#: Resources.resx
+#, new
+msgid "MenuClipboardLicense"
+msgstr "Paste license from _clipboard"
+
+#. The text in the menu to close all possible currently opened files. (_ indicates the letter for a keyboard accelerator) [MenuClose]
+#: Resources.resx
+#, new
+msgid "MenuClose"
+msgstr "_Close all..."
+
+#. Menu text for combining secret shares to recover the secret. [MenuCombineShares]
+#: Resources.resx
+#, new
+msgid "MenuCombineShares"
+msgstr "C_ombine secret shares..."
+
+#. Menu text for creating secret shares. [MenuCreateShares]
+#: Resources.resx
+#, new
+msgid "MenuCreateShares"
+msgstr "_Create secret shares..."
+
+#. The text in the menu to open a dialog to create a new user, i.e. "Create New...". (_ indicates keyboard accelerator) [MenuCreateUser]
+#: Resources.resx
+#, new
+msgid "MenuCreateUser"
+msgstr "_Create new profile..."
+
+#. The menu to open the customer portal [MenuCustomerPortal]
+#: Resources.resx
+#, new
+msgid "MenuCustomerPortal"
+msgstr "Customer _portal..."
+
+#. The text in the menu to open a dialog to select files to decrypt, i.e. "Decrypt...". (_ indicates keyboard accelerator) [MenuDecrypt]
+#: Resources.resx
+#, new
+msgid "MenuDecrypt"
+msgstr "_Decrypt..."
+
+#. A menu entry for the decrypt folder operation. [MenuDecryptFolder]
+#: Resources.resx
+#, new
+msgid "MenuDecryptFolder"
+msgstr "Decrypt f_older files..."
+
+#. The menu text for a link to the download page. [MenuDownload]
+#: Resources.resx
+#, new
+msgid "MenuDownload"
+msgstr "Check for _update..."
+
+#. The text in a menu for the Edit operation, i.e. "Edit" [MenuEdit]
+#: Resources.resx
+#, new
+msgid "MenuEdit"
+msgstr "_Edit"
+
+#. The text in the menu to open a dialog to select files to encrypt, i.e. "Encrypt...". (_ indicates keyboard accelerator) [MenuEncrypt]
+#: Resources.resx
+#, new
+msgid "MenuEncrypt"
+msgstr "_Encrypt..."
+
+#. The text in the menu to select files to encrypt a copy of  a file in a different destination folder, i.e. "Encrypt Copy...". [MenuEncryptCopy]
+#: Resources.resx
+#, new
+msgid "MenuEncryptCopy"
+msgstr "Encrypt _copy..."
+
+#. The text in the menu to select files to encrypt a copy of  a file to another recipient in a different destination folder, i.e. "Encrypt Copy...". [MenuEncryptCopyFor]
+#: Resources.resx
+#, new
+msgid "MenuEncryptCopyFor"
+msgstr "Encrypt _copy to share..."
+
+#. The menu item to encrypt or decrypt text [MenuEncryptDecryptText]
+#: Resources.resx
+#, new
+msgid "MenuEncryptDecryptText"
+msgstr "Encrypt or decrypt _text..."
+
+#. A menu entry for the encrypt folder operation. [MenuEncryptFolder]
+#: Resources.resx
+#, new
+msgid "MenuEncryptFolder"
+msgstr "Encrypt _folder files..."
+
+#. The menu entry for opening a window where the license can be pasted. [MenuEnterLicense]
+#: Resources.resx
+#, new
+msgid "MenuEnterLicense"
+msgstr "Activate _Premium..."
+
+#. The text in the menu to exit the program, i.e. "Exit". (_ indicates keyboard accelerator) [MenuExit]
+#: Resources.resx
+#, new
+msgid "MenuExit"
+msgstr "E_xit"
+
+#. The text in the menu to open the file submenu, i.e. "File". (_ indicates keyboard accelerator) [MenuFile]
+#: Resources.resx
+#, new
+msgid "MenuFile"
+msgstr "_File"
+
+#. The text in the menu open the help submenu, i.e. "Help". (_ indicates keyboard accelerator) [MenuHelp]
+#: Resources.resx
+#, new
+msgid "MenuHelp"
+msgstr "_Help"
+
+#. The menu to open a gallery of video instructions [MenuHelpVideos]
+#: Resources.resx
+#, new
+msgid "MenuHelpVideos"
+msgstr "_Video guides..."
+
+#. A menu entry for selecting an inactivty timeout exit [MenuInactivityExit]
+#: Resources.resx
+#, new
+msgid "MenuInactivityExit"
+msgstr "_Exit after inactivity..."
+
+#. A menu entry for selecting 'Never' as the choice for inactivity timeout [MenuInactivityNever]
+#: Resources.resx
+#, new
+msgid "MenuInactivityNever"
+msgstr "Never"
+
+#. The format for a timeout selection menu entry. [MenuInactivityTimeoutValueFormat]
+#: Resources.resx
+#, new
+msgid "MenuInactivityTimeoutValueFormat"
+msgstr "{0} minutes"
+
+#. The menu text for the function to retrieve a purchased license. [MenuLicense]
+#: Resources.resx
+#, new
+msgid "MenuLicense"
+msgstr "Get your subscription premium _license..."
+
+#. Menu text for loading/viewing secret shares. [MenuLoadShares]
+#: Resources.resx
+#, new
+msgid "MenuLoadShares"
+msgstr "_View secret shares..."
+
+#. The text in the menu to open a dialog to select a file to open, i.e. "Open...". (_ indicates keyboard accelerator) [MenuOpen]
+#: Resources.resx
+#, new
+msgid "MenuOpen"
+msgstr "_Open..."
+
+#. The text in the menu to display a list of recent files to open, i.e. "Open Recent...". (_ indicates keyboard accelerator) [MenuOpenRecent]
+#: Resources.resx
+#, new
+msgid "MenuOpenRecent"
+msgstr "Open _recent"
+
+#. The text in a menu or context menu for the Paste operation, i.e. Paste. [MenuPaste]
+#: Resources.resx
+#, new
+msgid "MenuPaste"
+msgstr "_Paste"
+
+#. A menu entry to further options to change preferences. [MenuPreferences]
+#: Resources.resx
+#, new
+msgid "MenuPreferences"
+msgstr "_Preferences..."
+
+#. The menu text for the random renaming of files. [MenuRandomRename]
+#: Resources.resx
+#, new
+msgid "MenuRandomRename"
+msgstr "_Rename randomly...."
+
+#. Menu entry for re-encrypting already encrypted files. [MenuReEncryptFiles]
+#: Resources.resx
+#, new
+msgid "MenuReEncryptFiles"
+msgstr "_Re-encrypt..."
+
+#. The menu entry to select a folder and re-encrypt all files in it and subfolders [MenuReEncryptFolder]
+#: Resources.resx
+#, new
+msgid "MenuReEncryptFolder"
+msgstr "_Re-encrypt folder files"
+
+#. Text for a menu entry to show the program from a minimized state. [MenuShow]
+#: Resources.resx
+#, new
+msgid "MenuShow"
+msgstr "_Show"
+
+#. Menu entry that opens a dialog box with suggestions for passwords [MenuSuggestPassword]
+#: Resources.resx
+#, new
+msgid "MenuSuggestPassword"
+msgstr "_Suggest password..."
+
+#. A menu entry to further options to change the visual theme, i.e. dark or light. [MenuTheme]
+#: Resources.resx
+#, new
+msgid "MenuTheme"
+msgstr "_Theme..."
+
+#. A menu entry to request a temporary trial license. [MenuTrialDownload]
+#: Resources.resx
+#, new
+msgid "MenuTrialDownload"
+msgstr "Get your 3 day _free premium license..."
+
+#. The text in the menu to open the User submenu, i.e. "User". (_ indicates keyboard accelerator) [MenuUser]
+#: Resources.resx
+#, new
+msgid "MenuUser"
+msgstr "_User"
+
+#. The menu text to open a dialog asking for files to wipe. [MenuWipe]
+#: Resources.resx
+#, new
+msgid "MenuWipe"
+msgstr "_Delete securely..."
+
+#. Menu title for configuration of a YubiKey. [MenuYubiKey]
+#: Resources.resx
+#, new
+msgid "MenuYubiKey"
+msgstr "_YubiKey configuration..."
+
+#. Error message when decryption fails due to broken data. [MessageFileFormatError]
+#: Resources.resx
+#, new
+msgid "MessageFileFormatError"
+msgstr "The encrypted data is not correctly formatted."
+
+#. A message when decrypting a file that does not start with the magic guid. [MessageNotEncrypted]
+#: Resources.resx
+#, new
+msgid "MessageNotEncrypted"
+msgstr ""
+"The initial 16 bytes are wrong, it is probably some other kind of data or "
+"severely damaged."
+
+#. Error message when an improperly formatted license string is attempted to be used. [MessageTextBadLicenseString]
+#: Resources.resx
+#, new
+msgid "MessageTextBadLicenseString"
+msgstr "The license key is not in the correct format."
+
+#. A warning when the number of files requested for an operation is higher than a threshold. {0} will be filled with the exact number of files. [MessageTextConfirmManyFilesFormat]
+#: Resources.resx
+#, new
+msgid "MessageTextConfirmManyFilesFormat"
+msgstr "That's {0} files!"
+
+#. A confirmation message prompt when pasting a directory. [MessageTextConfirmPasteDirectory]
+#: Resources.resx
+#, new
+msgid "MessageTextConfirmPasteDirectory"
+msgstr "That includes a directory."
+
+#. A text asking a yes/no response confirmation for a dangerous irreversible operation, i.e. File Wipe. [MessageTextConfirmWipe]
+#: Resources.resx
+#, new
+msgid "MessageTextConfirmWipe"
+msgstr "This operation cannot be undone."
+
+#. A short text shown as a hyperlink in the sign in dialog. [MessageTextForgotPassword]
+#: Resources.resx
+#, new
+msgid "MessageTextForgotPassword"
+msgstr "Forgot your password?"
+
+#. A message when decrypting a file or text with exactly zero bytes. It is followed by one or more file names. [MessageZeroLength]
+#: Resources.resx
+#, new
+msgid "MessageZeroLength"
+msgstr "The data is damaged, the length is zero bytes."
+
+#. A warning message displayed when an operation includes both encrypted an unencrypted files. [MixedFilesWarning]
+#: Resources.resx
+#, new
+msgid "MixedFilesWarning"
+msgstr ""
+"Both encrypted and plain files are included. The plain files will be "
+"encrypted, and the already encrypted will be unchanged."
+
+#. A warning/info message stating that an attempt to close all files did not succeed completely and at least one file remain open. [OpenFilesRemainMessage]
+#: Resources.resx
+#, new
+msgid "OpenFilesRemainMessage"
+msgstr "File(s) couldn't be closed and remain open!"
+
+#. A message displayed when a multi-file operation was canceled, {0} is the full name of the file that was interrupted. [OperationCanceledFormat]
+#: Resources.resx
+#, new
+msgid "OperationCanceledFormat"
+msgstr "Operation was canceled during processing of '{0}'. Check and verify!"
+
+#. A text shown as a placeholder when loading things takes time in a window, i.e. "Loading...". [PlaceholderLoading]
+#: Resources.resx
+#, new
+msgid "PlaceholderLoading"
+msgstr "Loading..."
+
+#. A text in the about box, telling how many private keys there are available. It will not be displayed if there are none at all. [PrivateKeysAboutFormat]
+#: Resources.resx
+#, new
+msgid "PrivateKeysAboutFormat"
+msgstr "Extra private keys: {0} of {1} total."
+
+#. A prompt to enter a share (the first share) to combine. [PromptEnterFirstShare]
+#: Resources.resx
+#, new
+msgid "PromptEnterFirstShare"
+msgstr "Enter a share"
+
+#. A prompt to enter the remaining shares to combine. [PromptEnterRemainingShares]
+#: Resources.resx
+#, new
+msgid "PromptEnterRemainingShares"
+msgstr "Enter the remaining required shares"
+
+#. Prompt for the required shares. [PromptRequiredShares]
+#: Resources.resx
+#, new
+msgid "PromptRequiredShares"
+msgstr "Required shares"
+
+#. Prompt for the total number of shares. [PromptTotalShares]
+#: Resources.resx
+#, new
+msgid "PromptTotalShares"
+msgstr "Total shares"
+
+#. An information question yes/no dialog text asking if the user wants to see the release notes. [ReleaseNotesInformation]
+#: Resources.resx
+#, new
+msgid "ReleaseNotesInformation"
+msgstr "You're running a new version! Would you like to see the release notes?"
+
+#. A pop-up asking for reviews. It should have OK and Cancel, and OK leads to a web page being opened. [RequestReviewQuestion]
+#: Resources.resx
+#, new
+msgid "RequestReviewQuestion"
+msgstr "Please help us by reviewing and rating the app!"
+
+#. Radio button text to share any arbitrary secret. [SelectShareAny]
+#: Resources.resx
+#, new
+msgid "SelectShareAny"
+msgstr "Share any secret"
+
+#. Radio button text to share the sign in password. [SelectShareSignIn]
+#: Resources.resx
+#, new
+msgid "SelectShareSignIn"
+msgstr "Share sign in password"
+
+#. A menu entry or label to select a dark visual theme. [ThemeDark]
+#: Resources.resx
+#, new
+msgid "ThemeDark"
+msgstr "_Dark"
+
+#. A menu entry or label to select a light visual theme. [ThemeLight]
+#: Resources.resx
+#, new
+msgid "ThemeLight"
+msgstr "_Light"
+
+#. A menu entry or lablel to select the visual theme to match the system theme. [ThemeSystem]
+#: Resources.resx
+#, new
+msgid "ThemeSystem"
+msgstr "_System"
+
+#. An additional prompt informing that more information is available with a click. It may be added to help button and other tool tips at the end as a last sentence. [TipMoreHelp]
+#: Resources.resx
+#, new
+msgid "TipMoreHelp"
+msgstr "Click for more information..."
+
+#. Tooltip for the Add Password dialog, explaining a litte more. [ToolTipAddPassword]
+#: Resources.resx
+#, new
+msgid "ToolTipAddPassword"
+msgstr ""
+"Adding a password is only for decryption, when you receive files from someone "
+"else or you have used another password previously. It does not affect "
+"encryption."
+
+#. Tooltip for the clear passwords dialog. [ToolTipClearPasswords]
+#: Resources.resx
+#, new
+msgid "ToolTipClearPasswords"
+msgstr ""
+"Clear decryption passwords saved in settings. You can always add them back "
+"again."
+
+#. Help tool tip for the combine shares dialog. It should be followed by a "Click for more info...." prompt, leading to a help page. [ToolTipCombineShares]
+#: Resources.resx
+#, new
+msgid "ToolTipCombineShares"
+msgstr ""
+"Enter the required number of shares to combine them and view the secret."
+
+#. A tool tip shown when hovering over the copy button in the suggest password dialog. [ToolTipCopySuggested]
+#: Resources.resx
+#, new
+msgid "ToolTipCopySuggested"
+msgstr "Copy the suggested password and close the dialog."
+
+#. Help tool tip for the create shares dialog. It should be followed by a "Click for more info.." prompt, leading to a help page. [ToolTipCreateShares]
+#: Resources.resx
+#, new
+msgid "ToolTipCreateShares"
+msgstr ""
+"Split a secret into shares, specifying how many shares and how many are "
+"required to recover the secret."
+
+#. A tool tip text explaining the function of the scale factor decrease button. [ToolTipDecreaseScaleFactor]
+#: Resources.resx
+#, new
+msgid "ToolTipDecreaseScaleFactor"
+msgstr "Make text and window smaller."
+
+#. A tool tip text explaining that entering an email is only a convient format to name or tag a user, it's not used to send emails. [ToolTipEmail]
+#: Resources.resx
+#, new
+msgid "ToolTipEmail"
+msgstr ""
+"Not used for sending emails. It's an identifier for your local profile in the "
+"software and for sharing with others."
+
+#. A tool tip for the emergency reset, warning that old files still need the old password. [ToolTipEmergencyReset]
+#: Resources.resx
+#, new
+msgid "ToolTipEmergencyReset"
+msgstr ""
+"Set a new master password. Warning! The old password is still needed to "
+"decrypt previously encrypted files!"
+
+#. A tooltip for the text encryption feature [ToolTipEncryptDecryptText]
+#: Resources.resx
+#, new
+msgid "ToolTipEncryptDecryptText"
+msgstr ""
+"Write or copy/paste text to encrypt or decrypt. The password will be used to "
+"encrypt or decrypt the text, and should be shared in a separate channel "
+"between the sender and recipient. Always include the BEGIN header and the END "
+"footer with the encrypted text."
+
+#. A tool tip for the get license dialog which using the user name and the last 4 digits, will open a browser page with the license if found. [ToolTipGetLicense]
+#: Resources.resx
+#, new
+msgid "ToolTipGetLicense"
+msgstr ""
+"When your subscription license has expired, or you are using a new device, "
+"you must fetch a license from the server. Provide the information here and "
+"follow the instructions."
+
+#. An additional tooltip part, that explains that if no card was entered, getting the license this way won't work so easily. [ToolTipGetLicenseNoCard]
+#: Resources.resx
+#, new
+msgid "ToolTipGetLicenseNoCard"
+msgstr ""
+"Leave the last 4 digits empty if you didn't use a card or don't recall them."
+
+#. A tooltip for the hide password buton in password dialogs [ToolTipHidePassword]
+#: Resources.resx
+#, new
+msgid "ToolTipHidePassword"
+msgstr "Hide password."
+
+#. A tooltip describing that a clicking a button hides the menus and buttons for premium when in free version. [ToolTipHidePremium]
+#: Resources.resx
+#, new
+msgid "ToolTipHidePremium"
+msgstr "Hide premium features unavailable in the free version."
+
+#. A tool tip text explaining the function of the scale factor increase button. [ToolTipIncreaseScaleFactor]
+#: Resources.resx
+#, new
+msgid "ToolTipIncreaseScaleFactor"
+msgstr "Make text and window bigger."
+
+#. A tool tip text explaining briefly about the master password, that it should be strong and kept safe. [ToolTipMasterPassword]
+#: Resources.resx
+#, new
+msgid "ToolTipMasterPassword"
+msgstr "Your master password. Make it strong, write it down and keep it safe."
+
+#. A tooltip for the show password button in password dialogs [ToolTipShowPassword]
+#: Resources.resx
+#, new
+msgid "ToolTipShowPassword"
+msgstr "Show password."
+
+#. A tooltip describing that clicking a button shows the menus and buttons for premium even when in free version. [ToolTipShowPremium]
+#: Resources.resx
+#, new
+msgid "ToolTipShowPremium"
+msgstr "Show all premium features."
+
+#. Tooltip for the sign in dialog, explaining the reason. [ToolTipSignIn]
+#: Resources.resx
+#, new
+msgid "ToolTipSignIn"
+msgstr ""
+"Signing in ensures you are using the correct password for encryption, and "
+"that you don't need to retype the password each time. This is the master "
+"password for all encryption. The sign in is only local to the app."
+
+#. A tool tip for the suggest a password for create new user or change password. [ToolTipSuggestMasterPassword]
+#: Resources.resx
+#, new
+msgid "ToolTipSuggestMasterPassword"
+msgstr "Suggest a password."
+
+#. Tooltip for the view shares dialog. Should be followed by a "Click for more info..." prompt, leading to the help page. [ToolTipViewShares]
+#: Resources.resx
+#, new
+msgid "ToolTipViewShares"
+msgstr ""
+"View previously created shares, and send or save them to different places."
+
+#. The tool tip for the help button in the YubiKey setup dialog. [ToolTipYubiKeySetup]
+#: Resources.resx
+#, new
+msgid "ToolTipYubiKeySetup"
+msgstr ""
+"Enable or disable the use of a YubiKey for sign in. Use the Yubico "
+"Authenticator or other utilities to reset, change and inspect the YubiKey PIV "
+"configuration in more detail."
+
+#. A text fragment appearing in the about window, informing that there is no license. [UnlicensedBlurb]
+#: Resources.resx
+#, new
+msgid "UnlicensedBlurb"
+msgstr ""
+"Free version, some features are unavailable.\n"
+"\n"
+"Please buy a license. See https://www.axantum.com/ ."
+
+#. The information text in the message box displayed when it's time to check for updates. [UpdateCheckInformation]
+#: Resources.resx
+#, new
+msgid "UpdateCheckInformation"
+msgstr "Would you like to check if there's an update available?"
+
+#. The title of the message box displayed when it's time to check for updates. [UpdateCheckTitle]
+#: Resources.resx
+#, new
+msgid "UpdateCheckTitle"
+msgstr "Update check"
+
+#. The explanatory text in the view shares dialog. {0} refers to the threshold, or number of shares required. [ViewSharesDescriptionFormat]
+#: Resources.resx
+#, new
+msgid "ViewSharesDescriptionFormat"
+msgstr ""
+"Save or distribute these shares to different people or places. At least {0} "
+"shares are required to recover the secret."
+
+#. The text used as watermark (slightly transparent grey) in a password confirmation entry text box, i.e. "Confirm Password". [WatermarkConfirmPassword]
+#: Resources.resx
+#, new
+msgid "WatermarkConfirmPassword"
+msgstr "Confirm password"
+
+#. The text used as watermark (slightly transparent grey) in a current password entry text box when changing password, i.e. "Current Password". [WatermarkCurrentPassword]
+#: Resources.resx
+#, new
+msgid "WatermarkCurrentPassword"
+msgstr "Current password"
+
+#. The text used as watermark (slightly transparent grey) in a email entry text box, i.e. "Email". [WatermarkEmail]
+#: Resources.resx
+#, new
+msgid "WatermarkEmail"
+msgstr "Email"
+
+#. A watermark helping guide users where to paste the license string [WatermarkEnterLicenseHere]
+#: Resources.resx
+#, new
+msgid "WatermarkEnterLicenseHere"
+msgstr "The license key goes here: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ..."
+
+#. The watermark prompt for the last 4 digits to enter. [WatermarkLast4]
+#: Resources.resx
+#, new
+msgid "WatermarkLast4"
+msgstr "4 digits"
+
+#. The text used as watermark (slightly transparent grey) in a new password entry text box when changing password, i.e. "New Password". [WatermarkNewPassword]
+#: Resources.resx
+#, new
+msgid "WatermarkNewPassword"
+msgstr "New password"
+
+#. The text used as watermark (slightly transparent grey) in a password entry text box, i.e. "Master Password". [WatermarkPassword]
+#: Resources.resx
+#, new
+msgid "WatermarkPassword"
+msgstr "Password"
+
+#. Watermark text for password or secret entry to share. [WatermarkPasswordSecret]
+#: Resources.resx
+#, new
+msgid "WatermarkPasswordSecret"
+msgstr "Enter any password or secret…"
+
+#. A watermark for entering sharing passwords [WatermarkPasswordShare]
+#: Resources.resx
+#, new
+msgid "WatermarkPasswordShare"
+msgstr "Password to share"
+
+#. A warning text, stating that one or more files are zero length, asking if the user is sure. The text should be followed by ConfirmationQuestion. It's followed by a list of the files that are detected as zero length. [ZeroLengthWarning]
+#: Resources.resx
+#, new
+msgid "ZeroLengthWarning"
+msgstr "One or more selected files are empty. They might be damaged."
+
+#. Status text for number of files currently open, {0} is the number of files. Singular version|Plural version [ZzCommandBarContentFilesOpenFormat]
+#: Resources.resx
+#, new
+msgid "ZzCommandBarContentFilesOpenFormat"
+msgstr "No open files|One open file...|{0} Open files..."
+
+#. A heading in the sign in window, {0} is the program name, i.e. "Xecrets Ez". [ZzHeadingSignInFormat]
+#: Resources.resx
+#, new
+msgid "ZzHeadingSignInFormat"
+msgstr "Sign in to {0}"
+
+#. CLI API version label in about box, {0} is the tools display name, followed by the version, i.e. "Command Line Tools API Version:" 1.2 [ZzLabelCliToolApiVersionFormat]
+#: Resources.resx
+#, new
+msgid "ZzLabelCliToolApiVersionFormat"
+msgstr "{0} API version:"
+
+#. CLI information label in about box, {0} is the tools display name, followed by some information, i.e. "Command Line Tools Information:" ...Splash from CLI. [ZzLabelCliToolInformationFormat]
+#: Resources.resx
+#, new
+msgid "ZzLabelCliToolInformationFormat"
+msgstr "{0} information:"
+
+#. CLI path label in about box, {0} is the tools display name, followed by a path, i.e. "Command Line Tools Path:" ... [ZzLabelCliToolPathFormat]
+#: Resources.resx
+#, new
+msgid "ZzLabelCliToolPathFormat"
+msgstr "{0} path:"
+
+#. The SDK API Version label in about box, {0} is the SDK API display name, i.e. "SDK API Version:" 1.3. [ZzLabelSdkApiVersionFormat]
+#: Resources.resx
+#, new
+msgid "ZzLabelSdkApiVersionFormat"
+msgstr "{0} version:"
+
+#. Window title for About dialog. {0} is the full program version name, i.e. "Xecrets Ez 2.1.1337.0". [ZzTitleAboutFormat]
+#: Resources.resx
+#, new
+msgid "ZzTitleAboutFormat"
+msgstr "About {0}"
+
+#. Program version window title format string, {0} is the actual version, i.e. "2.1.1337.0", {1} is the program name, i.e. "Xecrets Ez", {2} is the email of the signed in user, or empty. [ZzTitleProgramVersionNameFormat]
+#: Resources.resx
+#, new
+msgid "ZzTitleProgramVersionNameFormat"
+msgstr "{1} {0} {2}"

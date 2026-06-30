@@ -1,0 +1,159 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- We're using ExcludeRestorePackageImports as a canary, indicating publishing Xecrets.Ez.Wap in IDE using 'publish' action.
+       Normally RuntimeIdentifiers should only be set in the top level project, but here it needs to be set transitively, in order
+       for Restore to create the correct project.assets.json for the platform-architectures. BuildingWapPackage is used in CI for
+       same reason. -->
+  <PropertyGroup Condition="( '$(BuildingWapPackage)' == 'true' and '$(RuntimeIdentifiers)' == '') or '$(ExcludeRestorePackageImports)' == 'True' ">
+    <RuntimeIdentifiers>win-x64;win-arm64;linux-x64;linux-arm64;osx-x64;osx-arm64</RuntimeIdentifiers>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <JsonSerializerIsReflectionEnabledByDefault>false</JsonSerializerIsReflectionEnabledByDefault>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Xecrets Texts BETA GPL</Title>
+    <Version>2.3.0-beta</Version>
+    <Authors>Axantum Software AB, Svante Seleborg</Authors>
+    <Company>Axantum Software AB</Company>
+    <Description>User interface texts and localization for Xecrets apps</Description>
+    <Copyright>Copyright � 2026-2026 Svante Seleborg, All Rights Reserved</Copyright>
+    <PackageProjectUrl>https://www.axantum.com</PackageProjectUrl>
+    <PackageTags>texts;xecrets</PackageTags>
+    <AssemblyVersion>2.3.0.0</AssemblyVersion>
+    <FileVersion>2.3.0.0</FileVersion>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <IncludeSymbols>False</IncludeSymbols>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DefaultDocumentationGeneratedAccessModifiers>Public</DefaultDocumentationGeneratedAccessModifiers>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/xecrets/xecrets-texts</RepositoryUrl>
+    <PackageIcon>icon_128x128.png</PackageIcon>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+    <IsAotCompatible>true</IsAotCompatible>
+    <LangVersion>default</LangVersion>
+    <Platforms>AnyCPU;x64;ARM64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>9999</WarningLevel>
+    <IsTrimmable>True</IsTrimmable>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>9999</WarningLevel>
+    <IsTrimmable>True</IsTrimmable>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>9999</WarningLevel>
+    <IsTrimmable>True</IsTrimmable>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>9999</WarningLevel>
+    <IsTrimmable>True</IsTrimmable>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>9999</WarningLevel>
+    <IsTrimmable>True</IsTrimmable>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>9999</WarningLevel>
+    <IsTrimmable>True</IsTrimmable>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\icon_128x128.png" />
+    <EmbeddedResource Include="Translations\de_DE\LC_MESSAGES\xecrets-ez.po" />
+    <EmbeddedResource Include="Translations\en_US\LC_MESSAGES\xecrets-ez.po" />
+    <EmbeddedResource Include="Translations\es_ES\LC_MESSAGES\xecrets-ez.po" />
+    <EmbeddedResource Include="Translations\fr_FR\LC_MESSAGES\xecrets-ez.po" />
+    <EmbeddedResource Include="Translations\it_IT\LC_MESSAGES\xecrets-ez.po" />
+    <EmbeddedResource Include="Translations\pl_PL\LC_MESSAGES\xecrets-ez.po" />
+    <EmbeddedResource Include="Translations\pt_BR\LC_MESSAGES\xecrets-ez.po" />
+    <EmbeddedResource Include="Translations\sv_SE\LC_MESSAGES\xecrets-ez.po" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\xecrets-localization\src\Xecrets.Localization\Xecrets.Localization.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DefaultDocumentation" Version="1.2.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\icon_128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Resource>
+    <Compile Update="Properties\InvariantResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>InvariantResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\InvariantResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>InvariantResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\global.json">
+      <Link>global.json</Link>
+    </Content>
+  </ItemGroup>
+
+</Project>
