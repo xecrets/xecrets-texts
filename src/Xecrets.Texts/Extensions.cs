@@ -19,55 +19,148 @@
  * The source repository can be found at https://github.com/xecrets/xecrets-texts please go there for more
  * information, suggestions and contributions. You may also visit https://www.axantum.com for more information about the
  * author, or submit support requests at https://www.axantum.com/support .
-*/
+ */
 
 #endregion Copyright and License
 
 using System.Globalization;
+using System.Text.RegularExpressions;
+
+using JetBrains.Annotations;
 
 using Microsoft.Extensions.Localization;
 
 namespace Xecrets.Texts;
 
 /// <summary>
-/// Extensions and helpers for URL rewriting and string formatting used across Xecrets assemblies.
+/// Extensions and helpers for URL rewriting, string formatting and file name manipulation used across Xecrets assemblies.
 /// </summary>
 public static partial class Extensions
 {
-    extension(LocalizedString format)
+    /// <summary>
+    /// The official extension used for encrypted files, including the leading dot.
+    /// </summary>
+    [PublicAPI]
+    public static string EncryptedExtension => ".axx";
+
+    /// <summary>
+    /// Select the files that appear to be encrypted, according to their extension.
+    /// </summary>
+    /// <param name="files">File names to filter</param>
+    /// <returns>An array of the files that match the pattern for encrypted files.</returns>
+    [PublicAPI]
+    public static string[] Encrypted(this IEnumerable<string> files)
     {
-        /// <summary>
-        /// Formats a <see cref="LocalizedString"/> using <see cref="CultureInfo.CurrentCulture"/>.
-        /// </summary>
-        /// <param name="args">Format arguments passed to <see cref="string.Format(IFormatProvider, string, object[])"/>.</param>
-        /// <returns>The formatted string.</returns>
-        public string FormatUi(params object[] args) => string.Format(CultureInfo.CurrentCulture, format.Value, args);
+        return files.Where(IsEncrypted).ToArray();
+    }
 
-        /// <summary>
-        /// Formats a pipe-delimited plural <see cref="LocalizedString"/> by selecting the segment matching <paramref name="n">,
-        /// typically 0, 1 or 2. If n > number of segments, the last one is chosen.</paramref>/>.
-        /// </summary>
-        /// <param name="n">The count that selects the plural form. Negative values return an empty string.</param>
-        /// <param name="args">Additional format arguments.</param>
-        /// <returns>The formatted plural string, or <see cref="string.Empty"/> when <paramref name="n"/> is negative.</returns>
-        public string PluralFormatUi(int n, params object[] args)
-        {
-            if (n < 0)
+    /// <summary>
+    /// Select the files that appear not to be encrypted, according to their extension.
+    /// </summary>
+    /// <param name="files">File names to filter</param>
+    /// <returns>An enumeration of the files that do not match the pattern for encrypted files.</returns>
+    [PublicAPI]
+    public static IEnumerable<string> NotEncrypted(this IEnumerable<string> files)
+    {
+        return files.Where(f => !IsEncrypted(f));
+    }
+
+    /// <summary>
+    /// Add the extension for an encrypted file
+    /// </summary>
+    /// <param name="file">A file name, presumably without extension</param>
+    /// <returns>The file parameter with the extension for encrypted files concatenated.</returns>
+    [PublicAPI]
+    public static string AddEncryptedExtension(this string file)
+    {
+        return file + EncryptedExtension;
+    }
+
+    /// <summary>
+    /// Build an encrypted file name from the original file name, i.e. according to the pattern: filename.ext =>
+    /// filename-ext.axx
+    /// </summary>
+    /// <param name="destinationFileFullFolder">The full path to an optional destination folder. Set to empty string if same as source.</param>
+    /// <param name="file">A file name, presumably without extension</param>
+    /// <returns>The suggested name for it when encrypted.</returns>
+    [PublicAPI]
+    public static string ToEncryptedName(this string file, string destinationFileFullFolder)
+    {
+        string extensionWithDot = Path.GetExtension(file);
+        string pathWithoutExtensionAndDot = file.Substring(0, file.Length - extensionWithDot.Length);
+        string trailingNumberInParenthesis = string.Empty;
+        string pathWithoutExtensionAndDotAndTrailingNumberInParenthesis = TrailingNumberInParenthesis().Replace(
+            pathWithoutExtensionAndDot,
+            (m) =>
             {
+                trailingNumberInParenthesis = m.Value;
                 return string.Empty;
-            }
+            });
+        string encryptedFullName = extensionWithDot.Length > 1
+            ? $"{pathWithoutExtensionAndDotAndTrailingNumberInParenthesis}-{extensionWithDot.Substring(1)}{trailingNumberInParenthesis}{EncryptedExtension}"
+            : $"{pathWithoutExtensionAndDotAndTrailingNumberInParenthesis}{trailingNumberInParenthesis}{EncryptedExtension}";
 
-            string[] formats = format.Value.Split('|');
-            return string.Format(CultureInfo.CurrentCulture, formats[n < formats.Length ? n : formats.Length - 1], n, args);
+        if (destinationFileFullFolder.Length > 0)
+        {
+            encryptedFullName = Path.Combine(destinationFileFullFolder, Path.GetFileName(encryptedFullName));
         }
+
+        return encryptedFullName;
+    }
+
+    /// <summary>
+    /// A predicate determining of the name of a file has the suggested encrypted extension, i.e. ".axx".
+    /// </summary>
+    /// <param name="file">A file name, presumably without extension</param>
+    /// <returns><see langword="true"/> if the name ends with the encrypted extension.</returns>
+    [PublicAPI]
+    public static bool IsEncrypted(this string file)
+    {
+        return string.Compare(Path.GetExtension(file), EncryptedExtension, StringComparison.OrdinalIgnoreCase) == 0;
+    }
+
+    [GeneratedRegex(@" \([\d]+\)$")]
+    private static partial Regex TrailingNumberInParenthesis();
+
+    /// <summary>
+    /// Formats a <see cref="LocalizedString"/> using <see cref="CultureInfo.CurrentCulture"/>.
+    /// </summary>
+    /// <param name="args">Format arguments passed to <see cref="string.Format(IFormatProvider, string, object[])"/>.</param>
+    /// <param name="format">The raw localized menu string.</param>
+    /// <returns>The formatted string.</returns>
+    [PublicAPI]
+    public static string FormatUi(this LocalizedString format, params object[] args) =>
+        string.Format(CultureInfo.CurrentCulture, format.Value, args);
+
+    /// <summary>
+    /// Formats a pipe-delimited plural <see cref="LocalizedString"/> by selecting the segment matching <paramref name="n">,
+    /// typically 0, 1 or 2. If n > number of segments, the last one is chosen.</paramref>/>.
+    /// </summary>
+    /// <param name="n">The count that selects the plural form. Negative values return an empty string.</param>
+    /// <param name="args">Additional format arguments.</param>
+    /// <param name="format">The raw localized menu string.</param>
+    /// <returns>The formatted plural string, or <see cref="string.Empty"/> when <paramref name="n"/> is negative.</returns>
+    [PublicAPI]
+    public static string PluralFormatUi(this LocalizedString format, int n, params object[] args)
+    {
+        if (n < 0)
+        {
+            return string.Empty;
+        }
+
+        string[] formats = format.Value.Split('|');
+        return string.Format(CultureInfo.CurrentCulture, formats[n < formats.Length ? n : formats.Length - 1], n,
+            args);
     }
 
     /// <summary>
     /// Strips accelerator underscores and trailing ellipsis from a localized menu label.
     /// </summary>
-    /// <param name="menuText">The raw localized menu string.</param>
+    /// <param name="format">The raw localized menu string.</param>
     /// <returns>The cleaned label text.</returns>
-    public static string MenuToLabelText(this LocalizedString menuText) => menuText.Value.Replace("_", string.Empty).Replace("...", string.Empty);
+    [PublicAPI]
+    public static string MenuToLabelText(this LocalizedString format) =>
+        format.Value.Replace("_", string.Empty).Replace("...", string.Empty);
 
     /// <summary>
     /// Rewrites a production URL to point to a local dev server or test server when running in debug mode.
@@ -79,7 +172,8 @@ public static partial class Extensions
     {
         if (Is.Debug)
         {
-            string testServer = (Platform.IsWindows || Platform.IsLinux || Platform.IsMacOS) && DebugDevServer.IsDevServerRunning
+            string testServer = (Platform.IsWindows || Platform.IsLinux || Platform.IsMacOS) &&
+                                DebugDevServer.IsDevServerRunning
                 ? "http://localhost:3000"
                 : "https://test.axantum.com";
             return url.Replace("https://www.axantum.com", testServer);
@@ -91,8 +185,8 @@ public static partial class Extensions
     /// <summary>
     /// Rewrites a production URL (see <see cref="ToSite(string)"/>) and appends a URL fragment.
     /// </summary>
-    /// <param name="url">The URL to rewrite.</param>
     /// <param name="fragment">The fragment to append, e.g. <c>"#section"</c>.</param>
+    /// <param name="url">The URL, must be rooted at <c>https://www.axantum.com</c>.</param>
     /// <returns>The rewritten URL with the fragment appended.</returns>
     internal static string ToSite(this string url, string fragment) => url.ToSite() + fragment;
 }

@@ -3,14 +3,70 @@
 
 ## Extensions Class
 
-Extensions and helpers for URL rewriting and string formatting used across Xecrets assemblies.
+Extensions and helpers for URL rewriting, string formatting and file name manipulation used across Xecrets assemblies.
 
 ```csharp
 public static class Extensions
 ```
 
 Inheritance [System.Object](https://learn.microsoft.com/en-us/dotnet/api/system.object 'System.Object') → Extensions
+### Properties
+
+<a name='Xecrets.Texts.Extensions.EncryptedExtension'></a>
+
+## Extensions.EncryptedExtension Property
+
+The official extension used for encrypted files, including the leading dot.
+
+```csharp
+public static string EncryptedExtension { get; }
+```
+
+#### Property Value
+[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
 ### Methods
+
+<a name='Xecrets.Texts.Extensions.AddEncryptedExtension(thisstring)'></a>
+
+## Extensions.AddEncryptedExtension(this string) Method
+
+Add the extension for an encrypted file
+
+```csharp
+public static string AddEncryptedExtension(this string file);
+```
+#### Parameters
+
+<a name='Xecrets.Texts.Extensions.AddEncryptedExtension(thisstring).file'></a>
+
+`file` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
+
+A file name, presumably without extension
+
+#### Returns
+[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
+The file parameter with the extension for encrypted files concatenated.
+
+<a name='Xecrets.Texts.Extensions.Encrypted(thisSystem.Collections.Generic.IEnumerable_string_)'></a>
+
+## Extensions.Encrypted(this IEnumerable<string>) Method
+
+Select the files that appear to be encrypted, according to their extension.
+
+```csharp
+public static string[] Encrypted(this System.Collections.Generic.IEnumerable<string> files);
+```
+#### Parameters
+
+<a name='Xecrets.Texts.Extensions.Encrypted(thisSystem.Collections.Generic.IEnumerable_string_).files'></a>
+
+`files` [System.Collections.Generic.IEnumerable&lt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1 'System.Collections.Generic.IEnumerable`1')[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')[&gt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1 'System.Collections.Generic.IEnumerable`1')
+
+File names to filter
+
+#### Returns
+[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')[[]](https://learn.microsoft.com/en-us/dotnet/api/system.array 'System.Array')  
+An array of the files that match the pattern for encrypted files.
 
 <a name='Xecrets.Texts.Extensions.FormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,object[])'></a>
 
@@ -27,6 +83,8 @@ public static string FormatUi(this Microsoft.Extensions.Localization.LocalizedSt
 
 `format` [Microsoft.Extensions.Localization.LocalizedString](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.localization.localizedstring 'Microsoft.Extensions.Localization.LocalizedString')
 
+The raw localized menu string.
+
 <a name='Xecrets.Texts.Extensions.FormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,object[]).args'></a>
 
 `args` [System.Object](https://learn.microsoft.com/en-us/dotnet/api/system.object 'System.Object')[[]](https://learn.microsoft.com/en-us/dotnet/api/system.array 'System.Array')
@@ -37,6 +95,27 @@ Format arguments passed to [System.String.Format(System.IFormatProvider,System.S
 [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
 The formatted string.
 
+<a name='Xecrets.Texts.Extensions.IsEncrypted(thisstring)'></a>
+
+## Extensions.IsEncrypted(this string) Method
+
+A predicate determining of the name of a file has the suggested encrypted extension, i.e. ".axx".
+
+```csharp
+public static bool IsEncrypted(this string file);
+```
+#### Parameters
+
+<a name='Xecrets.Texts.Extensions.IsEncrypted(thisstring).file'></a>
+
+`file` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
+
+A file name, presumably without extension
+
+#### Returns
+[System.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System.Boolean')  
+[true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool') if the name ends with the encrypted extension.
+
 <a name='Xecrets.Texts.Extensions.MenuToLabelText(thisMicrosoft.Extensions.Localization.LocalizedString)'></a>
 
 ## Extensions.MenuToLabelText(this LocalizedString) Method
@@ -44,19 +123,40 @@ The formatted string.
 Strips accelerator underscores and trailing ellipsis from a localized menu label.
 
 ```csharp
-public static string MenuToLabelText(this Microsoft.Extensions.Localization.LocalizedString menuText);
+public static string MenuToLabelText(this Microsoft.Extensions.Localization.LocalizedString format);
 ```
 #### Parameters
 
-<a name='Xecrets.Texts.Extensions.MenuToLabelText(thisMicrosoft.Extensions.Localization.LocalizedString).menuText'></a>
+<a name='Xecrets.Texts.Extensions.MenuToLabelText(thisMicrosoft.Extensions.Localization.LocalizedString).format'></a>
 
-`menuText` [Microsoft.Extensions.Localization.LocalizedString](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.localization.localizedstring 'Microsoft.Extensions.Localization.LocalizedString')
+`format` [Microsoft.Extensions.Localization.LocalizedString](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.localization.localizedstring 'Microsoft.Extensions.Localization.LocalizedString')
 
 The raw localized menu string.
 
 #### Returns
 [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
 The cleaned label text.
+
+<a name='Xecrets.Texts.Extensions.NotEncrypted(thisSystem.Collections.Generic.IEnumerable_string_)'></a>
+
+## Extensions.NotEncrypted(this IEnumerable<string>) Method
+
+Select the files that appear not to be encrypted, according to their extension.
+
+```csharp
+public static System.Collections.Generic.IEnumerable<string> NotEncrypted(this System.Collections.Generic.IEnumerable<string> files);
+```
+#### Parameters
+
+<a name='Xecrets.Texts.Extensions.NotEncrypted(thisSystem.Collections.Generic.IEnumerable_string_).files'></a>
+
+`files` [System.Collections.Generic.IEnumerable&lt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1 'System.Collections.Generic.IEnumerable`1')[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')[&gt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1 'System.Collections.Generic.IEnumerable`1')
+
+File names to filter
+
+#### Returns
+[System.Collections.Generic.IEnumerable&lt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1 'System.Collections.Generic.IEnumerable`1')[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')[&gt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1 'System.Collections.Generic.IEnumerable`1')  
+An enumeration of the files that do not match the pattern for encrypted files.
 
 <a name='Xecrets.Texts.Extensions.PluralFormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,int,object[])'></a>
 
@@ -73,6 +173,8 @@ public static string PluralFormatUi(this Microsoft.Extensions.Localization.Local
 
 `format` [Microsoft.Extensions.Localization.LocalizedString](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.localization.localizedstring 'Microsoft.Extensions.Localization.LocalizedString')
 
+The raw localized menu string.
+
 <a name='Xecrets.Texts.Extensions.PluralFormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,int,object[]).n'></a>
 
 `n` [System.Int32](https://learn.microsoft.com/en-us/dotnet/api/system.int32 'System.Int32')
@@ -88,3 +190,31 @@ Additional format arguments.
 #### Returns
 [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
 The formatted plural string, or [System.String.Empty](https://learn.microsoft.com/en-us/dotnet/api/system.string.empty 'System.String.Empty') when [n](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.PluralFormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,int,object[]).n 'Xecrets.Texts.Extensions.PluralFormatUi(this Microsoft.Extensions.Localization.LocalizedString, int, object[]).n') is negative.
+
+<a name='Xecrets.Texts.Extensions.ToEncryptedName(thisstring,string)'></a>
+
+## Extensions.ToEncryptedName(this string, string) Method
+
+Build an encrypted file name from the original file name, i.e. according to the pattern: filename.ext =>
+filename-ext.axx
+
+```csharp
+public static string ToEncryptedName(this string file, string destinationFileFullFolder);
+```
+#### Parameters
+
+<a name='Xecrets.Texts.Extensions.ToEncryptedName(thisstring,string).file'></a>
+
+`file` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
+
+A file name, presumably without extension
+
+<a name='Xecrets.Texts.Extensions.ToEncryptedName(thisstring,string).destinationFileFullFolder'></a>
+
+`destinationFileFullFolder` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
+
+The full path to an optional destination folder. Set to empty string if same as source.
+
+#### Returns
+[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
+The suggested name for it when encrypted.
