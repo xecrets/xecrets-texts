@@ -76,6 +76,7 @@ public class Texts
     public static string ButtonCopy => T[nameof(Resources.ButtonCopy)];
     public static string ButtonCopyAll => T[nameof(Resources.ButtonCopyAll)];
     public static string ButtonCreate => T[nameof(Resources.ButtonCreate)];
+    public static string ButtonCreateMobile => T[nameof(Resources.ButtonCreate)].MenuToLabelText();
     public static string ButtonDecrypt => T[nameof(Resources.MenuDecrypt)].MenuToLabelText();
     public static string ButtonEdit => T[nameof(Resources.MenuEdit)].MenuToLabelText();
     public static string ButtonEncrypt => T[nameof(Resources.MenuEncrypt)].MenuToLabelText();
