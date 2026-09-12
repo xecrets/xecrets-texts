@@ -1535,6 +1535,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Do you want to launch your web browser to activate your license?.
+        /// </summary>
+        internal static string MessageTextLaunchLicensePage {
+            get {
+                return ResourceManager.GetString("MessageTextLaunchLicensePage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The data is damaged, the length is zero bytes..
         /// </summary>
         internal static string MessageZeroLength {

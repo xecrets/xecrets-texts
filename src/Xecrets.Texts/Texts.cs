@@ -283,6 +283,7 @@ public class Texts
     public static string MessageTextConfirmPasteDirectory => T[nameof(Resources.MessageTextConfirmPasteDirectory)];
     public static string MessageTextConfirmWipe => T[nameof(Resources.MessageTextConfirmWipe)];
     public static string MessageTextForgotPassword => T[nameof(Resources.MessageTextForgotPassword)];
+    public static string MessageTextLaunchLicensePage => T[nameof(Resources.MessageTextLaunchLicensePage)];
     public static string MessageZeroLength => T[nameof(Resources.MessageZeroLength)];
     public static string MixedFilesWarning => T[nameof(Resources.MixedFilesWarning)];
     public static string OpenFilesRemainMessage => T[nameof(Resources.OpenFilesRemainMessage)];

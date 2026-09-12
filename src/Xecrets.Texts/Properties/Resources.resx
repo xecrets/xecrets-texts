@@ -836,6 +836,10 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <value>That includes a directory.</value>
     <comment>A confirmation message prompt when pasting a directory.</comment>
   </data>
+  <data name="MessageTextLaunchLicensePage" xml:space="preserve">
+    <value>Do you want to launch your web browser to activate your license?</value>
+    <comment>A confirmation question when a license activation link is found on the clipboard, asking whether to open it in a browser.</comment>
+  </data>
   <data name="ConfirmationQuestion" xml:space="preserve">
     <value>Are you sure?</value>
     <comment>Appeneded after a statement, in a confirmation dialog.</comment>

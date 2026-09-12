@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-29 01:56+0200\n"
+"POT-Creation-Date: 2026-09-12 02:04+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1053,6 +1053,12 @@ msgstr "This operation cannot be undone."
 #, new
 msgid "MessageTextForgotPassword"
 msgstr "Forgot your password?"
+
+#. A confirmation question when a license activation link is found on the clipboard, asking whether to open it in a browser. [MessageTextLaunchLicensePage]
+#: Resources.resx
+#, new
+msgid "MessageTextLaunchLicensePage"
+msgstr "Do you want to launch your web browser to activate your license?"
 
 #. A message when decrypting a file or text with exactly zero bytes. It is followed by one or more file names. [MessageZeroLength]
 #: Resources.resx
